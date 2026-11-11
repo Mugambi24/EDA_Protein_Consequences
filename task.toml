@@ -1,0 +1,50 @@
+schema_version = "1.4"
+artifacts = [
+    "/app/submission/cli.py",
+    "/app/submission/coding.py",
+    "/app/submission/evidence.py",
+    "/app/submission/audit.py",
+    "/app/submission/inference.py",
+]
+
+[task]
+name = "afterquery/eda-protein-consequences"
+description = "Reconcile EDA phased-variant protein consequences with RNA isoform, batch calibration and haplotype-linked splice estimates under cross-mapping and product-capture bias, plus paired-donor treatment-by-time allele-specific splicing and long-range phased-link posterior inference."
+authors = [{ name = "Mugambi Isaiah Alois", email = "isaiahmugambi30@gmail.com" }]
+keywords = ["EDA", "RNA evidence", "UMI", "phased variants", "transcript reconstruction", "likelihood calibration", "batch effects", "robust deconvolution", "phased RNA", "allele-specific splicing", "multivariate mixture", "signed phasing graphs", "exact posterior inference"]
+
+[metadata]
+author_name = "Mugambi Isaiah Alois"
+author_email = "isaiahmugambi30@gmail.com"
+author_organization = "Aston University"
+author_profile = "https://www.linkedin.com/in/mugambi-isaiah-230593150/"
+conflicts_of_interest = "None"
+domain = "life-sciences"
+field = "biology"
+subfield = "Transcript-aware coding consequences and RNA evidence quality control"
+category = "Science"
+subcategory = "Biology & Biotechnology"
+tags = ["EDA", "isoforms", "RNA", "UMI", "phased variants", "spike-in calibration", "uncertainty", "batch calibration", "replicated standards", "phased RNA", "cross-mapping", "capture bias", "paired donor", "time-course perturbation", "noisy long-range phasing", "posterior uncertainty"]
+expert_time_estimate_hours = 24
+relevant_experience = "Postgraduate research in molecular biology and bioinformatics; MSc training in bioinformatics and genomic medicine; experience with sequence analysis and an EDA-associated hypohidrotic ectodermal dysplasia research concept. The submitted observations are simulations, not research-participant data."
+difficulty_explanation = "This is the same EDA-A1/A2 variant and RNA evidence problem, extended to joint haplotype–isoform inference: four latent splice products emit nine imperfectly assigned allele/junction read classes. Three capture batches have different misclassification matrices, unequal product efficiencies and a contaminated mixed standard. Solvers must infer the 4D product mixture from both pure and mixed controls, correct batch effects, handle nonidentifiability, and report biologically defensible uncertainty in allele-specific case/control shifts, then estimate treatment-by-time interactions across matched donors using independently calibrated batch responses and donor-specific intervals. The new signed-link stage combines conflicting cis/trans evidence across graph cycles, learns batch-specific directional error from controls, and reports calibrated per-marker posterior probabilities. No numerical fitting procedure is mandated. The input measurements are synthetic rather than patient RNA. The scientific depth and true agent difficulty require independent platform assessment."
+solution_explanation = "Five self-contained standard-library Python modules reconstruct phased EDA coding products, deduplicate RNA UMI signals, produce profile-likelihood and batch-calibrated A1 fractions, audit accessioned variants, infer posterior long-range allele phases, and jointly infer four allele–isoform product proportions from imperfect multi-batch read categories, plus paired donor-specific contrasts under treatment/time confounding. The reference joint estimator fits 9-class emissions from pure standards, learns relative capture response from mixed standards, and applies multinomial EM with between-batch interval inflation. The alternate authoring implementation uses projected least-squares instead of EM and passes the same quality tests."
+verification_explanation = "The separate offline verifier evaluates 72 named tests with independent sealed/hidden truth and a 900-second aggregate budget across at most 100 invocations; the exact reference solver and a mathematically distinct constrained least-squares solver each pass 72/72 tests in isolated groups. Tests check phased coding including paired insertions and native-stop provenance; integer and bounded JSON outputs; independent transcript HGVS accession, position, allele and codon consistency; UMI evidence; fixed and nonlinear batch calibration; mixed-standard identifiability; four-product phased inference; exact molecule totals, no-call fields, uncertainty coverage and interval widths; paired-donor treatment-by-time inference; calibrated global phasing on noisy signed cycles, posterior uncertainty and response to altered links; and responses to perturbation and low-information controls. Direct schema mutations demonstrate enforcement of likelihood estimate/interval [0,1] bounds and deltas recomputed from displayed estimates. Current reference and independent RNA metrics are regenerated from supplied synthetic truth by authoring/provenance/phased_model_audit.py and validate_longitudinal_two_methods.py, with matching evidence JSON and current-fixture tables in README.md. Earlier obsolete verification snapshots are excluded. The known unfinished starter fails; production acceptance, easiness and difficulty are determined by separate platform evaluation, not assumed from local test results."
+
+[verifier]
+timeout_sec = 1100.0
+environment_mode = "separate"
+
+[verifier.environment]
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+network_mode = "public"

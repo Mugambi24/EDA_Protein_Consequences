@@ -1,0 +1,7652 @@
+{
+  "assay_id": "eda_linkgraph_2026110917",
+  "calibration": [
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "ambiguous": 65,
+        "cis": 303,
+        "trans": 430
+      },
+      "known_relation": "same",
+      "replicate_id": "r0",
+      "standard_id": "lane_B_same"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "ambiguous": 80,
+        "cis": 698,
+        "trans": 95
+      },
+      "known_relation": "same",
+      "replicate_id": "r2",
+      "standard_id": "lane_A_same"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "ambiguous": 41,
+        "cis": 540,
+        "trans": 182
+      },
+      "known_relation": "same",
+      "replicate_id": "r0",
+      "standard_id": "lane_C_same"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "ambiguous": 85,
+        "cis": 296,
+        "trans": 447
+      },
+      "known_relation": "same",
+      "replicate_id": "r2",
+      "standard_id": "lane_B_same"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "ambiguous": 145,
+        "cis": 462,
+        "trans": 269
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r2",
+      "standard_id": "lane_B_opposite"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "ambiguous": 22,
+        "cis": 134,
+        "trans": 574
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r0",
+      "standard_id": "lane_A_opposite"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "ambiguous": 188,
+        "cis": 339,
+        "trans": 456
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r2",
+      "standard_id": "lane_C_opposite"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "ambiguous": 123,
+        "cis": 294,
+        "trans": 454
+      },
+      "known_relation": "same",
+      "replicate_id": "r1",
+      "standard_id": "lane_B_same"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "ambiguous": 71,
+        "cis": 349,
+        "trans": 433
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r1",
+      "standard_id": "lane_C_opposite"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "ambiguous": 109,
+        "cis": 303,
+        "trans": 403
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r0",
+      "standard_id": "lane_C_opposite"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "ambiguous": 49,
+        "cis": 673,
+        "trans": 125
+      },
+      "known_relation": "same",
+      "replicate_id": "r0",
+      "standard_id": "lane_A_same"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "ambiguous": 36,
+        "cis": 163,
+        "trans": 628
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r2",
+      "standard_id": "lane_A_opposite"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "ambiguous": 97,
+        "cis": 624,
+        "trans": 183
+      },
+      "known_relation": "same",
+      "replicate_id": "r2",
+      "standard_id": "lane_C_same"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "ambiguous": 72,
+        "cis": 452,
+        "trans": 274
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r0",
+      "standard_id": "lane_B_opposite"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "ambiguous": 135,
+        "cis": 678,
+        "trans": 97
+      },
+      "known_relation": "same",
+      "replicate_id": "r1",
+      "standard_id": "lane_A_same"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "ambiguous": 9,
+        "cis": 577,
+        "trans": 212
+      },
+      "known_relation": "same",
+      "replicate_id": "r1",
+      "standard_id": "lane_C_same"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "ambiguous": 162,
+        "cis": 520,
+        "trans": 303
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r1",
+      "standard_id": "lane_B_opposite"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "ambiguous": 156,
+        "cis": 138,
+        "trans": 648
+      },
+      "known_relation": "opposite",
+      "replicate_id": "r1",
+      "standard_id": "lane_A_opposite"
+    }
+  ],
+  "cases": [
+    {
+      "anchor": "v00",
+      "case_id": "h25",
+      "edges": [
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 16,
+            "trans": 5
+          },
+          "left": "v06",
+          "replicate_id": "h25_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 20,
+            "trans": 1
+          },
+          "left": "v07",
+          "replicate_id": "h25_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 9
+          },
+          "left": "v04",
+          "replicate_id": "h25_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 3
+          },
+          "left": "v07",
+          "replicate_id": "h25_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 6
+          },
+          "left": "v01",
+          "replicate_id": "h25_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 1
+          },
+          "left": "v05",
+          "replicate_id": "h25_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 18
+          },
+          "left": "v05",
+          "replicate_id": "h25_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 17,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h25_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 4
+          },
+          "left": "v05",
+          "replicate_id": "h25_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 1
+          },
+          "left": "v08",
+          "replicate_id": "h25_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 2
+          },
+          "left": "v05",
+          "replicate_id": "h25_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h25_link_10_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 9,
+            "trans": 13
+          },
+          "left": "v09",
+          "replicate_id": "h25_link_09_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 8
+          },
+          "left": "v07",
+          "replicate_id": "h25_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 16,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h25_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 11
+          },
+          "left": "v08",
+          "replicate_id": "h25_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 17
+          },
+          "left": "v09",
+          "replicate_id": "h25_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 17,
+            "trans": 1
+          },
+          "left": "v09",
+          "replicate_id": "h25_link_09_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 7,
+            "trans": 16
+          },
+          "left": "v07",
+          "replicate_id": "h25_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 4
+          },
+          "left": "v02",
+          "replicate_id": "h25_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 11
+          },
+          "left": "v08",
+          "replicate_id": "h25_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 2,
+            "trans": 18
+          },
+          "left": "v08",
+          "replicate_id": "h25_link_08_05",
+          "right": "v05"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h17",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 5
+          },
+          "left": "v06",
+          "replicate_id": "h17_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 5
+          },
+          "left": "v10",
+          "replicate_id": "h17_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 9
+          },
+          "left": "v08",
+          "replicate_id": "h17_link_08_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 15,
+            "trans": 3
+          },
+          "left": "v07",
+          "replicate_id": "h17_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 10
+          },
+          "left": "v09",
+          "replicate_id": "h17_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 4
+          },
+          "left": "v10",
+          "replicate_id": "h17_link_10_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 1,
+            "trans": 8
+          },
+          "left": "v08",
+          "replicate_id": "h17_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 4
+          },
+          "left": "v10",
+          "replicate_id": "h17_link_10_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 14,
+            "trans": 9
+          },
+          "left": "v03",
+          "replicate_id": "h17_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 10
+          },
+          "left": "v08",
+          "replicate_id": "h17_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 20,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h17_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 6
+          },
+          "left": "v09",
+          "replicate_id": "h17_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 9
+          },
+          "left": "v11",
+          "replicate_id": "h17_link_11_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 21,
+            "trans": 2
+          },
+          "left": "v11",
+          "replicate_id": "h17_link_11_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 7
+          },
+          "left": "v05",
+          "replicate_id": "h17_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 18,
+            "trans": 2
+          },
+          "left": "v10",
+          "replicate_id": "h17_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 8,
+            "trans": 15
+          },
+          "left": "v04",
+          "replicate_id": "h17_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 18
+          },
+          "left": "v08",
+          "replicate_id": "h17_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 6
+          },
+          "left": "v11",
+          "replicate_id": "h17_link_11_10",
+          "right": "v10"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 3,
+            "trans": 18
+          },
+          "left": "v11",
+          "replicate_id": "h17_link_11_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 14,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h17_link_11_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h17_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 11
+          },
+          "left": "v06",
+          "replicate_id": "h17_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 7
+          },
+          "left": "v01",
+          "replicate_id": "h17_link_01_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h05",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 11,
+            "trans": 11
+          },
+          "left": "v02",
+          "replicate_id": "h05_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 10
+          },
+          "left": "v09",
+          "replicate_id": "h05_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 7
+          },
+          "left": "v03",
+          "replicate_id": "h05_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 6
+          },
+          "left": "v11",
+          "replicate_id": "h05_link_11_10",
+          "right": "v10"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 14
+          },
+          "left": "v09",
+          "replicate_id": "h05_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 14,
+            "trans": 7
+          },
+          "left": "v01",
+          "replicate_id": "h05_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 3,
+            "trans": 16
+          },
+          "left": "v08",
+          "replicate_id": "h05_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 3
+          },
+          "left": "v10",
+          "replicate_id": "h05_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v07",
+          "replicate_id": "h05_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 6
+          },
+          "left": "v07",
+          "replicate_id": "h05_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 15
+          },
+          "left": "v10",
+          "replicate_id": "h05_link_10_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 11,
+            "trans": 10
+          },
+          "left": "v11",
+          "replicate_id": "h05_link_11_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 18
+          },
+          "left": "v09",
+          "replicate_id": "h05_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 16,
+            "trans": 3
+          },
+          "left": "v04",
+          "replicate_id": "h05_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 10
+          },
+          "left": "v04",
+          "replicate_id": "h05_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 5
+          },
+          "left": "v08",
+          "replicate_id": "h05_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 5
+          },
+          "left": "v06",
+          "replicate_id": "h05_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 11,
+            "trans": 12
+          },
+          "left": "v11",
+          "replicate_id": "h05_link_11_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h05_link_10_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h05_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 5
+          },
+          "left": "v08",
+          "replicate_id": "h05_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 8
+          },
+          "left": "v11",
+          "replicate_id": "h05_link_11_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 12
+          },
+          "left": "v10",
+          "replicate_id": "h05_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 1
+          },
+          "left": "v05",
+          "replicate_id": "h05_link_05_02",
+          "right": "v02"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h12",
+      "edges": [
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 3,
+            "trans": 14
+          },
+          "left": "v04",
+          "replicate_id": "h12_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 5
+          },
+          "left": "v06",
+          "replicate_id": "h12_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 11,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h12_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 0,
+            "trans": 8
+          },
+          "left": "v10",
+          "replicate_id": "h12_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 11
+          },
+          "left": "v10",
+          "replicate_id": "h12_link_10_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 2,
+            "trans": 7
+          },
+          "left": "v07",
+          "replicate_id": "h12_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 9,
+            "trans": 10
+          },
+          "left": "v05",
+          "replicate_id": "h12_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 16,
+            "trans": 1
+          },
+          "left": "v08",
+          "replicate_id": "h12_link_08_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 17,
+            "trans": 1
+          },
+          "left": "v04",
+          "replicate_id": "h12_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 11
+          },
+          "left": "v10",
+          "replicate_id": "h12_link_10_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 5
+          },
+          "left": "v08",
+          "replicate_id": "h12_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 7
+          },
+          "left": "v06",
+          "replicate_id": "h12_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 4
+          },
+          "left": "v08",
+          "replicate_id": "h12_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 18,
+            "trans": 5
+          },
+          "left": "v08",
+          "replicate_id": "h12_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 9,
+            "trans": 14
+          },
+          "left": "v09",
+          "replicate_id": "h12_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 9
+          },
+          "left": "v09",
+          "replicate_id": "h12_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 18,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h12_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 9
+          },
+          "left": "v06",
+          "replicate_id": "h12_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 8
+          },
+          "left": "v01",
+          "replicate_id": "h12_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 2,
+            "trans": 13
+          },
+          "left": "v03",
+          "replicate_id": "h12_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h12_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 9
+          },
+          "left": "v09",
+          "replicate_id": "h12_link_09_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h03",
+      "edges": [
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 1
+          },
+          "left": "v01",
+          "replicate_id": "h03_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 0
+          },
+          "left": "v06",
+          "replicate_id": "h03_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 3
+          },
+          "left": "v11",
+          "replicate_id": "h03_link_11_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h03_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 10
+          },
+          "left": "v09",
+          "replicate_id": "h03_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 16,
+            "trans": 6
+          },
+          "left": "v08",
+          "replicate_id": "h03_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 2
+          },
+          "left": "v11",
+          "replicate_id": "h03_link_11_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 9
+          },
+          "left": "v11",
+          "replicate_id": "h03_link_11_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h03_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 2
+          },
+          "left": "v06",
+          "replicate_id": "h03_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 17,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h03_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 8
+          },
+          "left": "v02",
+          "replicate_id": "h03_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 8,
+            "trans": 13
+          },
+          "left": "v09",
+          "replicate_id": "h03_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 10
+          },
+          "left": "v08",
+          "replicate_id": "h03_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 11
+          },
+          "left": "v04",
+          "replicate_id": "h03_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 1
+          },
+          "left": "v10",
+          "replicate_id": "h03_link_10_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v03",
+          "replicate_id": "h03_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h03_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 8
+          },
+          "left": "v07",
+          "replicate_id": "h03_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 3
+          },
+          "left": "v04",
+          "replicate_id": "h03_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 7
+          },
+          "left": "v05",
+          "replicate_id": "h03_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 19,
+            "trans": 3
+          },
+          "left": "v07",
+          "replicate_id": "h03_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 20,
+            "trans": 3
+          },
+          "left": "v11",
+          "replicate_id": "h03_link_11_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h03_link_09_06",
+          "right": "v06"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h15",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 1
+          },
+          "left": "v09",
+          "replicate_id": "h15_link_09_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 14,
+            "trans": 5
+          },
+          "left": "v08",
+          "replicate_id": "h15_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 1,
+            "trans": 8
+          },
+          "left": "v02",
+          "replicate_id": "h15_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 11,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h15_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 13,
+            "trans": 7
+          },
+          "left": "v04",
+          "replicate_id": "h15_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 7
+          },
+          "left": "v06",
+          "replicate_id": "h15_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 1,
+            "trans": 7
+          },
+          "left": "v06",
+          "replicate_id": "h15_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 15
+          },
+          "left": "v05",
+          "replicate_id": "h15_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h15_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v01",
+          "replicate_id": "h15_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 18,
+            "trans": 4
+          },
+          "left": "v03",
+          "replicate_id": "h15_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 16
+          },
+          "left": "v07",
+          "replicate_id": "h15_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 11
+          },
+          "left": "v05",
+          "replicate_id": "h15_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 6
+          },
+          "left": "v04",
+          "replicate_id": "h15_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 7
+          },
+          "left": "v02",
+          "replicate_id": "h15_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 22,
+            "trans": 0
+          },
+          "left": "v08",
+          "replicate_id": "h15_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 16
+          },
+          "left": "v05",
+          "replicate_id": "h15_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 7,
+            "trans": 12
+          },
+          "left": "v05",
+          "replicate_id": "h15_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 23,
+            "trans": 1
+          },
+          "left": "v06",
+          "replicate_id": "h15_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 17
+          },
+          "left": "v08",
+          "replicate_id": "h15_link_08_06",
+          "right": "v06"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h21",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 18,
+            "trans": 6
+          },
+          "left": "v04",
+          "replicate_id": "h21_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 20,
+            "trans": 1
+          },
+          "left": "v06",
+          "replicate_id": "h21_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h21_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 7
+          },
+          "left": "v07",
+          "replicate_id": "h21_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 11
+          },
+          "left": "v04",
+          "replicate_id": "h21_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 13,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h21_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h21_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 7
+          },
+          "left": "v09",
+          "replicate_id": "h21_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h21_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 14
+          },
+          "left": "v07",
+          "replicate_id": "h21_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 1,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h21_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 7
+          },
+          "left": "v03",
+          "replicate_id": "h21_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 11,
+            "trans": 13
+          },
+          "left": "v08",
+          "replicate_id": "h21_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 10,
+            "trans": 10
+          },
+          "left": "v05",
+          "replicate_id": "h21_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 15
+          },
+          "left": "v10",
+          "replicate_id": "h21_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 14,
+            "trans": 3
+          },
+          "left": "v02",
+          "replicate_id": "h21_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 13,
+            "trans": 11
+          },
+          "left": "v06",
+          "replicate_id": "h21_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 12
+          },
+          "left": "v08",
+          "replicate_id": "h21_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v01",
+          "replicate_id": "h21_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 13
+          },
+          "left": "v02",
+          "replicate_id": "h21_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 9
+          },
+          "left": "v08",
+          "replicate_id": "h21_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 6
+          },
+          "left": "v09",
+          "replicate_id": "h21_link_09_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h18",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 16,
+            "trans": 4
+          },
+          "left": "v08",
+          "replicate_id": "h18_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h18_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 4
+          },
+          "left": "v07",
+          "replicate_id": "h18_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 16,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h18_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h18_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 15,
+            "trans": 6
+          },
+          "left": "v01",
+          "replicate_id": "h18_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 9
+          },
+          "left": "v06",
+          "replicate_id": "h18_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 5
+          },
+          "left": "v06",
+          "replicate_id": "h18_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 20
+          },
+          "left": "v03",
+          "replicate_id": "h18_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 13
+          },
+          "left": "v03",
+          "replicate_id": "h18_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 18,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h18_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 2,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h18_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 11
+          },
+          "left": "v04",
+          "replicate_id": "h18_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 16,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h18_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 14,
+            "trans": 3
+          },
+          "left": "v04",
+          "replicate_id": "h18_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 17,
+            "trans": 2
+          },
+          "left": "v05",
+          "replicate_id": "h18_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 14
+          },
+          "left": "v07",
+          "replicate_id": "h18_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 9,
+            "trans": 11
+          },
+          "left": "v09",
+          "replicate_id": "h18_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 10
+          },
+          "left": "v04",
+          "replicate_id": "h18_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 20,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h18_link_06_01",
+          "right": "v01"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h10",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 15,
+            "trans": 9
+          },
+          "left": "v05",
+          "replicate_id": "h10_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 4
+          },
+          "left": "v07",
+          "replicate_id": "h10_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h10_link_11_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 1
+          },
+          "left": "v11",
+          "replicate_id": "h10_link_11_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 8
+          },
+          "left": "v06",
+          "replicate_id": "h10_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 9
+          },
+          "left": "v02",
+          "replicate_id": "h10_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 20,
+            "trans": 2
+          },
+          "left": "v07",
+          "replicate_id": "h10_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 11,
+            "trans": 2
+          },
+          "left": "v10",
+          "replicate_id": "h10_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 8
+          },
+          "left": "v05",
+          "replicate_id": "h10_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 8
+          },
+          "left": "v07",
+          "replicate_id": "h10_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 6
+          },
+          "left": "v01",
+          "replicate_id": "h10_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 13
+          },
+          "left": "v04",
+          "replicate_id": "h10_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 0
+          },
+          "left": "v11",
+          "replicate_id": "h10_link_11_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 7
+          },
+          "left": "v09",
+          "replicate_id": "h10_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 5,
+            "trans": 11
+          },
+          "left": "v11",
+          "replicate_id": "h10_link_11_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 9
+          },
+          "left": "v07",
+          "replicate_id": "h10_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 6,
+            "trans": 17
+          },
+          "left": "v08",
+          "replicate_id": "h10_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h10_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 15
+          },
+          "left": "v10",
+          "replicate_id": "h10_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 5,
+            "trans": 16
+          },
+          "left": "v06",
+          "replicate_id": "h10_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 10
+          },
+          "left": "v11",
+          "replicate_id": "h10_link_11_10",
+          "right": "v10"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 9
+          },
+          "left": "v03",
+          "replicate_id": "h10_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h10_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h10_link_09_07",
+          "right": "v07"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h04",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 15,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h04_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 4
+          },
+          "left": "v09",
+          "replicate_id": "h04_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 4
+          },
+          "left": "v08",
+          "replicate_id": "h04_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 9,
+            "trans": 4
+          },
+          "left": "v09",
+          "replicate_id": "h04_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h04_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 10
+          },
+          "left": "v07",
+          "replicate_id": "h04_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 17,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h04_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 12
+          },
+          "left": "v06",
+          "replicate_id": "h04_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 6
+          },
+          "left": "v03",
+          "replicate_id": "h04_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h04_link_10_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 15,
+            "trans": 8
+          },
+          "left": "v08",
+          "replicate_id": "h04_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 20,
+            "trans": 1
+          },
+          "left": "v07",
+          "replicate_id": "h04_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 12
+          },
+          "left": "v04",
+          "replicate_id": "h04_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 7
+          },
+          "left": "v03",
+          "replicate_id": "h04_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 21,
+            "trans": 3
+          },
+          "left": "v09",
+          "replicate_id": "h04_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 13,
+            "trans": 7
+          },
+          "left": "v01",
+          "replicate_id": "h04_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 16,
+            "trans": 2
+          },
+          "left": "v04",
+          "replicate_id": "h04_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 1
+          },
+          "left": "v05",
+          "replicate_id": "h04_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h04_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 5
+          },
+          "left": "v06",
+          "replicate_id": "h04_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 11
+          },
+          "left": "v09",
+          "replicate_id": "h04_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 17,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h04_link_09_01",
+          "right": "v01"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h01",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h01_link_09_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 12
+          },
+          "left": "v10",
+          "replicate_id": "h01_link_10_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 9
+          },
+          "left": "v06",
+          "replicate_id": "h01_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 1,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h01_link_11_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 0
+          },
+          "left": "v05",
+          "replicate_id": "h01_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 11
+          },
+          "left": "v05",
+          "replicate_id": "h01_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 2
+          },
+          "left": "v07",
+          "replicate_id": "h01_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h01_link_11_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 15
+          },
+          "left": "v10",
+          "replicate_id": "h01_link_10_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 17,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h01_link_11_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 0
+          },
+          "left": "v08",
+          "replicate_id": "h01_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 8
+          },
+          "left": "v06",
+          "replicate_id": "h01_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 15,
+            "trans": 2
+          },
+          "left": "v01",
+          "replicate_id": "h01_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 16,
+            "trans": 5
+          },
+          "left": "v07",
+          "replicate_id": "h01_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 2,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h01_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 11,
+            "trans": 12
+          },
+          "left": "v11",
+          "replicate_id": "h01_link_11_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 19,
+            "trans": 2
+          },
+          "left": "v06",
+          "replicate_id": "h01_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h01_link_09_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 5
+          },
+          "left": "v04",
+          "replicate_id": "h01_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 2
+          },
+          "left": "v06",
+          "replicate_id": "h01_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 11,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h01_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 12
+          },
+          "left": "v10",
+          "replicate_id": "h01_link_10_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 15,
+            "trans": 2
+          },
+          "left": "v10",
+          "replicate_id": "h01_link_10_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 5,
+            "trans": 16
+          },
+          "left": "v02",
+          "replicate_id": "h01_link_02_01",
+          "right": "v01"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h06",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 10
+          },
+          "left": "v01",
+          "replicate_id": "h06_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 6
+          },
+          "left": "v05",
+          "replicate_id": "h06_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 1,
+            "trans": 9
+          },
+          "left": "v06",
+          "replicate_id": "h06_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 16,
+            "trans": 6
+          },
+          "left": "v06",
+          "replicate_id": "h06_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 3
+          },
+          "left": "v04",
+          "replicate_id": "h06_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 1
+          },
+          "left": "v09",
+          "replicate_id": "h06_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 12
+          },
+          "left": "v06",
+          "replicate_id": "h06_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 6
+          },
+          "left": "v03",
+          "replicate_id": "h06_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 16,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h06_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 10
+          },
+          "left": "v08",
+          "replicate_id": "h06_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h06_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 19,
+            "trans": 5
+          },
+          "left": "v05",
+          "replicate_id": "h06_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 1
+          },
+          "left": "v06",
+          "replicate_id": "h06_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h06_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 1,
+            "trans": 9
+          },
+          "left": "v03",
+          "replicate_id": "h06_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 14
+          },
+          "left": "v09",
+          "replicate_id": "h06_link_09_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 0
+          },
+          "left": "v09",
+          "replicate_id": "h06_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 10
+          },
+          "left": "v07",
+          "replicate_id": "h06_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 9,
+            "trans": 13
+          },
+          "left": "v04",
+          "replicate_id": "h06_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 8
+          },
+          "left": "v04",
+          "replicate_id": "h06_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h06_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 0,
+            "trans": 15
+          },
+          "left": "v08",
+          "replicate_id": "h06_link_08_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h22",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 2,
+            "trans": 12
+          },
+          "left": "v06",
+          "replicate_id": "h22_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 4
+          },
+          "left": "v07",
+          "replicate_id": "h22_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 5
+          },
+          "left": "v07",
+          "replicate_id": "h22_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 16
+          },
+          "left": "v06",
+          "replicate_id": "h22_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 7
+          },
+          "left": "v06",
+          "replicate_id": "h22_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 16,
+            "trans": 1
+          },
+          "left": "v09",
+          "replicate_id": "h22_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 1
+          },
+          "left": "v10",
+          "replicate_id": "h22_link_10_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 11
+          },
+          "left": "v10",
+          "replicate_id": "h22_link_10_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 0
+          },
+          "left": "v10",
+          "replicate_id": "h22_link_10_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 9,
+            "trans": 6
+          },
+          "left": "v03",
+          "replicate_id": "h22_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 17,
+            "trans": 4
+          },
+          "left": "v03",
+          "replicate_id": "h22_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 15,
+            "trans": 5
+          },
+          "left": "v07",
+          "replicate_id": "h22_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 11
+          },
+          "left": "v02",
+          "replicate_id": "h22_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 4,
+            "trans": 13
+          },
+          "left": "v09",
+          "replicate_id": "h22_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 6
+          },
+          "left": "v04",
+          "replicate_id": "h22_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 16,
+            "trans": 4
+          },
+          "left": "v09",
+          "replicate_id": "h22_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 9
+          },
+          "left": "v10",
+          "replicate_id": "h22_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 9
+          },
+          "left": "v08",
+          "replicate_id": "h22_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 6,
+            "trans": 13
+          },
+          "left": "v05",
+          "replicate_id": "h22_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 11
+          },
+          "left": "v01",
+          "replicate_id": "h22_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 8
+          },
+          "left": "v07",
+          "replicate_id": "h22_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 6
+          },
+          "left": "v06",
+          "replicate_id": "h22_link_06_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h09",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 10
+          },
+          "left": "v10",
+          "replicate_id": "h09_link_10_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 8
+          },
+          "left": "v07",
+          "replicate_id": "h09_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 13,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h09_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 11,
+            "trans": 12
+          },
+          "left": "v06",
+          "replicate_id": "h09_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h09_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 17
+          },
+          "left": "v09",
+          "replicate_id": "h09_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v05",
+          "replicate_id": "h09_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 2
+          },
+          "left": "v07",
+          "replicate_id": "h09_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 10
+          },
+          "left": "v10",
+          "replicate_id": "h09_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 1,
+            "trans": 15
+          },
+          "left": "v06",
+          "replicate_id": "h09_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 11
+          },
+          "left": "v04",
+          "replicate_id": "h09_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 8
+          },
+          "left": "v05",
+          "replicate_id": "h09_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h09_link_08_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 1
+          },
+          "left": "v09",
+          "replicate_id": "h09_link_09_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 3
+          },
+          "left": "v09",
+          "replicate_id": "h09_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 11,
+            "trans": 7
+          },
+          "left": "v05",
+          "replicate_id": "h09_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h09_link_10_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 16,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h09_link_10_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 12
+          },
+          "left": "v02",
+          "replicate_id": "h09_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 16,
+            "trans": 2
+          },
+          "left": "v03",
+          "replicate_id": "h09_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 4
+          },
+          "left": "v04",
+          "replicate_id": "h09_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 11
+          },
+          "left": "v01",
+          "replicate_id": "h09_link_01_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h14",
+      "edges": [
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 2
+          },
+          "left": "v10",
+          "replicate_id": "h14_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 16,
+            "trans": 6
+          },
+          "left": "v09",
+          "replicate_id": "h14_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 11
+          },
+          "left": "v05",
+          "replicate_id": "h14_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 16,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h14_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 1
+          },
+          "left": "v09",
+          "replicate_id": "h14_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 10
+          },
+          "left": "v08",
+          "replicate_id": "h14_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h14_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 18,
+            "trans": 0
+          },
+          "left": "v01",
+          "replicate_id": "h14_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h14_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 4
+          },
+          "left": "v05",
+          "replicate_id": "h14_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 1,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h14_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h14_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v04",
+          "replicate_id": "h14_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 1,
+            "trans": 12
+          },
+          "left": "v07",
+          "replicate_id": "h14_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 4
+          },
+          "left": "v07",
+          "replicate_id": "h14_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h14_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 9
+          },
+          "left": "v05",
+          "replicate_id": "h14_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 7
+          },
+          "left": "v09",
+          "replicate_id": "h14_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 10
+          },
+          "left": "v04",
+          "replicate_id": "h14_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 13,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h14_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h14_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 16,
+            "trans": 7
+          },
+          "left": "v06",
+          "replicate_id": "h14_link_06_05",
+          "right": "v05"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h27",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 10,
+            "trans": 13
+          },
+          "left": "v05",
+          "replicate_id": "h27_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 6
+          },
+          "left": "v04",
+          "replicate_id": "h27_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 4
+          },
+          "left": "v04",
+          "replicate_id": "h27_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 5
+          },
+          "left": "v03",
+          "replicate_id": "h27_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 20
+          },
+          "left": "v07",
+          "replicate_id": "h27_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 6
+          },
+          "left": "v10",
+          "replicate_id": "h27_link_10_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h27_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 13,
+            "trans": 2
+          },
+          "left": "v01",
+          "replicate_id": "h27_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 8,
+            "trans": 11
+          },
+          "left": "v04",
+          "replicate_id": "h27_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 7
+          },
+          "left": "v06",
+          "replicate_id": "h27_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 21,
+            "trans": 2
+          },
+          "left": "v10",
+          "replicate_id": "h27_link_10_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 6
+          },
+          "left": "v08",
+          "replicate_id": "h27_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 6
+          },
+          "left": "v06",
+          "replicate_id": "h27_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 2
+          },
+          "left": "v06",
+          "replicate_id": "h27_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 5
+          },
+          "left": "v05",
+          "replicate_id": "h27_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v07",
+          "replicate_id": "h27_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 12,
+            "trans": 4
+          },
+          "left": "v03",
+          "replicate_id": "h27_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 2,
+            "trans": 17
+          },
+          "left": "v09",
+          "replicate_id": "h27_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 4
+          },
+          "left": "v10",
+          "replicate_id": "h27_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 9,
+            "trans": 14
+          },
+          "left": "v10",
+          "replicate_id": "h27_link_10_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 14
+          },
+          "left": "v02",
+          "replicate_id": "h27_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 15
+          },
+          "left": "v07",
+          "replicate_id": "h27_link_07_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h11",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 9
+          },
+          "left": "v03",
+          "replicate_id": "h11_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 12
+          },
+          "left": "v01",
+          "replicate_id": "h11_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 11
+          },
+          "left": "v07",
+          "replicate_id": "h11_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v09",
+          "replicate_id": "h11_link_09_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 9
+          },
+          "left": "v02",
+          "replicate_id": "h11_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 2,
+            "trans": 20
+          },
+          "left": "v05",
+          "replicate_id": "h11_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 14,
+            "trans": 9
+          },
+          "left": "v07",
+          "replicate_id": "h11_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 13,
+            "trans": 1
+          },
+          "left": "v09",
+          "replicate_id": "h11_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 0,
+            "trans": 7
+          },
+          "left": "v04",
+          "replicate_id": "h11_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 8,
+            "trans": 12
+          },
+          "left": "v07",
+          "replicate_id": "h11_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 18,
+            "trans": 4
+          },
+          "left": "v05",
+          "replicate_id": "h11_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h11_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 6
+          },
+          "left": "v06",
+          "replicate_id": "h11_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 12,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h11_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 1,
+            "trans": 8
+          },
+          "left": "v08",
+          "replicate_id": "h11_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 22,
+            "trans": 0
+          },
+          "left": "v05",
+          "replicate_id": "h11_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h11_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 17,
+            "trans": 0
+          },
+          "left": "v07",
+          "replicate_id": "h11_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 17,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h11_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 13
+          },
+          "left": "v08",
+          "replicate_id": "h11_link_08_04",
+          "right": "v04"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h24",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 3
+          },
+          "left": "v10",
+          "replicate_id": "h24_link_10_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 12
+          },
+          "left": "v08",
+          "replicate_id": "h24_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 13
+          },
+          "left": "v05",
+          "replicate_id": "h24_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 9
+          },
+          "left": "v09",
+          "replicate_id": "h24_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 3
+          },
+          "left": "v04",
+          "replicate_id": "h24_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 11
+          },
+          "left": "v07",
+          "replicate_id": "h24_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h24_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 5
+          },
+          "left": "v05",
+          "replicate_id": "h24_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 9
+          },
+          "left": "v10",
+          "replicate_id": "h24_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h24_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 3
+          },
+          "left": "v03",
+          "replicate_id": "h24_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 18,
+            "trans": 6
+          },
+          "left": "v07",
+          "replicate_id": "h24_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 3
+          },
+          "left": "v10",
+          "replicate_id": "h24_link_10_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 10
+          },
+          "left": "v06",
+          "replicate_id": "h24_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 8
+          },
+          "left": "v02",
+          "replicate_id": "h24_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 8
+          },
+          "left": "v04",
+          "replicate_id": "h24_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 9,
+            "trans": 15
+          },
+          "left": "v10",
+          "replicate_id": "h24_link_10_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 7,
+            "trans": 12
+          },
+          "left": "v10",
+          "replicate_id": "h24_link_10_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 0
+          },
+          "left": "v04",
+          "replicate_id": "h24_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 11,
+            "trans": 13
+          },
+          "left": "v07",
+          "replicate_id": "h24_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 11,
+            "trans": 11
+          },
+          "left": "v01",
+          "replicate_id": "h24_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 7
+          },
+          "left": "v05",
+          "replicate_id": "h24_link_05_03",
+          "right": "v03"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h07",
+      "edges": [
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 2,
+            "trans": 20
+          },
+          "left": "v10",
+          "replicate_id": "h07_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 9
+          },
+          "left": "v05",
+          "replicate_id": "h07_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 22,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h07_link_09_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 12,
+            "trans": 9
+          },
+          "left": "v05",
+          "replicate_id": "h07_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 9,
+            "trans": 8
+          },
+          "left": "v10",
+          "replicate_id": "h07_link_10_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 11,
+            "trans": 3
+          },
+          "left": "v09",
+          "replicate_id": "h07_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 9
+          },
+          "left": "v04",
+          "replicate_id": "h07_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 16
+          },
+          "left": "v03",
+          "replicate_id": "h07_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h07_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 1
+          },
+          "left": "v10",
+          "replicate_id": "h07_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 10,
+            "trans": 13
+          },
+          "left": "v04",
+          "replicate_id": "h07_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 10
+          },
+          "left": "v07",
+          "replicate_id": "h07_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 0,
+            "trans": 14
+          },
+          "left": "v10",
+          "replicate_id": "h07_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 11
+          },
+          "left": "v07",
+          "replicate_id": "h07_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 6
+          },
+          "left": "v08",
+          "replicate_id": "h07_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 19,
+            "trans": 1
+          },
+          "left": "v07",
+          "replicate_id": "h07_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 7
+          },
+          "left": "v09",
+          "replicate_id": "h07_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 10,
+            "trans": 10
+          },
+          "left": "v06",
+          "replicate_id": "h07_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 19,
+            "trans": 2
+          },
+          "left": "v01",
+          "replicate_id": "h07_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 11,
+            "trans": 1
+          },
+          "left": "v02",
+          "replicate_id": "h07_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 4
+          },
+          "left": "v08",
+          "replicate_id": "h07_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h07_link_06_05",
+          "right": "v05"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h20",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 3
+          },
+          "left": "v05",
+          "replicate_id": "h20_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 1
+          },
+          "left": "v10",
+          "replicate_id": "h20_link_10_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 9
+          },
+          "left": "v07",
+          "replicate_id": "h20_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 12
+          },
+          "left": "v10",
+          "replicate_id": "h20_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 11,
+            "trans": 2
+          },
+          "left": "v10",
+          "replicate_id": "h20_link_10_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 11,
+            "trans": 13
+          },
+          "left": "v02",
+          "replicate_id": "h20_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 11
+          },
+          "left": "v11",
+          "replicate_id": "h20_link_11_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 10
+          },
+          "left": "v11",
+          "replicate_id": "h20_link_11_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h20_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v03",
+          "replicate_id": "h20_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h20_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 13,
+            "trans": 4
+          },
+          "left": "v07",
+          "replicate_id": "h20_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 8
+          },
+          "left": "v08",
+          "replicate_id": "h20_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 13,
+            "trans": 11
+          },
+          "left": "v10",
+          "replicate_id": "h20_link_10_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 20,
+            "trans": 3
+          },
+          "left": "v02",
+          "replicate_id": "h20_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 18
+          },
+          "left": "v08",
+          "replicate_id": "h20_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 14,
+            "trans": 5
+          },
+          "left": "v07",
+          "replicate_id": "h20_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v01",
+          "replicate_id": "h20_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 5
+          },
+          "left": "v07",
+          "replicate_id": "h20_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 3
+          },
+          "left": "v11",
+          "replicate_id": "h20_link_11_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 8
+          },
+          "left": "v06",
+          "replicate_id": "h20_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 9
+          },
+          "left": "v11",
+          "replicate_id": "h20_link_11_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 14
+          },
+          "left": "v04",
+          "replicate_id": "h20_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 8
+          },
+          "left": "v06",
+          "replicate_id": "h20_link_06_05",
+          "right": "v05"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h13",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h13_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 13,
+            "trans": 11
+          },
+          "left": "v06",
+          "replicate_id": "h13_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 7
+          },
+          "left": "v07",
+          "replicate_id": "h13_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v05",
+          "replicate_id": "h13_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 20
+          },
+          "left": "v07",
+          "replicate_id": "h13_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 15,
+            "trans": 9
+          },
+          "left": "v04",
+          "replicate_id": "h13_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 5,
+            "trans": 18
+          },
+          "left": "v10",
+          "replicate_id": "h13_link_10_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 13
+          },
+          "left": "v10",
+          "replicate_id": "h13_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 9,
+            "trans": 7
+          },
+          "left": "v03",
+          "replicate_id": "h13_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 4
+          },
+          "left": "v01",
+          "replicate_id": "h13_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 9,
+            "trans": 15
+          },
+          "left": "v06",
+          "replicate_id": "h13_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h13_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 5
+          },
+          "left": "v05",
+          "replicate_id": "h13_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h13_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 8
+          },
+          "left": "v08",
+          "replicate_id": "h13_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 6,
+            "trans": 12
+          },
+          "left": "v08",
+          "replicate_id": "h13_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 9
+          },
+          "left": "v10",
+          "replicate_id": "h13_link_10_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 8,
+            "trans": 16
+          },
+          "left": "v05",
+          "replicate_id": "h13_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 6,
+            "trans": 17
+          },
+          "left": "v09",
+          "replicate_id": "h13_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 15
+          },
+          "left": "v09",
+          "replicate_id": "h13_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 18,
+            "trans": 6
+          },
+          "left": "v08",
+          "replicate_id": "h13_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 8,
+            "trans": 5
+          },
+          "left": "v06",
+          "replicate_id": "h13_link_06_05",
+          "right": "v05"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h08",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 16,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h08_link_10_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 6
+          },
+          "left": "v01",
+          "replicate_id": "h08_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 16,
+            "trans": 5
+          },
+          "left": "v05",
+          "replicate_id": "h08_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h08_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 19
+          },
+          "left": "v07",
+          "replicate_id": "h08_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h08_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 7
+          },
+          "left": "v04",
+          "replicate_id": "h08_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 13
+          },
+          "left": "v08",
+          "replicate_id": "h08_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 8,
+            "trans": 14
+          },
+          "left": "v09",
+          "replicate_id": "h08_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 3
+          },
+          "left": "v10",
+          "replicate_id": "h08_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 4
+          },
+          "left": "v08",
+          "replicate_id": "h08_link_08_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 6,
+            "trans": 16
+          },
+          "left": "v07",
+          "replicate_id": "h08_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 15,
+            "trans": 1
+          },
+          "left": "v06",
+          "replicate_id": "h08_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 0,
+            "trans": 17
+          },
+          "left": "v08",
+          "replicate_id": "h08_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 14
+          },
+          "left": "v08",
+          "replicate_id": "h08_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 8
+          },
+          "left": "v10",
+          "replicate_id": "h08_link_10_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 7
+          },
+          "left": "v02",
+          "replicate_id": "h08_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 2
+          },
+          "left": "v07",
+          "replicate_id": "h08_link_07_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 6
+          },
+          "left": "v04",
+          "replicate_id": "h08_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 20,
+            "trans": 2
+          },
+          "left": "v06",
+          "replicate_id": "h08_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 13
+          },
+          "left": "v08",
+          "replicate_id": "h08_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h08_link_03_02",
+          "right": "v02"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h00",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 6
+          },
+          "left": "v08",
+          "replicate_id": "h00_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 17
+          },
+          "left": "v11",
+          "replicate_id": "h00_link_11_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 15,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h00_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 15,
+            "trans": 9
+          },
+          "left": "v03",
+          "replicate_id": "h00_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 15
+          },
+          "left": "v06",
+          "replicate_id": "h00_link_06_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 13
+          },
+          "left": "v11",
+          "replicate_id": "h00_link_11_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 17,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h00_link_10_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 14
+          },
+          "left": "v04",
+          "replicate_id": "h00_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 14
+          },
+          "left": "v10",
+          "replicate_id": "h00_link_10_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h00_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 9,
+            "trans": 3
+          },
+          "left": "v06",
+          "replicate_id": "h00_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 2
+          },
+          "left": "v07",
+          "replicate_id": "h00_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 6,
+            "trans": 13
+          },
+          "left": "v11",
+          "replicate_id": "h00_link_11_10",
+          "right": "v10"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h00_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 20
+          },
+          "left": "v05",
+          "replicate_id": "h00_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 5
+          },
+          "left": "v01",
+          "replicate_id": "h00_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h00_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h00_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 11,
+            "trans": 10
+          },
+          "left": "v02",
+          "replicate_id": "h00_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 5
+          },
+          "left": "v11",
+          "replicate_id": "h00_link_11_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 14,
+            "trans": 5
+          },
+          "left": "v10",
+          "replicate_id": "h00_link_10_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 9,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h00_link_11_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 15,
+            "trans": 1
+          },
+          "left": "v06",
+          "replicate_id": "h00_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 6
+          },
+          "left": "v04",
+          "replicate_id": "h00_link_04_03",
+          "right": "v03"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h23",
+      "edges": [
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 2
+          },
+          "left": "v06",
+          "replicate_id": "h23_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 13
+          },
+          "left": "v10",
+          "replicate_id": "h23_link_10_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 3
+          },
+          "left": "v07",
+          "replicate_id": "h23_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 11,
+            "trans": 3
+          },
+          "left": "v01",
+          "replicate_id": "h23_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 6
+          },
+          "left": "v02",
+          "replicate_id": "h23_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 14,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h23_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h23_link_06_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 12,
+            "trans": 9
+          },
+          "left": "v08",
+          "replicate_id": "h23_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 14
+          },
+          "left": "v09",
+          "replicate_id": "h23_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 10,
+            "trans": 14
+          },
+          "left": "v07",
+          "replicate_id": "h23_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 11
+          },
+          "left": "v07",
+          "replicate_id": "h23_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 8
+          },
+          "left": "v07",
+          "replicate_id": "h23_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 16,
+            "trans": 2
+          },
+          "left": "v04",
+          "replicate_id": "h23_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 8
+          },
+          "left": "v03",
+          "replicate_id": "h23_link_03_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 15
+          },
+          "left": "v08",
+          "replicate_id": "h23_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 6
+          },
+          "left": "v11",
+          "replicate_id": "h23_link_11_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 10
+          },
+          "left": "v11",
+          "replicate_id": "h23_link_11_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 9
+          },
+          "left": "v08",
+          "replicate_id": "h23_link_08_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 4
+          },
+          "left": "v10",
+          "replicate_id": "h23_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 1
+          },
+          "left": "v03",
+          "replicate_id": "h23_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 5
+          },
+          "left": "v10",
+          "replicate_id": "h23_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 16
+          },
+          "left": "v05",
+          "replicate_id": "h23_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 4
+          },
+          "left": "v09",
+          "replicate_id": "h23_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 15
+          },
+          "left": "v06",
+          "replicate_id": "h23_link_06_02",
+          "right": "v02"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h26",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 11,
+            "trans": 1
+          },
+          "left": "v01",
+          "replicate_id": "h26_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 16,
+            "trans": 6
+          },
+          "left": "v11",
+          "replicate_id": "h26_link_11_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 2
+          },
+          "left": "v03",
+          "replicate_id": "h26_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 12
+          },
+          "left": "v04",
+          "replicate_id": "h26_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 11
+          },
+          "left": "v05",
+          "replicate_id": "h26_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 11,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h26_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 3,
+            "trans": 17
+          },
+          "left": "v03",
+          "replicate_id": "h26_link_03_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 7
+          },
+          "left": "v10",
+          "replicate_id": "h26_link_10_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 8
+          },
+          "left": "v05",
+          "replicate_id": "h26_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 13
+          },
+          "left": "v09",
+          "replicate_id": "h26_link_09_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 8
+          },
+          "left": "v11",
+          "replicate_id": "h26_link_11_10",
+          "right": "v10"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 8
+          },
+          "left": "v05",
+          "replicate_id": "h26_link_05_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h26_link_11_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 12,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h26_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 11,
+            "trans": 6
+          },
+          "left": "v02",
+          "replicate_id": "h26_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 12,
+            "trans": 12
+          },
+          "left": "v08",
+          "replicate_id": "h26_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 18,
+            "trans": 1
+          },
+          "left": "v07",
+          "replicate_id": "h26_link_07_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 13,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h26_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 6,
+            "trans": 17
+          },
+          "left": "v06",
+          "replicate_id": "h26_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 0
+          },
+          "left": "v09",
+          "replicate_id": "h26_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 14,
+            "trans": 3
+          },
+          "left": "v11",
+          "replicate_id": "h26_link_11_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 10
+          },
+          "left": "v10",
+          "replicate_id": "h26_link_10_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 15,
+            "trans": 6
+          },
+          "left": "v08",
+          "replicate_id": "h26_link_08_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 14,
+            "trans": 10
+          },
+          "left": "v05",
+          "replicate_id": "h26_link_05_03",
+          "right": "v03"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h02",
+      "edges": [
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 10,
+            "trans": 0
+          },
+          "left": "v04",
+          "replicate_id": "h02_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 14,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h02_link_09_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 2,
+            "trans": 6
+          },
+          "left": "v10",
+          "replicate_id": "h02_link_10_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 7,
+            "trans": 4
+          },
+          "left": "v06",
+          "replicate_id": "h02_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 6,
+            "trans": 1
+          },
+          "left": "v06",
+          "replicate_id": "h02_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 1,
+            "trans": 11
+          },
+          "left": "v05",
+          "replicate_id": "h02_link_05_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 5,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h02_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 3,
+            "trans": 20
+          },
+          "left": "v10",
+          "replicate_id": "h02_link_10_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 5
+          },
+          "left": "v03",
+          "replicate_id": "h02_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h02_link_02_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 4,
+            "cis": 21,
+            "trans": 1
+          },
+          "left": "v04",
+          "replicate_id": "h02_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 8
+          },
+          "left": "v06",
+          "replicate_id": "h02_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 11
+          },
+          "left": "v07",
+          "replicate_id": "h02_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 3
+          },
+          "left": "v01",
+          "replicate_id": "h02_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 7
+          },
+          "left": "v07",
+          "replicate_id": "h02_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 3,
+            "trans": 10
+          },
+          "left": "v09",
+          "replicate_id": "h02_link_09_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 15,
+            "trans": 6
+          },
+          "left": "v07",
+          "replicate_id": "h02_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 7,
+            "trans": 15
+          },
+          "left": "v08",
+          "replicate_id": "h02_link_08_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 12,
+            "trans": 11
+          },
+          "left": "v10",
+          "replicate_id": "h02_link_10_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 16,
+            "trans": 1
+          },
+          "left": "v05",
+          "replicate_id": "h02_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 13,
+            "trans": 4
+          },
+          "left": "v08",
+          "replicate_id": "h02_link_08_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 4
+          },
+          "left": "v03",
+          "replicate_id": "h02_link_03_00",
+          "right": "v00"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h16",
+      "edges": [
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 10,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h16_link_09_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 10,
+            "trans": 9
+          },
+          "left": "v08",
+          "replicate_id": "h16_link_08_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 2
+          },
+          "left": "v06",
+          "replicate_id": "h16_link_06_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 15,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h16_link_08_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 14
+          },
+          "left": "v03",
+          "replicate_id": "h16_link_03_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 14,
+            "trans": 7
+          },
+          "left": "v06",
+          "replicate_id": "h16_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 5
+          },
+          "left": "v09",
+          "replicate_id": "h16_link_09_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 15
+          },
+          "left": "v06",
+          "replicate_id": "h16_link_06_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 6
+          },
+          "left": "v07",
+          "replicate_id": "h16_link_07_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 7,
+            "trans": 3
+          },
+          "left": "v01",
+          "replicate_id": "h16_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 10,
+            "trans": 1
+          },
+          "left": "v07",
+          "replicate_id": "h16_link_07_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 9
+          },
+          "left": "v08",
+          "replicate_id": "h16_link_08_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 0
+          },
+          "left": "v06",
+          "replicate_id": "h16_link_06_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 0,
+            "trans": 15
+          },
+          "left": "v05",
+          "replicate_id": "h16_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 1,
+            "trans": 7
+          },
+          "left": "v08",
+          "replicate_id": "h16_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 13,
+            "trans": 2
+          },
+          "left": "v02",
+          "replicate_id": "h16_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 8,
+            "trans": 4
+          },
+          "left": "v04",
+          "replicate_id": "h16_link_04_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 2
+          },
+          "left": "v04",
+          "replicate_id": "h16_link_04_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 13
+          },
+          "left": "v07",
+          "replicate_id": "h16_link_07_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 1,
+            "trans": 7
+          },
+          "left": "v02",
+          "replicate_id": "h16_link_02_01",
+          "right": "v01"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09"
+      ]
+    },
+    {
+      "anchor": "v00",
+      "case_id": "h19",
+      "edges": [
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 15,
+            "trans": 8
+          },
+          "left": "v09",
+          "replicate_id": "h19_link_09_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 4,
+            "trans": 7
+          },
+          "left": "v01",
+          "replicate_id": "h19_link_01_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 3,
+            "trans": 15
+          },
+          "left": "v10",
+          "replicate_id": "h19_link_10_08",
+          "right": "v08"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 2
+          },
+          "left": "v08",
+          "replicate_id": "h19_link_08_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 3
+          },
+          "left": "v11",
+          "replicate_id": "h19_link_11_09",
+          "right": "v09"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 5,
+            "trans": 7
+          },
+          "left": "v11",
+          "replicate_id": "h19_link_11_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 10
+          },
+          "left": "v07",
+          "replicate_id": "h19_link_07_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 8,
+            "trans": 5
+          },
+          "left": "v02",
+          "replicate_id": "h19_link_02_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 11,
+            "trans": 7
+          },
+          "left": "v04",
+          "replicate_id": "h19_link_04_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 6,
+            "trans": 13
+          },
+          "left": "v11",
+          "replicate_id": "h19_link_11_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 14,
+            "trans": 5
+          },
+          "left": "v05",
+          "replicate_id": "h19_link_05_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 9,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h19_link_08_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 11
+          },
+          "left": "v07",
+          "replicate_id": "h19_link_07_04",
+          "right": "v04"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 3,
+            "cis": 14,
+            "trans": 8
+          },
+          "left": "v05",
+          "replicate_id": "h19_link_05_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 20,
+            "trans": 4
+          },
+          "left": "v04",
+          "replicate_id": "h19_link_04_01",
+          "right": "v01"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 7,
+            "trans": 2
+          },
+          "left": "v09",
+          "replicate_id": "h19_link_09_02",
+          "right": "v02"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 1,
+            "cis": 5,
+            "trans": 13
+          },
+          "left": "v05",
+          "replicate_id": "h19_link_05_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 9,
+            "trans": 15
+          },
+          "left": "v11",
+          "replicate_id": "h19_link_11_00",
+          "right": "v00"
+        },
+        {
+          "batch_id": "lane_A",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 20,
+            "trans": 3
+          },
+          "left": "v08",
+          "replicate_id": "h19_link_08_07",
+          "right": "v07"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 5,
+            "cis": 8,
+            "trans": 16
+          },
+          "left": "v10",
+          "replicate_id": "h19_link_10_06",
+          "right": "v06"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 2,
+            "trans": 6
+          },
+          "left": "v06",
+          "replicate_id": "h19_link_06_03",
+          "right": "v03"
+        },
+        {
+          "batch_id": "lane_C",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 18,
+            "trans": 4
+          },
+          "left": "v09",
+          "replicate_id": "h19_link_09_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 0,
+            "cis": 4,
+            "trans": 11
+          },
+          "left": "v10",
+          "replicate_id": "h19_link_10_05",
+          "right": "v05"
+        },
+        {
+          "batch_id": "lane_B",
+          "counts": {
+            "ambiguous": 2,
+            "cis": 4,
+            "trans": 13
+          },
+          "left": "v03",
+          "replicate_id": "h19_link_03_01",
+          "right": "v01"
+        }
+      ],
+      "loci": [
+        "v00",
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11"
+      ]
+    }
+  ],
+  "synthetic": true
+}

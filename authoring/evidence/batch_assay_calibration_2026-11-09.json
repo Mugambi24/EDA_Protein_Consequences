@@ -1,0 +1,625 @@
+{
+  "alternative": "separately implemented batch estimator evaluated against planted truth",
+  "casewise_raw_pooling_discrimination": {
+    "method": "Uncalibrated A1_unique/(A1_unique+A2_unique) with +/-0.11 intervals",
+    "per_dataset": {
+      "hidden": {
+        "case_count": 28,
+        "min_case_max_raw_error": 0.147921,
+        "per_case": [
+          {
+            "case_id": "h00",
+            "max_abs_raw_fraction_error": 0.177216,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h01",
+            "max_abs_raw_fraction_error": 0.200749,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h02",
+            "max_abs_raw_fraction_error": 0.166929,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h03",
+            "max_abs_raw_fraction_error": 0.207348,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h04",
+            "max_abs_raw_fraction_error": 0.179504,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h05",
+            "max_abs_raw_fraction_error": 0.18956,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h06",
+            "max_abs_raw_fraction_error": 0.188755,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h07",
+            "max_abs_raw_fraction_error": 0.174221,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h08",
+            "max_abs_raw_fraction_error": 0.189751,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h09",
+            "max_abs_raw_fraction_error": 0.161907,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h10",
+            "max_abs_raw_fraction_error": 0.181395,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h11",
+            "max_abs_raw_fraction_error": 0.147921,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h12",
+            "max_abs_raw_fraction_error": 0.156037,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h13",
+            "max_abs_raw_fraction_error": 0.163618,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h14",
+            "max_abs_raw_fraction_error": 0.1916,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h15",
+            "max_abs_raw_fraction_error": 0.168058,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h16",
+            "max_abs_raw_fraction_error": 0.177645,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h17",
+            "max_abs_raw_fraction_error": 0.177425,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h18",
+            "max_abs_raw_fraction_error": 0.166976,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h19",
+            "max_abs_raw_fraction_error": 0.201291,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h20",
+            "max_abs_raw_fraction_error": 0.185548,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h21",
+            "max_abs_raw_fraction_error": 0.177734,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h22",
+            "max_abs_raw_fraction_error": 0.175366,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h23",
+            "max_abs_raw_fraction_error": 0.190921,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h24",
+            "max_abs_raw_fraction_error": 0.189848,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h25",
+            "max_abs_raw_fraction_error": 0.175703,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h26",
+            "max_abs_raw_fraction_error": 0.205251,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "h27",
+            "max_abs_raw_fraction_error": 0.20204,
+            "raw_pm_0_11_can_pass_both_panels": false
+          }
+        ],
+        "raw_pooling_solved_cases": 0
+      },
+      "sealed": {
+        "case_count": 23,
+        "min_case_max_raw_error": 0.150188,
+        "per_case": [
+          {
+            "case_id": "m01",
+            "max_abs_raw_fraction_error": 0.150188,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m02",
+            "max_abs_raw_fraction_error": 0.189904,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m03",
+            "max_abs_raw_fraction_error": 0.181441,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m04",
+            "max_abs_raw_fraction_error": 0.183689,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m05",
+            "max_abs_raw_fraction_error": 0.175427,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m06",
+            "max_abs_raw_fraction_error": 0.181325,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m07",
+            "max_abs_raw_fraction_error": 0.179694,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m08",
+            "max_abs_raw_fraction_error": 0.157999,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m09",
+            "max_abs_raw_fraction_error": 0.181977,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m10",
+            "max_abs_raw_fraction_error": 0.196798,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m11",
+            "max_abs_raw_fraction_error": 0.206347,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m12",
+            "max_abs_raw_fraction_error": 0.151546,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m13",
+            "max_abs_raw_fraction_error": 0.176914,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m14",
+            "max_abs_raw_fraction_error": 0.186576,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m15",
+            "max_abs_raw_fraction_error": 0.17337,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m16",
+            "max_abs_raw_fraction_error": 0.185999,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m17",
+            "max_abs_raw_fraction_error": 0.164201,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m18",
+            "max_abs_raw_fraction_error": 0.177023,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m19",
+            "max_abs_raw_fraction_error": 0.198225,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m20",
+            "max_abs_raw_fraction_error": 0.174508,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m21",
+            "max_abs_raw_fraction_error": 0.184705,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m22",
+            "max_abs_raw_fraction_error": 0.197712,
+            "raw_pm_0_11_can_pass_both_panels": false
+          },
+          {
+            "case_id": "m23",
+            "max_abs_raw_fraction_error": 0.172987,
+            "raw_pm_0_11_can_pass_both_panels": false
+          }
+        ],
+        "raw_pooling_solved_cases": 0
+      }
+    }
+  },
+  "existing_bounds": {
+    "coverage_ge": 0.85,
+    "max_error_lt": 0.065,
+    "max_width_lt": 0.45,
+    "mean_error_le": 0.035,
+    "mean_width_lt": 0.32
+  },
+  "perturbation_check": {
+    "lane_B_spikein_response_max": 0.029504,
+    "published_minimum": 0.004
+  },
+  "provenance": "generator=generate_batch_assay.make; truth independently drawn and not provided to agent",
+  "records": [
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.049028,
+        "max_width": 0.11,
+        "mean_error": 0.018926,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": "fixture",
+      "tag": "sealed"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.027023,
+        "max_width": 0.11,
+        "mean_error": 0.010998,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": "fixture",
+      "tag": "sealed"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.050178,
+        "max_width": 0.11,
+        "mean_error": 0.020313,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 13522,
+      "tag": "sealed"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.035131,
+        "max_width": 0.11,
+        "mean_error": 0.013981,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 13522,
+      "tag": "sealed"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.033547,
+        "max_width": 0.11,
+        "mean_error": 0.012641,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 14034,
+      "tag": "sealed"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.037421,
+        "max_width": 0.11,
+        "mean_error": 0.016088,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 14034,
+      "tag": "sealed"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.049877,
+        "max_width": 0.11,
+        "mean_error": 0.021722,
+        "mean_width": 0.109628
+      },
+      "passed": true,
+      "seed": 15048,
+      "tag": "sealed"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.035527,
+        "max_width": 0.11,
+        "mean_error": 0.013494,
+        "mean_width": 0.109756
+      },
+      "passed": true,
+      "seed": 15048,
+      "tag": "sealed"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.04156,
+        "max_width": 0.11,
+        "mean_error": 0.017337,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 22358,
+      "tag": "sealed"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.040007,
+        "max_width": 0.11,
+        "mean_error": 0.012801,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 22358,
+      "tag": "sealed"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.044828,
+        "max_width": 0.11,
+        "mean_error": 0.017415,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 25082,
+      "tag": "sealed"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.054635,
+        "max_width": 0.11,
+        "mean_error": 0.015358,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 25082,
+      "tag": "sealed"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.050281,
+        "max_width": 0.11,
+        "mean_error": 0.018727,
+        "mean_width": 0.109937
+      },
+      "passed": true,
+      "seed": "fixture",
+      "tag": "hidden"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.033056,
+        "max_width": 0.11,
+        "mean_error": 0.010591,
+        "mean_width": 0.109968
+      },
+      "passed": true,
+      "seed": "fixture",
+      "tag": "hidden"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.050178,
+        "max_width": 0.11,
+        "mean_error": 0.021336,
+        "mean_width": 0.109854
+      },
+      "passed": true,
+      "seed": 13522,
+      "tag": "hidden"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.035131,
+        "max_width": 0.11,
+        "mean_error": 0.014644,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 13522,
+      "tag": "hidden"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.033547,
+        "max_width": 0.11,
+        "mean_error": 0.012235,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 14034,
+      "tag": "hidden"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.037421,
+        "max_width": 0.11,
+        "mean_error": 0.015672,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 14034,
+      "tag": "hidden"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.049877,
+        "max_width": 0.11,
+        "mean_error": 0.021476,
+        "mean_width": 0.109694
+      },
+      "passed": true,
+      "seed": 15048,
+      "tag": "hidden"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.039578,
+        "max_width": 0.11,
+        "mean_error": 0.014644,
+        "mean_width": 0.1098
+      },
+      "passed": true,
+      "seed": 15048,
+      "tag": "hidden"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.050201,
+        "max_width": 0.11,
+        "mean_error": 0.017757,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 22358,
+      "tag": "hidden"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.040007,
+        "max_width": 0.11,
+        "mean_error": 0.013251,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 22358,
+      "tag": "hidden"
+    },
+    {
+      "method": "reference",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.050782,
+        "max_width": 0.11,
+        "mean_error": 0.018159,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 25082,
+      "tag": "hidden"
+    },
+    {
+      "method": "alternative",
+      "metrics": {
+        "coverage": 1,
+        "max_error": 0.054635,
+        "max_width": 0.11,
+        "mean_error": 0.014765,
+        "mean_width": 0.11
+      },
+      "passed": true,
+      "seed": 25082,
+      "tag": "hidden"
+    }
+  ],
+  "reference": "standard-library nonlinear robust calibration",
+  "scope": "Synthetic planted truth only. No experimental samples or clinical claims.",
+  "summary": {
+    "alternative": {
+      "datasets": 12,
+      "largest_max_width": 0.11,
+      "largest_mean_width": 0.11,
+      "minimum_coverage": 1,
+      "passed": 12,
+      "worst_max_error": 0.054635,
+      "worst_mean_error": 0.016088
+    },
+    "reference": {
+      "datasets": 12,
+      "largest_max_width": 0.11,
+      "largest_mean_width": 0.11,
+      "minimum_coverage": 1,
+      "passed": 12,
+      "worst_max_error": 0.050782,
+      "worst_mean_error": 0.021722
+    }
+  }
+}

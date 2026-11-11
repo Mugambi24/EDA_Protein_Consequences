@@ -1,0 +1,2743 @@
+{
+  "assay_id": "EDA-paired-perturbation-v1",
+  "calibration_source": "phased_assay.standards",
+  "measurements": [
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 448,
+        "h0_A2": 231,
+        "h0_shared": 144,
+        "h1_A1": 340,
+        "h1_A2": 601,
+        "h1_shared": 168,
+        "unassigned": 67,
+        "unphased_A1": 195,
+        "unphased_A2": 175
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 265,
+        "h0_A2": 333,
+        "h0_shared": 99,
+        "h1_A1": 129,
+        "h1_A2": 827,
+        "h1_shared": 141,
+        "unassigned": 89,
+        "unphased_A1": 155,
+        "unphased_A2": 362
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 479,
+        "h0_A2": 377,
+        "h0_shared": 141,
+        "h1_A1": 292,
+        "h1_A2": 370,
+        "h1_shared": 92,
+        "unassigned": 89,
+        "unphased_A1": 215,
+        "unphased_A2": 241
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 465,
+        "h0_A2": 268,
+        "h0_shared": 157,
+        "h1_A1": 324,
+        "h1_A2": 545,
+        "h1_shared": 167,
+        "unassigned": 67,
+        "unphased_A1": 165,
+        "unphased_A2": 186
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 388,
+        "h0_A2": 380,
+        "h0_shared": 169,
+        "h1_A1": 295,
+        "h1_A2": 379,
+        "h1_shared": 113,
+        "unassigned": 60,
+        "unphased_A1": 149,
+        "unphased_A2": 176
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 317,
+        "h0_A2": 321,
+        "h0_shared": 103,
+        "h1_A1": 231,
+        "h1_A2": 353,
+        "h1_shared": 74,
+        "unassigned": 63,
+        "unphased_A1": 204,
+        "unphased_A2": 216
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 616,
+        "h0_A2": 276,
+        "h0_shared": 114,
+        "h1_A1": 224,
+        "h1_A2": 313,
+        "h1_shared": 58,
+        "unassigned": 76,
+        "unphased_A1": 341,
+        "unphased_A2": 235
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 343,
+        "h0_A2": 302,
+        "h0_shared": 85,
+        "h1_A1": 196,
+        "h1_A2": 290,
+        "h1_shared": 52,
+        "unassigned": 44,
+        "unphased_A1": 199,
+        "unphased_A2": 198
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 390,
+        "h0_A2": 444,
+        "h0_shared": 112,
+        "h1_A1": 226,
+        "h1_A2": 428,
+        "h1_shared": 115,
+        "unassigned": 78,
+        "unphased_A1": 216,
+        "unphased_A2": 299
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 364,
+        "h0_A2": 346,
+        "h0_shared": 74,
+        "h1_A1": 197,
+        "h1_A2": 620,
+        "h1_shared": 99,
+        "unassigned": 76,
+        "unphased_A1": 226,
+        "unphased_A2": 358
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 749,
+        "h0_A2": 307,
+        "h0_shared": 237,
+        "h1_A1": 223,
+        "h1_A2": 381,
+        "h1_shared": 116,
+        "unassigned": 89,
+        "unphased_A1": 219,
+        "unphased_A2": 146
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 503,
+        "h0_A2": 188,
+        "h0_shared": 147,
+        "h1_A1": 354,
+        "h1_A2": 641,
+        "h1_shared": 172,
+        "unassigned": 74,
+        "unphased_A1": 200,
+        "unphased_A2": 174
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 462,
+        "h0_A2": 402,
+        "h0_shared": 210,
+        "h1_A1": 343,
+        "h1_A2": 440,
+        "h1_shared": 136,
+        "unassigned": 83,
+        "unphased_A1": 179,
+        "unphased_A2": 168
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 389,
+        "h0_A2": 247,
+        "h0_shared": 135,
+        "h1_A1": 88,
+        "h1_A2": 488,
+        "h1_shared": 89,
+        "unassigned": 63,
+        "unphased_A1": 125,
+        "unphased_A2": 169
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 358,
+        "h0_A2": 149,
+        "h0_shared": 119,
+        "h1_A1": 233,
+        "h1_A2": 491,
+        "h1_shared": 151,
+        "unassigned": 62,
+        "unphased_A1": 152,
+        "unphased_A2": 138
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 327,
+        "h0_A2": 239,
+        "h0_shared": 104,
+        "h1_A1": 205,
+        "h1_A2": 425,
+        "h1_shared": 93,
+        "unassigned": 63,
+        "unphased_A1": 183,
+        "unphased_A2": 244
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 303,
+        "h0_A2": 207,
+        "h0_shared": 78,
+        "h1_A1": 332,
+        "h1_A2": 384,
+        "h1_shared": 115,
+        "unassigned": 82,
+        "unphased_A1": 230,
+        "unphased_A2": 217
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 305,
+        "h0_A2": 329,
+        "h0_shared": 118,
+        "h1_A1": 407,
+        "h1_A2": 558,
+        "h1_shared": 117,
+        "unassigned": 69,
+        "unphased_A1": 233,
+        "unphased_A2": 284
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 363,
+        "h0_A2": 199,
+        "h0_shared": 144,
+        "h1_A1": 177,
+        "h1_A2": 633,
+        "h1_shared": 152,
+        "unassigned": 66,
+        "unphased_A1": 126,
+        "unphased_A2": 186
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 470,
+        "h0_A2": 215,
+        "h0_shared": 72,
+        "h1_A1": 196,
+        "h1_A2": 446,
+        "h1_shared": 71,
+        "unassigned": 58,
+        "unphased_A1": 243,
+        "unphased_A2": 249
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 229,
+        "h0_A2": 328,
+        "h0_shared": 56,
+        "h1_A1": 175,
+        "h1_A2": 506,
+        "h1_shared": 85,
+        "unassigned": 56,
+        "unphased_A1": 126,
+        "unphased_A2": 296
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 399,
+        "h0_A2": 298,
+        "h0_shared": 150,
+        "h1_A1": 332,
+        "h1_A2": 433,
+        "h1_shared": 130,
+        "unassigned": 57,
+        "unphased_A1": 156,
+        "unphased_A2": 178
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 316,
+        "h0_A2": 326,
+        "h0_shared": 146,
+        "h1_A1": 297,
+        "h1_A2": 735,
+        "h1_shared": 182,
+        "unassigned": 81,
+        "unphased_A1": 151,
+        "unphased_A2": 217
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 401,
+        "h0_A2": 192,
+        "h0_shared": 77,
+        "h1_A1": 279,
+        "h1_A2": 672,
+        "h1_shared": 107,
+        "unassigned": 80,
+        "unphased_A1": 250,
+        "unphased_A2": 345
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 351,
+        "h0_A2": 344,
+        "h0_shared": 102,
+        "h1_A1": 261,
+        "h1_A2": 395,
+        "h1_shared": 91,
+        "unassigned": 70,
+        "unphased_A1": 217,
+        "unphased_A2": 262
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 372,
+        "h0_A2": 222,
+        "h0_shared": 129,
+        "h1_A1": 300,
+        "h1_A2": 429,
+        "h1_shared": 145,
+        "unassigned": 56,
+        "unphased_A1": 147,
+        "unphased_A2": 148
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 307,
+        "h0_A2": 337,
+        "h0_shared": 85,
+        "h1_A1": 233,
+        "h1_A2": 444,
+        "h1_shared": 79,
+        "unassigned": 66,
+        "unphased_A1": 204,
+        "unphased_A2": 279
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 275,
+        "h0_A2": 217,
+        "h0_shared": 78,
+        "h1_A1": 318,
+        "h1_A2": 440,
+        "h1_shared": 108,
+        "unassigned": 78,
+        "unphased_A1": 206,
+        "unphased_A2": 206
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 265,
+        "h0_A2": 382,
+        "h0_shared": 84,
+        "h1_A1": 376,
+        "h1_A2": 260,
+        "h1_shared": 91,
+        "unassigned": 63,
+        "unphased_A1": 246,
+        "unphased_A2": 248
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 275,
+        "h0_A2": 345,
+        "h0_shared": 67,
+        "h1_A1": 120,
+        "h1_A2": 825,
+        "h1_shared": 96,
+        "unassigned": 61,
+        "unphased_A1": 169,
+        "unphased_A2": 459
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 463,
+        "h0_A2": 182,
+        "h0_shared": 119,
+        "h1_A1": 177,
+        "h1_A2": 451,
+        "h1_shared": 99,
+        "unassigned": 83,
+        "unphased_A1": 245,
+        "unphased_A2": 200
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 284,
+        "h0_A2": 322,
+        "h0_shared": 101,
+        "h1_A1": 104,
+        "h1_A2": 540,
+        "h1_shared": 104,
+        "unassigned": 71,
+        "unphased_A1": 131,
+        "unphased_A2": 327
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 244,
+        "h0_A2": 153,
+        "h0_shared": 60,
+        "h1_A1": 229,
+        "h1_A2": 534,
+        "h1_shared": 88,
+        "unassigned": 66,
+        "unphased_A1": 157,
+        "unphased_A2": 265
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 720,
+        "h0_A2": 300,
+        "h0_shared": 251,
+        "h1_A1": 273,
+        "h1_A2": 407,
+        "h1_shared": 107,
+        "unassigned": 84,
+        "unphased_A1": 208,
+        "unphased_A2": 150
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 294,
+        "h0_A2": 206,
+        "h0_shared": 69,
+        "h1_A1": 286,
+        "h1_A2": 477,
+        "h1_shared": 102,
+        "unassigned": 69,
+        "unphased_A1": 242,
+        "unphased_A2": 272
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 282,
+        "h0_A2": 224,
+        "h0_shared": 72,
+        "h1_A1": 309,
+        "h1_A2": 483,
+        "h1_shared": 87,
+        "unassigned": 73,
+        "unphased_A1": 217,
+        "unphased_A2": 265
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 385,
+        "h0_A2": 176,
+        "h0_shared": 118,
+        "h1_A1": 233,
+        "h1_A2": 838,
+        "h1_shared": 216,
+        "unassigned": 64,
+        "unphased_A1": 136,
+        "unphased_A2": 235
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 590,
+        "h0_A2": 300,
+        "h0_shared": 153,
+        "h1_A1": 237,
+        "h1_A2": 424,
+        "h1_shared": 90,
+        "unassigned": 78,
+        "unphased_A1": 289,
+        "unphased_A2": 273
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 159,
+        "h0_A2": 208,
+        "h0_shared": 83,
+        "h1_A1": 236,
+        "h1_A2": 581,
+        "h1_shared": 162,
+        "unassigned": 51,
+        "unphased_A1": 94,
+        "unphased_A2": 169
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 492,
+        "h0_A2": 215,
+        "h0_shared": 124,
+        "h1_A1": 181,
+        "h1_A2": 455,
+        "h1_shared": 106,
+        "unassigned": 64,
+        "unphased_A1": 245,
+        "unphased_A2": 243
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 449,
+        "h0_A2": 343,
+        "h0_shared": 171,
+        "h1_A1": 266,
+        "h1_A2": 473,
+        "h1_shared": 138,
+        "unassigned": 78,
+        "unphased_A1": 153,
+        "unphased_A2": 186
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 359,
+        "h0_A2": 191,
+        "h0_shared": 85,
+        "h1_A1": 205,
+        "h1_A2": 613,
+        "h1_shared": 87,
+        "unassigned": 59,
+        "unphased_A1": 243,
+        "unphased_A2": 314
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 352,
+        "h0_A2": 254,
+        "h0_shared": 126,
+        "h1_A1": 137,
+        "h1_A2": 575,
+        "h1_shared": 147,
+        "unassigned": 49,
+        "unphased_A1": 131,
+        "unphased_A2": 192
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 288,
+        "h0_A2": 310,
+        "h0_shared": 126,
+        "h1_A1": 115,
+        "h1_A2": 477,
+        "h1_shared": 107,
+        "unassigned": 43,
+        "unphased_A1": 100,
+        "unphased_A2": 185
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 386,
+        "h0_A2": 242,
+        "h0_shared": 97,
+        "h1_A1": 191,
+        "h1_A2": 300,
+        "h1_shared": 57,
+        "unassigned": 60,
+        "unphased_A1": 207,
+        "unphased_A2": 187
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 297,
+        "h0_A2": 376,
+        "h0_shared": 66,
+        "h1_A1": 315,
+        "h1_A2": 620,
+        "h1_shared": 135,
+        "unassigned": 65,
+        "unphased_A1": 238,
+        "unphased_A2": 353
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 374,
+        "h0_A2": 252,
+        "h0_shared": 125,
+        "h1_A1": 267,
+        "h1_A2": 496,
+        "h1_shared": 145,
+        "unassigned": 54,
+        "unphased_A1": 137,
+        "unphased_A2": 169
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 298,
+        "h0_A2": 202,
+        "h0_shared": 89,
+        "h1_A1": 278,
+        "h1_A2": 676,
+        "h1_shared": 137,
+        "unassigned": 87,
+        "unphased_A1": 235,
+        "unphased_A2": 308
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 260,
+        "h0_A2": 251,
+        "h0_shared": 52,
+        "h1_A1": 137,
+        "h1_A2": 837,
+        "h1_shared": 105,
+        "unassigned": 73,
+        "unphased_A1": 148,
+        "unphased_A2": 472
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 221,
+        "h0_A2": 317,
+        "h0_shared": 59,
+        "h1_A1": 233,
+        "h1_A2": 647,
+        "h1_shared": 101,
+        "unassigned": 49,
+        "unphased_A1": 161,
+        "unphased_A2": 354
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 231,
+        "h0_A2": 309,
+        "h0_shared": 82,
+        "h1_A1": 292,
+        "h1_A2": 721,
+        "h1_shared": 171,
+        "unassigned": 87,
+        "unphased_A1": 188,
+        "unphased_A2": 350
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 385,
+        "h0_A2": 299,
+        "h0_shared": 139,
+        "h1_A1": 451,
+        "h1_A2": 282,
+        "h1_shared": 130,
+        "unassigned": 59,
+        "unphased_A1": 201,
+        "unphased_A2": 130
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 295,
+        "h0_A2": 397,
+        "h0_shared": 85,
+        "h1_A1": 212,
+        "h1_A2": 649,
+        "h1_shared": 103,
+        "unassigned": 69,
+        "unphased_A1": 175,
+        "unphased_A2": 385
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 390,
+        "h0_A2": 312,
+        "h0_shared": 158,
+        "h1_A1": 367,
+        "h1_A2": 165,
+        "h1_shared": 103,
+        "unassigned": 57,
+        "unphased_A1": 172,
+        "unphased_A2": 89
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 367,
+        "h0_A2": 316,
+        "h0_shared": 137,
+        "h1_A1": 253,
+        "h1_A2": 395,
+        "h1_shared": 120,
+        "unassigned": 61,
+        "unphased_A1": 135,
+        "unphased_A2": 150
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 294,
+        "h0_A2": 439,
+        "h0_shared": 146,
+        "h1_A1": 215,
+        "h1_A2": 387,
+        "h1_shared": 133,
+        "unassigned": 58,
+        "unphased_A1": 136,
+        "unphased_A2": 180
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 478,
+        "h0_A2": 219,
+        "h0_shared": 97,
+        "h1_A1": 316,
+        "h1_A2": 443,
+        "h1_shared": 112,
+        "unassigned": 93,
+        "unphased_A1": 297,
+        "unphased_A2": 234
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 222,
+        "h0_A2": 303,
+        "h0_shared": 42,
+        "h1_A1": 105,
+        "h1_A2": 818,
+        "h1_shared": 107,
+        "unassigned": 66,
+        "unphased_A1": 112,
+        "unphased_A2": 415
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 265,
+        "h0_A2": 228,
+        "h0_shared": 67,
+        "h1_A1": 293,
+        "h1_A2": 705,
+        "h1_shared": 110,
+        "unassigned": 67,
+        "unphased_A1": 214,
+        "unphased_A2": 383
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 249,
+        "h0_A2": 240,
+        "h0_shared": 66,
+        "h1_A1": 198,
+        "h1_A2": 438,
+        "h1_shared": 102,
+        "unassigned": 77,
+        "unphased_A1": 156,
+        "unphased_A2": 231
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 339,
+        "h0_A2": 337,
+        "h0_shared": 86,
+        "h1_A1": 250,
+        "h1_A2": 452,
+        "h1_shared": 90,
+        "unassigned": 55,
+        "unphased_A1": 236,
+        "unphased_A2": 290
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 484,
+        "h0_A2": 185,
+        "h0_shared": 142,
+        "h1_A1": 297,
+        "h1_A2": 557,
+        "h1_shared": 165,
+        "unassigned": 62,
+        "unphased_A1": 171,
+        "unphased_A2": 172
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 295,
+        "h0_A2": 328,
+        "h0_shared": 100,
+        "h1_A1": 233,
+        "h1_A2": 321,
+        "h1_shared": 74,
+        "unassigned": 42,
+        "unphased_A1": 195,
+        "unphased_A2": 210
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 262,
+        "h0_A2": 279,
+        "h0_shared": 93,
+        "h1_A1": 203,
+        "h1_A2": 480,
+        "h1_shared": 118,
+        "unassigned": 75,
+        "unphased_A1": 160,
+        "unphased_A2": 280
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 290,
+        "h0_A2": 279,
+        "h0_shared": 75,
+        "h1_A1": 206,
+        "h1_A2": 687,
+        "h1_shared": 96,
+        "unassigned": 66,
+        "unphased_A1": 195,
+        "unphased_A2": 364
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 295,
+        "h0_A2": 191,
+        "h0_shared": 86,
+        "h1_A1": 333,
+        "h1_A2": 454,
+        "h1_shared": 97,
+        "unassigned": 66,
+        "unphased_A1": 231,
+        "unphased_A2": 205
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 455,
+        "h0_A2": 248,
+        "h0_shared": 134,
+        "h1_A1": 326,
+        "h1_A2": 562,
+        "h1_shared": 119,
+        "unassigned": 78,
+        "unphased_A1": 283,
+        "unphased_A2": 283
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 246,
+        "h0_A2": 273,
+        "h0_shared": 115,
+        "h1_A1": 137,
+        "h1_A2": 617,
+        "h1_shared": 111,
+        "unassigned": 43,
+        "unphased_A1": 81,
+        "unphased_A2": 190
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 304,
+        "h0_A2": 351,
+        "h0_shared": 107,
+        "h1_A1": 226,
+        "h1_A2": 407,
+        "h1_shared": 87,
+        "unassigned": 75,
+        "unphased_A1": 214,
+        "unphased_A2": 261
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 215,
+        "h0_A2": 240,
+        "h0_shared": 67,
+        "h1_A1": 152,
+        "h1_A2": 964,
+        "h1_shared": 162,
+        "unassigned": 82,
+        "unphased_A1": 115,
+        "unphased_A2": 403
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 426,
+        "h0_A2": 232,
+        "h0_shared": 120,
+        "h1_A1": 411,
+        "h1_A2": 332,
+        "h1_shared": 131,
+        "unassigned": 75,
+        "unphased_A1": 192,
+        "unphased_A2": 126
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 233,
+        "h0_A2": 257,
+        "h0_shared": 55,
+        "h1_A1": 222,
+        "h1_A2": 423,
+        "h1_shared": 60,
+        "unassigned": 49,
+        "unphased_A1": 144,
+        "unphased_A2": 266
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 362,
+        "h0_A2": 215,
+        "h0_shared": 89,
+        "h1_A1": 213,
+        "h1_A2": 712,
+        "h1_shared": 92,
+        "unassigned": 70,
+        "unphased_A1": 203,
+        "unphased_A2": 350
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 354,
+        "h0_A2": 267,
+        "h0_shared": 93,
+        "h1_A1": 253,
+        "h1_A2": 443,
+        "h1_shared": 92,
+        "unassigned": 69,
+        "unphased_A1": 195,
+        "unphased_A2": 262
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 443,
+        "h0_A2": 394,
+        "h0_shared": 104,
+        "h1_A1": 210,
+        "h1_A2": 397,
+        "h1_shared": 69,
+        "unassigned": 68,
+        "unphased_A1": 314,
+        "unphased_A2": 285
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 484,
+        "h0_A2": 233,
+        "h0_shared": 168,
+        "h1_A1": 399,
+        "h1_A2": 528,
+        "h1_shared": 168,
+        "unassigned": 90,
+        "unphased_A1": 190,
+        "unphased_A2": 178
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 395,
+        "h0_A2": 245,
+        "h0_shared": 91,
+        "h1_A1": 243,
+        "h1_A2": 499,
+        "h1_shared": 84,
+        "unassigned": 69,
+        "unphased_A1": 234,
+        "unphased_A2": 274
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 344,
+        "h0_A2": 311,
+        "h0_shared": 132,
+        "h1_A1": 410,
+        "h1_A2": 604,
+        "h1_shared": 202,
+        "unassigned": 67,
+        "unphased_A1": 186,
+        "unphased_A2": 187
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 605,
+        "h0_A2": 215,
+        "h0_shared": 104,
+        "h1_A1": 286,
+        "h1_A2": 146,
+        "h1_shared": 69,
+        "unassigned": 74,
+        "unphased_A1": 381,
+        "unphased_A2": 124
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 595,
+        "h0_A2": 338,
+        "h0_shared": 192,
+        "h1_A1": 230,
+        "h1_A2": 424,
+        "h1_shared": 118,
+        "unassigned": 68,
+        "unphased_A1": 181,
+        "unphased_A2": 164
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 280,
+        "h0_A2": 307,
+        "h0_shared": 60,
+        "h1_A1": 205,
+        "h1_A2": 500,
+        "h1_shared": 77,
+        "unassigned": 61,
+        "unphased_A1": 213,
+        "unphased_A2": 297
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 477,
+        "h0_A2": 322,
+        "h0_shared": 168,
+        "h1_A1": 308,
+        "h1_A2": 173,
+        "h1_shared": 91,
+        "unassigned": 49,
+        "unphased_A1": 193,
+        "unphased_A2": 117
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 449,
+        "h0_A2": 471,
+        "h0_shared": 111,
+        "h1_A1": 249,
+        "h1_A2": 388,
+        "h1_shared": 73,
+        "unassigned": 74,
+        "unphased_A1": 278,
+        "unphased_A2": 316
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 392,
+        "h0_A2": 280,
+        "h0_shared": 93,
+        "h1_A1": 357,
+        "h1_A2": 599,
+        "h1_shared": 98,
+        "unassigned": 67,
+        "unphased_A1": 276,
+        "unphased_A2": 291
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 294,
+        "h0_A2": 381,
+        "h0_shared": 147,
+        "h1_A1": 180,
+        "h1_A2": 429,
+        "h1_shared": 109,
+        "unassigned": 68,
+        "unphased_A1": 107,
+        "unphased_A2": 182
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 394,
+        "h0_A2": 250,
+        "h0_shared": 85,
+        "h1_A1": 111,
+        "h1_A2": 747,
+        "h1_shared": 112,
+        "unassigned": 61,
+        "unphased_A1": 173,
+        "unphased_A2": 384
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 636,
+        "h0_A2": 266,
+        "h0_shared": 184,
+        "h1_A1": 439,
+        "h1_A2": 234,
+        "h1_shared": 134,
+        "unassigned": 64,
+        "unphased_A1": 239,
+        "unphased_A2": 113
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 474,
+        "h0_A2": 165,
+        "h0_shared": 84,
+        "h1_A1": 523,
+        "h1_A2": 265,
+        "h1_shared": 106,
+        "unassigned": 86,
+        "unphased_A1": 345,
+        "unphased_A2": 143
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 437,
+        "h0_A2": 399,
+        "h0_shared": 139,
+        "h1_A1": 256,
+        "h1_A2": 397,
+        "h1_shared": 79,
+        "unassigned": 73,
+        "unphased_A1": 244,
+        "unphased_A2": 260
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 195,
+        "h0_A2": 237,
+        "h0_shared": 47,
+        "h1_A1": 98,
+        "h1_A2": 829,
+        "h1_shared": 91,
+        "unassigned": 68,
+        "unphased_A1": 128,
+        "unphased_A2": 352
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 417,
+        "h0_A2": 230,
+        "h0_shared": 81,
+        "h1_A1": 211,
+        "h1_A2": 362,
+        "h1_shared": 62,
+        "unassigned": 58,
+        "unphased_A1": 261,
+        "unphased_A2": 248
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 426,
+        "h0_A2": 418,
+        "h0_shared": 106,
+        "h1_A1": 211,
+        "h1_A2": 428,
+        "h1_shared": 92,
+        "unassigned": 65,
+        "unphased_A1": 259,
+        "unphased_A2": 266
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 372,
+        "h0_A2": 277,
+        "h0_shared": 71,
+        "h1_A1": 219,
+        "h1_A2": 453,
+        "h1_shared": 101,
+        "unassigned": 56,
+        "unphased_A1": 247,
+        "unphased_A2": 274
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 500,
+        "h0_A2": 350,
+        "h0_shared": 85,
+        "h1_A1": 448,
+        "h1_A2": 322,
+        "h1_shared": 88,
+        "unassigned": 69,
+        "unphased_A1": 339,
+        "unphased_A2": 263
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 261,
+        "h0_A2": 271,
+        "h0_shared": 130,
+        "h1_A1": 289,
+        "h1_A2": 388,
+        "h1_shared": 111,
+        "unassigned": 62,
+        "unphased_A1": 123,
+        "unphased_A2": 118
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 427,
+        "h0_A2": 120,
+        "h0_shared": 81,
+        "h1_A1": 413,
+        "h1_A2": 126,
+        "h1_shared": 67,
+        "unassigned": 53,
+        "unphased_A1": 323,
+        "unphased_A2": 127
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 390,
+        "h0_A2": 258,
+        "h0_shared": 149,
+        "h1_A1": 407,
+        "h1_A2": 569,
+        "h1_shared": 175,
+        "unassigned": 66,
+        "unphased_A1": 181,
+        "unphased_A2": 193
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 405,
+        "h0_A2": 317,
+        "h0_shared": 146,
+        "h1_A1": 233,
+        "h1_A2": 518,
+        "h1_shared": 134,
+        "unassigned": 56,
+        "unphased_A1": 143,
+        "unphased_A2": 196
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 417,
+        "h0_A2": 407,
+        "h0_shared": 170,
+        "h1_A1": 258,
+        "h1_A2": 498,
+        "h1_shared": 133,
+        "unassigned": 76,
+        "unphased_A1": 132,
+        "unphased_A2": 169
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 348,
+        "h0_A2": 369,
+        "h0_shared": 81,
+        "h1_A1": 301,
+        "h1_A2": 519,
+        "h1_shared": 96,
+        "unassigned": 64,
+        "unphased_A1": 226,
+        "unphased_A2": 330
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 349,
+        "h0_A2": 328,
+        "h0_shared": 170,
+        "h1_A1": 199,
+        "h1_A2": 481,
+        "h1_shared": 132,
+        "unassigned": 66,
+        "unphased_A1": 145,
+        "unphased_A2": 167
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 241,
+        "h0_A2": 230,
+        "h0_shared": 85,
+        "h1_A1": 241,
+        "h1_A2": 603,
+        "h1_shared": 116,
+        "unassigned": 67,
+        "unphased_A1": 140,
+        "unphased_A2": 262
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 403,
+        "h0_A2": 485,
+        "h0_shared": 173,
+        "h1_A1": 357,
+        "h1_A2": 221,
+        "h1_shared": 124,
+        "unassigned": 80,
+        "unphased_A1": 177,
+        "unphased_A2": 140
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 491,
+        "h0_A2": 469,
+        "h0_shared": 222,
+        "h1_A1": 409,
+        "h1_A2": 274,
+        "h1_shared": 130,
+        "unassigned": 77,
+        "unphased_A1": 190,
+        "unphased_A2": 165
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 339,
+        "h0_A2": 245,
+        "h0_shared": 131,
+        "h1_A1": 297,
+        "h1_A2": 688,
+        "h1_shared": 188,
+        "unassigned": 68,
+        "unphased_A1": 128,
+        "unphased_A2": 184
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 171,
+        "h0_A2": 278,
+        "h0_shared": 78,
+        "h1_A1": 264,
+        "h1_A2": 828,
+        "h1_shared": 142,
+        "unassigned": 71,
+        "unphased_A1": 176,
+        "unphased_A2": 352
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 342,
+        "h0_A2": 225,
+        "h0_shared": 139,
+        "h1_A1": 216,
+        "h1_A2": 402,
+        "h1_shared": 108,
+        "unassigned": 51,
+        "unphased_A1": 135,
+        "unphased_A2": 124
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 594,
+        "h0_A2": 200,
+        "h0_shared": 88,
+        "h1_A1": 544,
+        "h1_A2": 205,
+        "h1_shared": 85,
+        "unassigned": 64,
+        "unphased_A1": 438,
+        "unphased_A2": 154
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 282,
+        "h0_A2": 217,
+        "h0_shared": 68,
+        "h1_A1": 177,
+        "h1_A2": 514,
+        "h1_shared": 74,
+        "unassigned": 53,
+        "unphased_A1": 191,
+        "unphased_A2": 283
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 165,
+        "h0_A2": 236,
+        "h0_shared": 33,
+        "h1_A1": 169,
+        "h1_A2": 547,
+        "h1_shared": 70,
+        "unassigned": 49,
+        "unphased_A1": 137,
+        "unphased_A2": 298
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 235,
+        "h0_A2": 279,
+        "h0_shared": 105,
+        "h1_A1": 255,
+        "h1_A2": 498,
+        "h1_shared": 139,
+        "unassigned": 42,
+        "unphased_A1": 98,
+        "unphased_A2": 165
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 405,
+        "h0_A2": 248,
+        "h0_shared": 113,
+        "h1_A1": 160,
+        "h1_A2": 376,
+        "h1_shared": 73,
+        "unassigned": 65,
+        "unphased_A1": 152,
+        "unphased_A2": 209
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 245,
+        "h0_A2": 235,
+        "h0_shared": 47,
+        "h1_A1": 163,
+        "h1_A2": 505,
+        "h1_shared": 78,
+        "unassigned": 52,
+        "unphased_A1": 177,
+        "unphased_A2": 290
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 354,
+        "h0_A2": 381,
+        "h0_shared": 77,
+        "h1_A1": 236,
+        "h1_A2": 427,
+        "h1_shared": 84,
+        "unassigned": 61,
+        "unphased_A1": 242,
+        "unphased_A2": 305
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 512,
+        "h0_A2": 328,
+        "h0_shared": 207,
+        "h1_A1": 269,
+        "h1_A2": 376,
+        "h1_shared": 128,
+        "unassigned": 56,
+        "unphased_A1": 182,
+        "unphased_A2": 145
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 470,
+        "h0_A2": 443,
+        "h0_shared": 185,
+        "h1_A1": 222,
+        "h1_A2": 357,
+        "h1_shared": 120,
+        "unassigned": 61,
+        "unphased_A1": 147,
+        "unphased_A2": 189
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 493,
+        "h0_A2": 286,
+        "h0_shared": 94,
+        "h1_A1": 296,
+        "h1_A2": 433,
+        "h1_shared": 95,
+        "unassigned": 67,
+        "unphased_A1": 307,
+        "unphased_A2": 279
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 172,
+        "h0_A2": 296,
+        "h0_shared": 83,
+        "h1_A1": 206,
+        "h1_A2": 589,
+        "h1_shared": 101,
+        "unassigned": 66,
+        "unphased_A1": 141,
+        "unphased_A2": 279
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 342,
+        "h0_A2": 196,
+        "h0_shared": 129,
+        "h1_A1": 291,
+        "h1_A2": 677,
+        "h1_shared": 173,
+        "unassigned": 82,
+        "unphased_A1": 136,
+        "unphased_A2": 172
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 270,
+        "h0_A2": 144,
+        "h0_shared": 60,
+        "h1_A1": 140,
+        "h1_A2": 686,
+        "h1_shared": 94,
+        "unassigned": 57,
+        "unphased_A1": 135,
+        "unphased_A2": 318
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 340,
+        "h0_A2": 170,
+        "h0_shared": 71,
+        "h1_A1": 225,
+        "h1_A2": 514,
+        "h1_shared": 84,
+        "unassigned": 67,
+        "unphased_A1": 228,
+        "unphased_A2": 266
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 412,
+        "h0_A2": 212,
+        "h0_shared": 114,
+        "h1_A1": 136,
+        "h1_A2": 368,
+        "h1_shared": 56,
+        "unassigned": 61,
+        "unphased_A1": 171,
+        "unphased_A2": 178
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 503,
+        "h0_A2": 182,
+        "h0_shared": 95,
+        "h1_A1": 599,
+        "h1_A2": 152,
+        "h1_shared": 87,
+        "unassigned": 72,
+        "unphased_A1": 421,
+        "unphased_A2": 138
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 218,
+        "h0_A2": 356,
+        "h0_shared": 84,
+        "h1_A1": 533,
+        "h1_A2": 303,
+        "h1_shared": 121,
+        "unassigned": 69,
+        "unphased_A1": 272,
+        "unphased_A2": 243
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 299,
+        "h0_A2": 361,
+        "h0_shared": 99,
+        "h1_A1": 312,
+        "h1_A2": 539,
+        "h1_shared": 132,
+        "unassigned": 75,
+        "unphased_A1": 205,
+        "unphased_A2": 292
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 465,
+        "h0_A2": 221,
+        "h0_shared": 96,
+        "h1_A1": 181,
+        "h1_A2": 406,
+        "h1_shared": 72,
+        "unassigned": 59,
+        "unphased_A1": 260,
+        "unphased_A2": 233
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 323,
+        "h0_A2": 267,
+        "h0_shared": 127,
+        "h1_A1": 372,
+        "h1_A2": 559,
+        "h1_shared": 179,
+        "unassigned": 66,
+        "unphased_A1": 133,
+        "unphased_A2": 142
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 430,
+        "h0_A2": 219,
+        "h0_shared": 90,
+        "h1_A1": 355,
+        "h1_A2": 524,
+        "h1_shared": 99,
+        "unassigned": 60,
+        "unphased_A1": 292,
+        "unphased_A2": 278
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 600,
+        "h0_A2": 231,
+        "h0_shared": 134,
+        "h1_A1": 223,
+        "h1_A2": 471,
+        "h1_shared": 96,
+        "unassigned": 77,
+        "unphased_A1": 337,
+        "unphased_A2": 243
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 588,
+        "h0_A2": 404,
+        "h0_shared": 193,
+        "h1_A1": 359,
+        "h1_A2": 207,
+        "h1_shared": 130,
+        "unassigned": 76,
+        "unphased_A1": 203,
+        "unphased_A2": 125
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 386,
+        "h0_A2": 126,
+        "h0_shared": 84,
+        "h1_A1": 195,
+        "h1_A2": 390,
+        "h1_shared": 69,
+        "unassigned": 64,
+        "unphased_A1": 217,
+        "unphased_A2": 181
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 256,
+        "h0_A2": 214,
+        "h0_shared": 70,
+        "h1_A1": 325,
+        "h1_A2": 474,
+        "h1_shared": 115,
+        "unassigned": 67,
+        "unphased_A1": 216,
+        "unphased_A2": 241
+      },
+      "donor_id": "D03",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 352,
+        "h0_A2": 279,
+        "h0_shared": 124,
+        "h1_A1": 203,
+        "h1_A2": 874,
+        "h1_shared": 203,
+        "unassigned": 72,
+        "unphased_A1": 125,
+        "unphased_A2": 248
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 374,
+        "h0_A2": 186,
+        "h0_shared": 106,
+        "h1_A1": 263,
+        "h1_A2": 392,
+        "h1_shared": 102,
+        "unassigned": 61,
+        "unphased_A1": 226,
+        "unphased_A2": 187
+      },
+      "donor_id": "D06",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 300,
+        "h0_A2": 305,
+        "h0_shared": 121,
+        "h1_A1": 182,
+        "h1_A2": 792,
+        "h1_shared": 184,
+        "unassigned": 58,
+        "unphased_A1": 95,
+        "unphased_A2": 205
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 263,
+        "h0_A2": 206,
+        "h0_shared": 105,
+        "h1_A1": 161,
+        "h1_A2": 593,
+        "h1_shared": 156,
+        "unassigned": 64,
+        "unphased_A1": 105,
+        "unphased_A2": 156
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 302,
+        "h0_A2": 211,
+        "h0_shared": 100,
+        "h1_A1": 358,
+        "h1_A2": 384,
+        "h1_shared": 146,
+        "unassigned": 48,
+        "unphased_A1": 146,
+        "unphased_A2": 136
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 172,
+        "h0_A2": 248,
+        "h0_shared": 67,
+        "h1_A1": 281,
+        "h1_A2": 658,
+        "h1_shared": 123,
+        "unassigned": 56,
+        "unphased_A1": 185,
+        "unphased_A2": 337
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 419,
+        "h0_A2": 383,
+        "h0_shared": 182,
+        "h1_A1": 315,
+        "h1_A2": 187,
+        "h1_shared": 102,
+        "unassigned": 54,
+        "unphased_A1": 159,
+        "unphased_A2": 140
+      },
+      "donor_id": "D04",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 458,
+        "h0_A2": 332,
+        "h0_shared": 87,
+        "h1_A1": 169,
+        "h1_A2": 511,
+        "h1_shared": 76,
+        "unassigned": 77,
+        "unphased_A1": 224,
+        "unphased_A2": 313
+      },
+      "donor_id": "D02",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 322,
+        "h0_A2": 324,
+        "h0_shared": 134,
+        "h1_A1": 398,
+        "h1_A2": 620,
+        "h1_shared": 178,
+        "unassigned": 61,
+        "unphased_A1": 147,
+        "unphased_A2": 209
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 446,
+        "h0_A2": 342,
+        "h0_shared": 160,
+        "h1_A1": 199,
+        "h1_A2": 370,
+        "h1_shared": 124,
+        "unassigned": 72,
+        "unphased_A1": 162,
+        "unphased_A2": 135
+      },
+      "donor_id": "D05",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "condition": "untreated",
+      "counts": {
+        "h0_A1": 267,
+        "h0_A2": 298,
+        "h0_shared": 74,
+        "h1_A1": 369,
+        "h1_A2": 568,
+        "h1_shared": 134,
+        "unassigned": 78,
+        "unphased_A1": 250,
+        "unphased_A2": 304
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "baseline"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "condition": "treated",
+      "counts": {
+        "h0_A1": 337,
+        "h0_A2": 322,
+        "h0_shared": 95,
+        "h1_A1": 593,
+        "h1_A2": 302,
+        "h1_shared": 122,
+        "unassigned": 89,
+        "unphased_A1": 342,
+        "unphased_A2": 214
+      },
+      "donor_id": "D01",
+      "replicate_id": "library1",
+      "time": "followup"
+    }
+  ],
+  "synthetic": true
+}

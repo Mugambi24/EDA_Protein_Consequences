@@ -1,0 +1,25 @@
+{
+  "calibration_id": "EDA_ANNOTATION_SPIKEIN_V1",
+  "synthetic": true,
+  "method": "Known-isoform spike-in junction category confusion calibration",
+  "pseudocount": 0.5,
+  "minimum_molecules": 12,
+  "spike_ins": [
+    {
+      "known_isoform": "A1",
+      "counts": {
+        "A1_unique": 543,
+        "A2_unique": 41,
+        "shared": 416
+      }
+    },
+    {
+      "known_isoform": "A2",
+      "counts": {
+        "A1_unique": 48,
+        "A2_unique": 499,
+        "shared": 453
+      }
+    }
+  ]
+}

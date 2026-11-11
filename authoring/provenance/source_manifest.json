@@ -1,0 +1,187 @@
+{
+  "batch_assay": {
+    "experimental_status": "Entirely simulated; no patient RNA or lab spike-ins",
+    "generator": "authoring/provenance/generate_batch_assay.py",
+    "independent_ground_truth": "tests/sealed_batch_truth.json and tests/hidden_batch_truth.json",
+    "input_file": "environment/data/batch_assay.json",
+    "is_synthetic": true,
+    "protocol": "environment/data/batch_assay_protocol.txt",
+    "seed_hidden": 19021,
+    "seed_practice": 8021,
+    "seed_sealed": 13021,
+    "sha256": {
+      "environment/data/batch_assay.json": "75c426f0c37d1ac3a6ec239703858539f166851ab725c0e1b966bad55b2451af",
+      "environment/data/batch_assay_protocol.txt": "8daa6d9365a683a8f78925382ebfd94316f30109f6a90b47051fcbf316ec5692",
+      "tests/hidden_batch_assay.json": "8d66e7280b1e2eea68f37c57fe3d618d44c89e936f68190345887a156c1dcd3b",
+      "tests/hidden_batch_truth.json": "08ceedca138fc95c4812a0f621f4412101707428bb309629ed6e5a651479f3c0",
+      "tests/sealed_batch_assay.json": "14a243080f32d742c8758be1f4fd84942a8d1c3b8f5a86f239d4b0ed044962ed",
+      "tests/sealed_batch_truth.json": "bed2ad2f86c135b1c0dfca14e413d796dd2021eeeece7f5b47c142999788910b"
+    }
+  },
+  "biological_analogy": "Authentic NP_001390.1 A1 polypeptide and the A2 loss of Val307-Glu308, backtranslated into synthetic synonymous codons and artificial negative-strand exons",
+  "coding_answer_keys": {
+    "generation_type": "Reference-oracle keys, not independent clinical observations",
+    "hidden_expected_sha256": "d9713b523e85feb297327a75ea5807ce033b327916f8c0f156b835c1616e5732",
+    "independent_validation": "authoring/provenance/validate_coding_keys.py: genomic-plus exon edit, reverse complement, codon-table reconstruction, and SHA-256 comparisons",
+    "producer": "solution/coding.py:compute() applied to the versioned reference and case lists",
+    "sealed_expected_sha256": "daf89dbd05f00942684b32b970f40e6d3047ce2ebbdcb9dda14016252bf0ace7",
+    "verification_record": "authoring/evidence/coding_key_provenance_2026-11-09.json"
+  },
+  "consequence_label_policy": "The agent input case records have only case_id and variants; no answer-revealing labels are exported.",
+  "current_longitudinal_truth_sha256": {
+    "tests/hidden_longitudinal_truth.json": "3893372aa788b708387b2c19284d80e462f91d79076f418d1637ceaaf7916099",
+    "tests/sealed_longitudinal_truth.json": "460243a95b519a696362b7eae37237ecd5a97fdd23a1d6c4d946c7fac705fd88"
+  },
+  "current_variant_input_sha256": {
+    "environment/data/practice.json": "9d7f0cbb17ab106c6c372ae9be366da5faaac20c23c28bcdee00e68477c24767",
+    "tests/hidden_cases.json": "acfd8754c7e57b59fa9ef55a56affbd961ab3e92cc7e2c813d2f3403b6db518b",
+    "tests/sealed_cases.json": "aae14118505442bbeaaa1db79ce2479571c66bc6beca67283f05f53dfd5eea51"
+  },
+  "fixture_script": "authoring/provenance/generate_fixture.py",
+  "human_accessions_for_context_only": [
+    "NM_001399.5",
+    "NM_001005609.2"
+  ],
+  "is_synthetic": true,
+  "likelihood_answer_keys": {
+    "absolute_numerical_tolerance": 3e-06,
+    "evidence_calculation": "tests/independent_evidence.py:independently_verify",
+    "observation_seeds": {
+      "hidden": 300,
+      "sealed": 200
+    },
+    "observations_generation": "authoring/provenance/generate_observations.py:synthesize",
+    "reference_crosscheck": "solution/inference.py:infer",
+    "reproducible_producer": "tests/independent_calibration.py:calculate",
+    "reproduction_command": "python3 authoring/provenance/validate_likelihood_keys.py",
+    "sha256": {
+      "tests/assets/spikein_calibration.json": "6c9bf7687ba24b6a9378a30e9c6d618f5ece344fde509d319c54650f5937e0cd",
+      "tests/hidden_evidence_expected.json": "4e2ad6f2d1000421a725b839d1d2a76f01fa61d3755f9d00cf349ec76c081549",
+      "tests/hidden_likelihood_expected.json": "2e1e393b717897fdbcbd5a9a73d5d747aad0a1459db76dbff8e2ab6c79b317ab",
+      "tests/hidden_observations.json": "f8b39cabc707da0ea4c596f9f68667984203e2f6b40938b3ad026362db4edd62",
+      "tests/sealed_evidence_expected.json": "63edb3c334cbddc8297785db0f3d543e764efcdbfdfc6e1a405d21e65649a671",
+      "tests/sealed_likelihood_expected.json": "3f363140441248c6b22246184b69aea818a352caccd46a096d86f1ca634ab41b",
+      "tests/sealed_observations.json": "9fe95c602867855612e10deb3672f709f92e7653ca96150849c0ad7034eb535f"
+    },
+    "verification_record": "authoring/evidence/likelihood_key_provenance_2026-11-09.json"
+  },
+  "long_range_phase_graph": {
+    "assay_protocol": "environment/data/phase_graph_protocol.txt",
+    "calibration_evidence": "authoring/evidence/phase_graph_calibration_2026-11-09.json",
+    "calibration_script": "authoring/provenance/calibrate_phase_graph.py",
+    "casewise_discrimination": "All sealed and hidden panels have at least one nonanchor site with posterior P(opposite)>0.5; former degenerate hidden h09 is resampled deterministically without changing other panels.",
+    "casewise_evidence": "authoring/evidence/phase_graph_validation_2026-11-09.json",
+    "generator": "authoring/provenance/generate_phase_graph.py",
+    "independent_method": "integer-bitmask posterior enumeration with independent likelihood accumulation",
+    "seed_hidden": 2026110917,
+    "seed_practice": 2026110911,
+    "seed_sealed": 2026110913,
+    "sha256": {
+      "authoring/evidence/phase_graph_calibration_2026-11-09.json": "59c32a01613b7920ce196dedf3218b25ab6beb5251f69c74c1a048fd91fbe800",
+      "authoring/provenance/calibrate_phase_graph.py": "cc5396dc27db7a3445e07525e5b6cac4a116493ac702ff4a1324f15f28643294",
+      "authoring/provenance/generate_phase_graph.py": "5c6472659ec1bec860c63f318a7c4bc074ed3bb6a2cca6b61faebf9508a593e3",
+      "environment/data/phase_graph_assay.json": "2188766251b9e39ef438393a6cd3724e9207b5d752b28872ae7acf7adb82b3da",
+      "environment/data/phase_graph_protocol.txt": "e80b072ca828bc0eae98d10751cae2f10a03ddef34be4633db4b7fed230c9693",
+      "tests/hidden_phase_graph_assay.json": "1f756426e8292880980454ba2afeae7c00b2f7bf171bc549dd656c442ebab875",
+      "tests/hidden_phase_graph_truth.json": "d0725024691cf7d504d79eea895d65ba061bb4fb067d4e341ea26545a2b6293a",
+      "tests/sealed_phase_graph_assay.json": "d30efdbd5403624b941f415761b83e5f99a9630f677ddd9aa285793641beb963",
+      "tests/sealed_phase_graph_truth.json": "250454a4799881a8c1a35aa0c3a54620c77fe8621f9e683e0f3544053cfa10fd"
+    },
+    "status": "fully synthetic; site bits are not clinical genotypes"
+  },
+  "not_patient_data": true,
+  "perturbation_bounds_evidence": {
+    "reproduction_command": "python3 authoring/provenance/validate_perturbation_bounds.py",
+    "scope": "sealed synthetic assay; no new grading thresholds",
+    "source_and_evidence_sha256": {
+      "authoring/evidence/perturbation_bounds_validation_2026-11-10.json": "3996e9aa756ae81bc9dcbda149fa91423db68f8e49d47e25a0224fb06e41759d",
+      "authoring/provenance/validate_perturbation_bounds.py": "d9322e14c394d05d49abd9e9ed017e8d069fac9e65f107eca1e4cf15035aaa5e"
+    }
+  },
+  "phased_longitudinal_discrimination_revision": {
+    "date": "2026-11-10",
+    "revision": "Seeded per-case non-neutral batch/phased contrasts and larger positive/negative longitudinal effects; every case now receives a science-based perturbation-response check in the existing 72-test verifier.",
+    "sha256": {
+      "authoring/provenance/generate_longitudinal_assay.py": "92c01bd495224c87a43de575cdf3228b979d86605635aceb8c414457262d6c54",
+      "authoring/provenance/generate_phased_assay.py": "0818bad1a6f755d2713d2726c96f08d808862863085cb3a37f340c634518dec9",
+      "environment/data/longitudinal_assay.json": "a93ee34d39771a6d690ee4f93dc76a780ed2b871bf51658055340ea0a2726a16",
+      "environment/data/longitudinal_protocol.txt": "9247022b3efd8eb017eda8ade6c2fda94186ba313fa7e43ee3ec2db529115049",
+      "environment/data/phased_assay.json": "86726779c35e74043e3ef8f5a028a0e4b4deb6dff1ce9e84d73af8a758b137dc",
+      "environment/data/phased_rna_protocol.txt": "66830565e73682acc10b520f49b8d7e60cbf71d0673dff9c9a54d63fee752ac1",
+      "tests/hidden_longitudinal_assay.json": "13ae26e020a1188eae1b238a169d6733401788eb61a229adf33c2f65c867c5a0",
+      "tests/hidden_longitudinal_truth.json": "3893372aa788b708387b2c19284d80e462f91d79076f418d1637ceaaf7916099",
+      "tests/hidden_phased_assay.json": "998d942141ff7ec89e506fd74a197581e90bcff689ecc1a8e1a8833eff161a6b",
+      "tests/sealed_longitudinal_assay.json": "02ea6a349294bc4acf3605582c1e6fe108c31582afd42311f0b5c1e067ae4f6a",
+      "tests/sealed_longitudinal_truth.json": "460243a95b519a696362b7eae37237ecd5a97fdd23a1d6c4d946c7fac705fd88",
+      "tests/sealed_phased_assay.json": "183e13dcfcad9cfdf6ec9a9459ac39aab59fc7448df6c71f6665f3a5a3346cbf"
+    },
+    "simulation_only": true
+  },
+  "protein_audit_representation": {
+    "accepted_exact_json_values": [
+      "Val307-Glu308",
+      [
+        "Val307",
+        "Glu308"
+      ]
+    ],
+    "audit_fairness_evidence": "authoring/evidence/verifier_budget_alignment_2026-11-10.json",
+    "field": "audit.json/missing_a2_residues",
+    "scientific_hash_checks_preserved": true,
+    "scientific_interpretation": "A2 protein lacks Val307 and Glu308, in that order",
+    "validation_test": "tests/test_workflow.py::test_authentic_protein_audit"
+  },
+  "protein_provenance": "user-provided NCBI FASTA checked against UniProt Q92838 canonical 391 aa; residue 307-308 VE; nucleotide model synthetic",
+  "protein_reference": "NP_001390.1",
+  "public_genomic_variant_crosswalk": "NC_000023.11:g.69957087C>T; NM_001399.5 and NM_001005609.2, ClinVar RCV006905138.1; full chromosome sequence NOT included",
+  "public_variant_panel_file": "authoring/provenance/public_variant_snapshot.json",
+  "public_variant_panel_note": "Publicly reported EDA amino-acid variants are authentic metadata; no real patient DNA or RNA measurements are included.",
+  "public_variant_panel_sha256": "e15ee126e778d416541e635a1730ab895010bc95459ae325201fa938c43e1ac3",
+  "public_variant_panel_source_types": [
+    "ClinVar",
+    "LOVD"
+  ],
+  "reference_sha256": "1b4113fc53be21900bb6c6eb587e0af15c85b3979ad4f1bb57141bf2071a05fd",
+  "seed_hidden": 17831,
+  "seed_primary": 13052026,
+  "transcript_labels": [
+    "EDA_SIM_A1.1",
+    "EDA_SIM_A2.1"
+  ],
+  "verifier_release": {
+    "accounting": "Fresh root-only sealed/hidden baseline cache per verifier attempt; 72 named tests in nine bounded groups, counting actual agent calls and sum of durations against 100 invocations and 900 solver seconds; outer 1100-second cap covers trusted overhead.",
+    "complete_junit_evidence": "authoring/evidence/verifier_budget_alignment_2026-11-10.json",
+    "current_validation_evidence": "authoring/evidence/verifier_budget_alignment_2026-11-10.json",
+    "group_manifest": [
+      20,
+      13,
+      1,
+      1,
+      4,
+      9,
+      11,
+      8,
+      5
+    ],
+    "sha256": {
+      "environment/workbench/cli.py": "b9fe63648635798b09a8126dc5ca1de91ddf8a64f9ff74961d8e72dc05765b8c",
+      "tests/ctrf_report.py": "41e115e8cc8edcb09119d965bdb23637a05c2f02909c06520c5b575d6ab4efb8",
+      "tests/run_isolated.py": "7217dc5ef95386309264fc368c1fe0b9fbf84daf12e1f0141780b2e17f62baea",
+      "tests/test.sh": "f3daccbcb4adc2599b746637164f9e59cb6f2f0ccc34ba4b70afd7a30bdfa230",
+      "tests/test_workflow.py": "394f988b85c174df2e2c39377917c0194c201b34e262c5e24a6f914973b0d984"
+    },
+    "test_count": 72,
+    "trusted_bounded_runner": "tests/run_isolated.py",
+    "trusted_test_entrypoint": "tests/test.sh"
+  },
+  "verifier_report_provenance": {
+    "current_run_evidence": "authoring/evidence/verifier_budget_alignment_2026-11-10.json",
+    "failure_path_evidence": "tests/ctrf_report.py",
+    "report_entrypoint": "tests/test.sh EXIT trap",
+    "report_producer": "tests/ctrf_report.py",
+    "sha256": {
+      "tests/ctrf_report.py": "41e115e8cc8edcb09119d965bdb23637a05c2f02909c06520c5b575d6ab4efb8",
+      "tests/test.sh": "f3daccbcb4adc2599b746637164f9e59cb6f2f0ccc34ba4b70afd7a30bdfa230"
+    }
+  }
+}

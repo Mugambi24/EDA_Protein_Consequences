@@ -1,0 +1,18 @@
+{
+  "hidden": {
+    "checks": "Genomic-plus exon edit/reverse complement; coding and peptide SHA-256/length separately reconstructed with Biopython codon table",
+    "expected_file": "tests/hidden_expected.json",
+    "independent_resolved_checks": 56,
+    "sha256": "d9713b523e85feb297327a75ea5807ce033b327916f8c0f156b835c1616e5732",
+    "source": "solution/coding.py:compute() (reference-produced, then persisted)",
+    "unresolved_records_oracle": 0
+  },
+  "sealed": {
+    "checks": "Genomic-plus exon edit/reverse complement; coding and peptide SHA-256/length separately reconstructed with Biopython codon table",
+    "expected_file": "tests/sealed_expected.json",
+    "independent_resolved_checks": 36,
+    "sha256": "daf89dbd05f00942684b32b970f40e6d3047ce2ebbdcb9dda14016252bf0ace7",
+    "source": "solution/coding.py:compute() (reference-produced, then persisted)",
+    "unresolved_records_oracle": 10
+  }
+}

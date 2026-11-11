@@ -1,0 +1,844 @@
+{
+  "records": [
+    {
+      "case_id": "h00",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.3956601567310809
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.39378818292382034
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.39053251849761
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.38377412011101386
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.4055249356162256
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.3909673854877749
+        }
+      ],
+      "mean_treatment_time_effect": -0.3933745498945876
+    },
+    {
+      "case_id": "h01",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.3850501669086644
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.4138998623631253
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.41375717616960295
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.4013246884897316
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.3833151547428936
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.4036857902129061
+        }
+      ],
+      "mean_treatment_time_effect": -0.40017213981448735
+    },
+    {
+      "case_id": "h02",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.4454226337553549
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.43592843896030364
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.4446751466202035
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.4532225137313551
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.44875792863700087
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.449487963768895
+        }
+      ],
+      "mean_treatment_time_effect": -0.44624910424551884
+    },
+    {
+      "case_id": "h03",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.40558938145331674
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.4255768158534551
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4008159749757326
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.401688717302286
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.42546383853245096
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.41834473689455165
+        }
+      ],
+      "mean_treatment_time_effect": 0.41291324416863223
+    },
+    {
+      "case_id": "h04",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4640419193790032
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.46887290740781545
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.44469744748800205
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.4469050479281497
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.46787557070946895
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.47146076884059224
+        }
+      ],
+      "mean_treatment_time_effect": 0.4606422769588386
+    },
+    {
+      "case_id": "h05",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.45664181695413525
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.4488531683183605
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.43636100245125076
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.44989198561928534
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.4668406902221971
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.4691680172834918
+        }
+      ],
+      "mean_treatment_time_effect": -0.4546261134747868
+    },
+    {
+      "case_id": "h06",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.43818965002107707
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.45518470962963714
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.44196562792229394
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.4267798851925925
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.4504646919153891
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.4253575763404898
+        }
+      ],
+      "mean_treatment_time_effect": 0.43965702350357994
+    },
+    {
+      "case_id": "h07",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.44789749738499385
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.43351563735991816
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.4499190669349845
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.428959307837903
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.4443629482921533
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.45949109630688856
+        }
+      ],
+      "mean_treatment_time_effect": -0.44402425901947357
+    },
+    {
+      "case_id": "h08",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4467345780890465
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.4341573665393363
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4400420572585544
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.4411774690769568
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.445030824713493
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.4211515257643294
+        }
+      ],
+      "mean_treatment_time_effect": 0.43804897024028605
+    },
+    {
+      "case_id": "h09",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4578679689320626
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.4597434798786213
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4374865161382146
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.44998048251264544
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.4597108493289248
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.46017244557927134
+        }
+      ],
+      "mean_treatment_time_effect": 0.4541602903949567
+    },
+    {
+      "case_id": "h10",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.3756796439292547
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.37631072293097517
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.39988228521674757
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.3833245495864004
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.3744213182145747
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.40617843332035625
+        }
+      ],
+      "mean_treatment_time_effect": 0.3859661588663848
+    },
+    {
+      "case_id": "h11",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.42613620779959965
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.42395931814489807
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.414106639792266
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.40037458531881553
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.39925150159858447
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.4000740541533912
+        }
+      ],
+      "mean_treatment_time_effect": 0.41065038446792584
+    },
+    {
+      "case_id": "h12",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.38135801765389343
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.38745486651225913
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.40261800396309766
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.4149013814127231
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.3958835366390694
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.4145734518932174
+        }
+      ],
+      "mean_treatment_time_effect": -0.39946487634571004
+    },
+    {
+      "case_id": "h13",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.41017667109642314
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.44420177506310765
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.426362221055115
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.41130510278382393
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.437033958272722
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.42414674135802244
+        }
+      ],
+      "mean_treatment_time_effect": -0.42553774493820234
+    },
+    {
+      "case_id": "h14",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4013111170354976
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.39405185050964947
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4046045711899841
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.404598075438565
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.40480772935072157
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.3886388236607229
+        }
+      ],
+      "mean_treatment_time_effect": 0.3996686945308568
+    },
+    {
+      "case_id": "h15",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.39597271159067016
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.41992545044238444
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.396496837108564
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.39993631934075435
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.41780042905275905
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.39546774970601595
+        }
+      ],
+      "mean_treatment_time_effect": -0.4042665828735246
+    },
+    {
+      "case_id": "h16",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.46557704716100223
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.4632745743949679
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.43794565780736644
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.4678416826440337
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.4702182509141371
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.456062024087004
+        }
+      ],
+      "mean_treatment_time_effect": -0.46015320616808525
+    },
+    {
+      "case_id": "h17",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.43437161837737626
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.44420225312451145
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.43231907784729817
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.44629660255111225
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.4205410276558498
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.4486605574994447
+        }
+      ],
+      "mean_treatment_time_effect": -0.4377318561759321
+    },
+    {
+      "case_id": "h18",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.38174526328300334
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.3823874253446899
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.388844965229832
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.39401638543167955
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.409482378066662
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.4146905200636478
+        }
+      ],
+      "mean_treatment_time_effect": 0.3951944895699191
+    },
+    {
+      "case_id": "h19",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.42827320662891255
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.4313012843037982
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.44001242392326184
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.43948045661094054
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.4374895035523641
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.44671159283156253
+        }
+      ],
+      "mean_treatment_time_effect": 0.4372114113084733
+    },
+    {
+      "case_id": "h20",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4279213406636547
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.41076670535326737
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4255246091848456
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.4277107267410543
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.42161544705451753
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.4200209818942272
+        }
+      ],
+      "mean_treatment_time_effect": 0.42225996848192776
+    },
+    {
+      "case_id": "h21",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4379265873777164
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.4388045936601923
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4382154498588616
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.4484418272560714
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.44571177578385296
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.4316654073768181
+        }
+      ],
+      "mean_treatment_time_effect": 0.44012760688558544
+    },
+    {
+      "case_id": "h22",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4181728498588321
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.40015480448943364
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4093902704805511
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.3974555152467322
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.3953097094658772
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.41449950024017224
+        }
+      ],
+      "mean_treatment_time_effect": 0.40583044163026644
+    },
+    {
+      "case_id": "h23",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.43666768071243944
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.4325003781474541
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.45631686649765046
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.4571580619176852
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.43489590278429924
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.46135255915057805
+        }
+      ],
+      "mean_treatment_time_effect": -0.44648190820168443
+    },
+    {
+      "case_id": "h24",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": -0.43981523118673727
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": -0.43924469820660617
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": -0.4362434831608414
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": -0.4303744708577209
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": -0.4431015719106038
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": -0.45443111037688705
+        }
+      ],
+      "mean_treatment_time_effect": -0.44053509428323273
+    },
+    {
+      "case_id": "h25",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4185727477328062
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.41532244670866514
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4010487673716029
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.40815788591452973
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.42391874658864487
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.41330661983850053
+        }
+      ],
+      "mean_treatment_time_effect": 0.41338786902579155
+    },
+    {
+      "case_id": "h26",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.4627775011177623
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.4492537762140104
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.4490582787854564
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.4641770829887761
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.4634459105859386
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.46818316959430656
+        }
+      ],
+      "mean_treatment_time_effect": 0.4594826198810417
+    },
+    {
+      "case_id": "h27",
+      "donors": [
+        {
+          "donor_id": "D01",
+          "treatment_time_effect": 0.42622641546247686
+        },
+        {
+          "donor_id": "D02",
+          "treatment_time_effect": 0.41153650017623533
+        },
+        {
+          "donor_id": "D03",
+          "treatment_time_effect": 0.40818839114873184
+        },
+        {
+          "donor_id": "D04",
+          "treatment_time_effect": 0.4329937243395946
+        },
+        {
+          "donor_id": "D05",
+          "treatment_time_effect": 0.427109283828617
+        },
+        {
+          "donor_id": "D06",
+          "treatment_time_effect": 0.43004702748263124
+        }
+      ],
+      "mean_treatment_time_effect": 0.42268355707304783
+    }
+  ]
+}

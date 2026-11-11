@@ -1,0 +1,4199 @@
+{
+  "assay_id": "EDA-batch-assay-v1",
+  "calibrators": [
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 13,
+        "A2_unique": 618,
+        "shared": 156
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 1,
+      "standard_id": "lane_A_000_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 396,
+        "A2_unique": 31,
+        "shared": 360
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 1,
+      "standard_id": "lane_C_080_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 161,
+        "A2_unique": 276,
+        "shared": 313
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 0,
+      "standard_id": "lane_C_020_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 598,
+        "A2_unique": 6,
+        "shared": 183
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 1,
+      "standard_id": "lane_A_100_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 370,
+        "A2_unique": 49,
+        "shared": 331
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 0,
+      "standard_id": "lane_C_080_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 413,
+        "A2_unique": 227,
+        "shared": 184
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 2,
+      "standard_id": "lane_A_050_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 235,
+        "A2_unique": 342,
+        "shared": 247
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 2,
+      "standard_id": "lane_B_020_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 432,
+        "A2_unique": 40,
+        "shared": 278
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 0,
+      "standard_id": "lane_B_080_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 326,
+        "A2_unique": 126,
+        "shared": 335
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 1,
+      "standard_id": "lane_C_050_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 7,
+        "A2_unique": 514,
+        "shared": 229
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 0,
+      "standard_id": "lane_B_000_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 431,
+        "A2_unique": 2,
+        "shared": 354
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 1,
+      "standard_id": "lane_C_100_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 496,
+        "A2_unique": 3,
+        "shared": 288
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 1,
+      "standard_id": "lane_B_100_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 12,
+        "A2_unique": 423,
+        "shared": 352
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 1,
+      "standard_id": "lane_C_000_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 361,
+        "A2_unique": 177,
+        "shared": 249
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 1,
+      "standard_id": "lane_B_050_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 6,
+        "A2_unique": 468,
+        "shared": 350
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 2,
+      "standard_id": "lane_C_000_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 327,
+        "A2_unique": 153,
+        "shared": 344
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 2,
+      "standard_id": "lane_C_050_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 10,
+        "A2_unique": 439,
+        "shared": 301
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 0,
+      "standard_id": "lane_C_000_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 216,
+        "A2_unique": 316,
+        "shared": 255
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 1,
+      "standard_id": "lane_B_020_1"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 13,
+        "A2_unique": 674,
+        "shared": 137
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 2,
+      "standard_id": "lane_A_000_2"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 617,
+        "A2_unique": 9,
+        "shared": 198
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 2,
+      "standard_id": "lane_A_100_2"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 419,
+        "A2_unique": 196,
+        "shared": 172
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 1,
+      "standard_id": "lane_A_050_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 499,
+        "A2_unique": 43,
+        "shared": 282
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 2,
+      "standard_id": "lane_B_080_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 453,
+        "A2_unique": 7,
+        "shared": 364
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 2,
+      "standard_id": "lane_C_100_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 10,
+        "A2_unique": 534,
+        "shared": 243
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 1,
+      "standard_id": "lane_B_000_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 479,
+        "A2_unique": 40,
+        "shared": 268
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 1,
+      "standard_id": "lane_B_080_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 493,
+        "A2_unique": 6,
+        "shared": 251
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 0,
+      "standard_id": "lane_B_100_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 543,
+        "A2_unique": 63,
+        "shared": 181
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 1,
+      "standard_id": "lane_A_080_1"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 505,
+        "A2_unique": 69,
+        "shared": 176
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 0,
+      "standard_id": "lane_A_080_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 396,
+        "A2_unique": 46,
+        "shared": 382
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 2,
+      "standard_id": "lane_C_080_2"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 235,
+        "A2_unique": 408,
+        "shared": 181
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 2,
+      "standard_id": "lane_A_020_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 10,
+        "A2_unique": 548,
+        "shared": 266
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 2,
+      "standard_id": "lane_B_000_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 393,
+        "A2_unique": 173,
+        "shared": 258
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 2,
+      "standard_id": "lane_B_050_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 212,
+        "A2_unique": 316,
+        "shared": 222
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 0,
+      "standard_id": "lane_B_020_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 515,
+        "A2_unique": 9,
+        "shared": 300
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 2,
+      "standard_id": "lane_B_100_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 169,
+        "A2_unique": 287,
+        "shared": 331
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 1,
+      "standard_id": "lane_C_020_1"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 203,
+        "A2_unique": 392,
+        "shared": 155
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 0,
+      "standard_id": "lane_A_020_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 209,
+        "A2_unique": 393,
+        "shared": 148
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 0,
+      "standard_id": "lane_A_050_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 136,
+        "A2_unique": 301,
+        "shared": 313
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 0,
+      "standard_id": "lane_C_050_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "A1_unique": 146,
+        "A2_unique": 358,
+        "shared": 246
+      },
+      "known_a1_fraction": 0.5,
+      "replicate": 0,
+      "standard_id": "lane_B_050_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 10,
+        "A2_unique": 598,
+        "shared": 142
+      },
+      "known_a1_fraction": 0.0,
+      "replicate": 0,
+      "standard_id": "lane_A_000_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 181,
+        "A2_unique": 286,
+        "shared": 357
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 2,
+      "standard_id": "lane_C_020_2"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 563,
+        "A2_unique": 78,
+        "shared": 183
+      },
+      "known_a1_fraction": 0.8,
+      "replicate": 2,
+      "standard_id": "lane_A_080_2"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 578,
+        "A2_unique": 8,
+        "shared": 164
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 0,
+      "standard_id": "lane_A_100_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "A1_unique": 393,
+        "A2_unique": 7,
+        "shared": 350
+      },
+      "known_a1_fraction": 1.0,
+      "replicate": 0,
+      "standard_id": "lane_C_100_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "A1_unique": 218,
+        "A2_unique": 434,
+        "shared": 135
+      },
+      "known_a1_fraction": 0.2,
+      "replicate": 1,
+      "standard_id": "lane_A_020_1"
+    }
+  ],
+  "measurements": [
+    {
+      "batch_id": "lane_A",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 264,
+        "A2_unique": 379,
+        "shared": 147
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 379,
+        "A2_unique": 179,
+        "shared": 162
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 137,
+        "A2_unique": 210,
+        "shared": 233
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 482,
+        "A2_unique": 80,
+        "shared": 158
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 50,
+        "A2_unique": 458,
+        "shared": 142
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 356,
+        "A2_unique": 219,
+        "shared": 145
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 142,
+        "A2_unique": 272,
+        "shared": 306
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 142,
+        "A2_unique": 228,
+        "shared": 280
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 314,
+        "A2_unique": 205,
+        "shared": 131
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 178,
+        "A2_unique": 279,
+        "shared": 333
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 253,
+        "A2_unique": 143,
+        "shared": 324
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 221,
+        "A2_unique": 415,
+        "shared": 154
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 192,
+        "A2_unique": 251,
+        "shared": 347
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 240,
+        "A2_unique": 203,
+        "shared": 347
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 165,
+        "A2_unique": 222,
+        "shared": 193
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 288,
+        "A2_unique": 159,
+        "shared": 413
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 275,
+        "A2_unique": 426,
+        "shared": 159
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 359,
+        "A2_unique": 30,
+        "shared": 331
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 201,
+        "A2_unique": 336,
+        "shared": 113
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 69,
+        "A2_unique": 404,
+        "shared": 317
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 230,
+        "A2_unique": 300,
+        "shared": 260
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 352,
+        "A2_unique": 285,
+        "shared": 153
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 403,
+        "A2_unique": 45,
+        "shared": 132
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 136,
+        "A2_unique": 217,
+        "shared": 227
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 128,
+        "A2_unique": 506,
+        "shared": 226
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 148,
+        "A2_unique": 239,
+        "shared": 193
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 221,
+        "A2_unique": 469,
+        "shared": 170
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 285,
+        "A2_unique": 192,
+        "shared": 383
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 90,
+        "A2_unique": 614,
+        "shared": 156
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 112,
+        "A2_unique": 224,
+        "shared": 244
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 398,
+        "A2_unique": 67,
+        "shared": 395
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 84,
+        "A2_unique": 336,
+        "shared": 300
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 159,
+        "A2_unique": 249,
+        "shared": 172
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 258,
+        "A2_unique": 285,
+        "shared": 247
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 267,
+        "A2_unique": 322,
+        "shared": 271
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 156,
+        "A2_unique": 203,
+        "shared": 291
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 285,
+        "A2_unique": 230,
+        "shared": 205
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 129,
+        "A2_unique": 258,
+        "shared": 193
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 194,
+        "A2_unique": 330,
+        "shared": 266
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 295,
+        "A2_unique": 218,
+        "shared": 137
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 203,
+        "A2_unique": 232,
+        "shared": 215
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 430,
+        "A2_unique": 155,
+        "shared": 135
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 215,
+        "A2_unique": 342,
+        "shared": 233
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 85,
+        "A2_unique": 555,
+        "shared": 150
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 151,
+        "A2_unique": 222,
+        "shared": 277
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 334,
+        "A2_unique": 147,
+        "shared": 379
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 204,
+        "A2_unique": 260,
+        "shared": 186
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 294,
+        "A2_unique": 348,
+        "shared": 148
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 239,
+        "A2_unique": 266,
+        "shared": 145
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 145,
+        "A2_unique": 228,
+        "shared": 277
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 415,
+        "A2_unique": 54,
+        "shared": 391
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 319,
+        "A2_unique": 348,
+        "shared": 193
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 185,
+        "A2_unique": 351,
+        "shared": 114
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 227,
+        "A2_unique": 84,
+        "shared": 269
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 410,
+        "A2_unique": 56,
+        "shared": 254
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 234,
+        "A2_unique": 332,
+        "shared": 154
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 81,
+        "A2_unique": 503,
+        "shared": 136
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 275,
+        "A2_unique": 32,
+        "shared": 273
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 219,
+        "A2_unique": 428,
+        "shared": 143
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 342,
+        "A2_unique": 36,
+        "shared": 342
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 233,
+        "A2_unique": 229,
+        "shared": 398
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 153,
+        "A2_unique": 282,
+        "shared": 355
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 443,
+        "A2_unique": 155,
+        "shared": 192
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 369,
+        "A2_unique": 57,
+        "shared": 364
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 415,
+        "A2_unique": 179,
+        "shared": 196
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 263,
+        "A2_unique": 235,
+        "shared": 362
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 222,
+        "A2_unique": 321,
+        "shared": 247
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 357,
+        "A2_unique": 75,
+        "shared": 358
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 271,
+        "A2_unique": 306,
+        "shared": 143
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 91,
+        "A2_unique": 408,
+        "shared": 221
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 309,
+        "A2_unique": 112,
+        "shared": 369
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 495,
+        "A2_unique": 16,
+        "shared": 139
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 275,
+        "A2_unique": 224,
+        "shared": 221
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 207,
+        "A2_unique": 315,
+        "shared": 128
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 161,
+        "A2_unique": 379,
+        "shared": 250
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 322,
+        "A2_unique": 115,
+        "shared": 213
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 324,
+        "A2_unique": 133,
+        "shared": 123
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 347,
+        "A2_unique": 14,
+        "shared": 289
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 224,
+        "A2_unique": 404,
+        "shared": 162
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 402,
+        "A2_unique": 131,
+        "shared": 117
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 267,
+        "A2_unique": 194,
+        "shared": 329
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 362,
+        "A2_unique": 198,
+        "shared": 300
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 297,
+        "A2_unique": 288,
+        "shared": 135
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 222,
+        "A2_unique": 404,
+        "shared": 164
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 212,
+        "A2_unique": 174,
+        "shared": 194
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 438,
+        "A2_unique": 85,
+        "shared": 267
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 211,
+        "A2_unique": 252,
+        "shared": 117
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 254,
+        "A2_unique": 87,
+        "shared": 239
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 357,
+        "A2_unique": 35,
+        "shared": 188
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 504,
+        "A2_unique": 60,
+        "shared": 156
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 238,
+        "A2_unique": 349,
+        "shared": 273
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 535,
+        "A2_unique": 86,
+        "shared": 169
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 59,
+        "A2_unique": 382,
+        "shared": 209
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 169,
+        "A2_unique": 300,
+        "shared": 111
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 357,
+        "A2_unique": 351,
+        "shared": 152
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 237,
+        "A2_unique": 136,
+        "shared": 207
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 344,
+        "A2_unique": 53,
+        "shared": 323
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 270,
+        "A2_unique": 90,
+        "shared": 290
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 289,
+        "A2_unique": 148,
+        "shared": 353
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 161,
+        "A2_unique": 295,
+        "shared": 334
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 341,
+        "A2_unique": 166,
+        "shared": 143
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 324,
+        "A2_unique": 116,
+        "shared": 350
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 183,
+        "A2_unique": 328,
+        "shared": 209
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 505,
+        "A2_unique": 128,
+        "shared": 157
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 298,
+        "A2_unique": 162,
+        "shared": 120
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 319,
+        "A2_unique": 250,
+        "shared": 151
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 131,
+        "A2_unique": 203,
+        "shared": 246
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 187,
+        "A2_unique": 158,
+        "shared": 235
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 288,
+        "A2_unique": 52,
+        "shared": 310
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 151,
+        "A2_unique": 233,
+        "shared": 196
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 89,
+        "A2_unique": 468,
+        "shared": 233
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 263,
+        "A2_unique": 192,
+        "shared": 335
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 162,
+        "A2_unique": 173,
+        "shared": 245
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 304,
+        "A2_unique": 118,
+        "shared": 228
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 322,
+        "A2_unique": 248,
+        "shared": 220
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 153,
+        "A2_unique": 316,
+        "shared": 111
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 219,
+        "A2_unique": 425,
+        "shared": 146
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 175,
+        "A2_unique": 384,
+        "shared": 161
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 218,
+        "A2_unique": 135,
+        "shared": 297
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 230,
+        "A2_unique": 218,
+        "shared": 132
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 242,
+        "A2_unique": 74,
+        "shared": 264
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 376,
+        "A2_unique": 62,
+        "shared": 142
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 355,
+        "A2_unique": 52,
+        "shared": 313
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 559,
+        "A2_unique": 58,
+        "shared": 173
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 430,
+        "A2_unique": 51,
+        "shared": 239
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 137,
+        "A2_unique": 265,
+        "shared": 318
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 259,
+        "A2_unique": 108,
+        "shared": 283
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 251,
+        "A2_unique": 59,
+        "shared": 270
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 412,
+        "A2_unique": 78,
+        "shared": 370
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 393,
+        "A2_unique": 15,
+        "shared": 242
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 191,
+        "A2_unique": 218,
+        "shared": 171
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 324,
+        "A2_unique": 42,
+        "shared": 284
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 209,
+        "A2_unique": 261,
+        "shared": 390
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 152,
+        "A2_unique": 304,
+        "shared": 194
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 272,
+        "A2_unique": 81,
+        "shared": 297
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 289,
+        "A2_unique": 21,
+        "shared": 270
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 305,
+        "A2_unique": 124,
+        "shared": 361
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 370,
+        "A2_unique": 125,
+        "shared": 225
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 421,
+        "A2_unique": 68,
+        "shared": 161
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 196,
+        "A2_unique": 275,
+        "shared": 249
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 427,
+        "A2_unique": 40,
+        "shared": 253
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 282,
+        "A2_unique": 30,
+        "shared": 268
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 437,
+        "A2_unique": 177,
+        "shared": 176
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 377,
+        "A2_unique": 120,
+        "shared": 223
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 218,
+        "A2_unique": 213,
+        "shared": 289
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 491,
+        "A2_unique": 69,
+        "shared": 160
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 178,
+        "A2_unique": 219,
+        "shared": 183
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 336,
+        "A2_unique": 138,
+        "shared": 246
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 208,
+        "A2_unique": 357,
+        "shared": 295
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 338,
+        "A2_unique": 209,
+        "shared": 243
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 228,
+        "A2_unique": 312,
+        "shared": 250
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 196,
+        "A2_unique": 161,
+        "shared": 293
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 46,
+        "A2_unique": 328,
+        "shared": 276
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 196,
+        "A2_unique": 288,
+        "shared": 236
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 200,
+        "A2_unique": 287,
+        "shared": 373
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 417,
+        "A2_unique": 144,
+        "shared": 159
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 226,
+        "A2_unique": 466,
+        "shared": 168
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 237,
+        "A2_unique": 189,
+        "shared": 364
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 498,
+        "A2_unique": 68,
+        "shared": 154
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 229,
+        "A2_unique": 121,
+        "shared": 230
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 231,
+        "A2_unique": 185,
+        "shared": 304
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 306,
+        "A2_unique": 95,
+        "shared": 319
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 351,
+        "A2_unique": 38,
+        "shared": 331
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 204,
+        "A2_unique": 125,
+        "shared": 251
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 462,
+        "A2_unique": 53,
+        "shared": 275
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 192,
+        "A2_unique": 345,
+        "shared": 113
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 303,
+        "A2_unique": 91,
+        "shared": 186
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 299,
+        "A2_unique": 34,
+        "shared": 247
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 439,
+        "A2_unique": 199,
+        "shared": 152
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 412,
+        "A2_unique": 53,
+        "shared": 395
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 379,
+        "A2_unique": 116,
+        "shared": 225
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 235,
+        "A2_unique": 413,
+        "shared": 142
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 559,
+        "A2_unique": 18,
+        "shared": 283
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 275,
+        "A2_unique": 169,
+        "shared": 136
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 316,
+        "A2_unique": 266,
+        "shared": 278
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 353,
+        "A2_unique": 176,
+        "shared": 121
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 206,
+        "A2_unique": 138,
+        "shared": 306
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 299,
+        "A2_unique": 400,
+        "shared": 161
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 314,
+        "A2_unique": 148,
+        "shared": 328
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 367,
+        "A2_unique": 210,
+        "shared": 143
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 64,
+        "A2_unique": 425,
+        "shared": 371
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 364,
+        "A2_unique": 152,
+        "shared": 274
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 402,
+        "A2_unique": 130,
+        "shared": 258
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 380,
+        "A2_unique": 124,
+        "shared": 146
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 429,
+        "A2_unique": 204,
+        "shared": 157
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 171,
+        "A2_unique": 248,
+        "shared": 231
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 334,
+        "A2_unique": 129,
+        "shared": 117
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 228,
+        "A2_unique": 256,
+        "shared": 236
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 302,
+        "A2_unique": 48,
+        "shared": 300
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 147,
+        "A2_unique": 280,
+        "shared": 293
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 607,
+        "A2_unique": 83,
+        "shared": 170
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 395,
+        "A2_unique": 41,
+        "shared": 214
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 287,
+        "A2_unique": 87,
+        "shared": 206
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 253,
+        "A2_unique": 304,
+        "shared": 233
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 352,
+        "A2_unique": 113,
+        "shared": 395
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 199,
+        "A2_unique": 304,
+        "shared": 357
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 218,
+        "A2_unique": 226,
+        "shared": 206
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 261,
+        "A2_unique": 317,
+        "shared": 282
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 214,
+        "A2_unique": 317,
+        "shared": 259
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 434,
+        "A2_unique": 40,
+        "shared": 246
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 300,
+        "A2_unique": 134,
+        "shared": 216
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 416,
+        "A2_unique": 103,
+        "shared": 131
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 417,
+        "A2_unique": 49,
+        "shared": 394
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 344,
+        "A2_unique": 191,
+        "shared": 255
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 166,
+        "A2_unique": 209,
+        "shared": 275
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 216,
+        "A2_unique": 174,
+        "shared": 190
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 304,
+        "A2_unique": 320,
+        "shared": 166
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 579,
+        "A2_unique": 76,
+        "shared": 205
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 224,
+        "A2_unique": 231,
+        "shared": 125
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 340,
+        "A2_unique": 38,
+        "shared": 202
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 223,
+        "A2_unique": 330,
+        "shared": 237
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 303,
+        "A2_unique": 148,
+        "shared": 199
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 160,
+        "A2_unique": 261,
+        "shared": 299
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 261,
+        "A2_unique": 156,
+        "shared": 303
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 202,
+        "A2_unique": 304,
+        "shared": 144
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 329,
+        "A2_unique": 107,
+        "shared": 354
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 52,
+        "A2_unique": 347,
+        "shared": 251
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 172,
+        "A2_unique": 293,
+        "shared": 115
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 170,
+        "A2_unique": 229,
+        "shared": 181
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 263,
+        "A2_unique": 311,
+        "shared": 286
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 47,
+        "A2_unique": 397,
+        "shared": 206
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 226,
+        "A2_unique": 222,
+        "shared": 202
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 347,
+        "A2_unique": 74,
+        "shared": 159
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 384,
+        "A2_unique": 182,
+        "shared": 154
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 167,
+        "A2_unique": 150,
+        "shared": 263
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 320,
+        "A2_unique": 347,
+        "shared": 193
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 205,
+        "A2_unique": 259,
+        "shared": 326
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 215,
+        "A2_unique": 357,
+        "shared": 148
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 299,
+        "A2_unique": 106,
+        "shared": 315
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 258,
+        "A2_unique": 296,
+        "shared": 166
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 446,
+        "A2_unique": 64,
+        "shared": 140
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 137,
+        "A2_unique": 330,
+        "shared": 113
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 398,
+        "A2_unique": 45,
+        "shared": 277
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 367,
+        "A2_unique": 146,
+        "shared": 277
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 366,
+        "A2_unique": 65,
+        "shared": 219
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 130,
+        "A2_unique": 243,
+        "shared": 277
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 582,
+        "A2_unique": 82,
+        "shared": 196
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 355,
+        "A2_unique": 37,
+        "shared": 188
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 132,
+        "A2_unique": 304,
+        "shared": 354
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 164,
+        "A2_unique": 305,
+        "shared": 111
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 284,
+        "A2_unique": 162,
+        "shared": 204
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 238,
+        "A2_unique": 117,
+        "shared": 295
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 646,
+        "A2_unique": 22,
+        "shared": 192
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 442,
+        "A2_unique": 248,
+        "shared": 170
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 183,
+        "A2_unique": 255,
+        "shared": 352
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 366,
+        "A2_unique": 127,
+        "shared": 227
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 205,
+        "A2_unique": 323,
+        "shared": 122
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 83,
+        "A2_unique": 623,
+        "shared": 154
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 237,
+        "A2_unique": 183,
+        "shared": 300
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 173,
+        "A2_unique": 257,
+        "shared": 220
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 180,
+        "A2_unique": 300,
+        "shared": 310
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 242,
+        "A2_unique": 216,
+        "shared": 122
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 341,
+        "A2_unique": 38,
+        "shared": 201
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 310,
+        "A2_unique": 252,
+        "shared": 298
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 345,
+        "A2_unique": 93,
+        "shared": 212
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 116,
+        "A2_unique": 208,
+        "shared": 256
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 193,
+        "A2_unique": 258,
+        "shared": 199
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 438,
+        "A2_unique": 143,
+        "shared": 279
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 132,
+        "A2_unique": 188,
+        "shared": 260
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 237,
+        "A2_unique": 407,
+        "shared": 146
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 411,
+        "A2_unique": 49,
+        "shared": 330
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 348,
+        "A2_unique": 87,
+        "shared": 145
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 219,
+        "A2_unique": 253,
+        "shared": 108
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 413,
+        "A2_unique": 34,
+        "shared": 203
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 249,
+        "A2_unique": 151,
+        "shared": 180
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 395,
+        "A2_unique": 198,
+        "shared": 267
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 146,
+        "A2_unique": 245,
+        "shared": 259
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 385,
+        "A2_unique": 306,
+        "shared": 169
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 356,
+        "A2_unique": 236,
+        "shared": 268
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h02",
+      "counts": {
+        "A1_unique": 175,
+        "A2_unique": 332,
+        "shared": 143
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 178,
+        "A2_unique": 308,
+        "shared": 234
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h23",
+      "counts": {
+        "A1_unique": 242,
+        "A2_unique": 126,
+        "shared": 282
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 101,
+        "A2_unique": 230,
+        "shared": 249
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 181,
+        "A2_unique": 277,
+        "shared": 332
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h17",
+      "counts": {
+        "A1_unique": 436,
+        "A2_unique": 184,
+        "shared": 170
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 232,
+        "A2_unique": 229,
+        "shared": 119
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h11",
+      "counts": {
+        "A1_unique": 161,
+        "A2_unique": 299,
+        "shared": 120
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 288,
+        "A2_unique": 103,
+        "shared": 329
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 426,
+        "A2_unique": 258,
+        "shared": 176
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 201,
+        "A2_unique": 227,
+        "shared": 292
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 296,
+        "A2_unique": 213,
+        "shared": 141
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 92,
+        "A2_unique": 414,
+        "shared": 354
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 314,
+        "A2_unique": 238,
+        "shared": 238
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 450,
+        "A2_unique": 21,
+        "shared": 389
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 395,
+        "A2_unique": 58,
+        "shared": 127
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 384,
+        "A2_unique": 131,
+        "shared": 275
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 279,
+        "A2_unique": 110,
+        "shared": 331
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 293,
+        "A2_unique": 81,
+        "shared": 206
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h15",
+      "counts": {
+        "A1_unique": 283,
+        "A2_unique": 99,
+        "shared": 198
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 164,
+        "A2_unique": 461,
+        "shared": 165
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 160,
+        "A2_unique": 328,
+        "shared": 372
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h26",
+      "counts": {
+        "A1_unique": 299,
+        "A2_unique": 107,
+        "shared": 174
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 275,
+        "A2_unique": 349,
+        "shared": 166
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 521,
+        "A2_unique": 54,
+        "shared": 285
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 279,
+        "A2_unique": 121,
+        "shared": 320
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 241,
+        "A2_unique": 74,
+        "shared": 265
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 256,
+        "A2_unique": 144,
+        "shared": 180
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h24",
+      "counts": {
+        "A1_unique": 290,
+        "A2_unique": 204,
+        "shared": 226
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h27",
+      "counts": {
+        "A1_unique": 228,
+        "A2_unique": 290,
+        "shared": 132
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h05",
+      "counts": {
+        "A1_unique": 341,
+        "A2_unique": 47,
+        "shared": 332
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 487,
+        "A2_unique": 71,
+        "shared": 162
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h01",
+      "counts": {
+        "A1_unique": 165,
+        "A2_unique": 155,
+        "shared": 260
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 230,
+        "A2_unique": 114,
+        "shared": 236
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 217,
+        "A2_unique": 256,
+        "shared": 387
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 500,
+        "A2_unique": 55,
+        "shared": 305
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 89,
+        "A2_unique": 518,
+        "shared": 253
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 180,
+        "A2_unique": 257,
+        "shared": 353
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 343,
+        "A2_unique": 157,
+        "shared": 220
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 327,
+        "A2_unique": 240,
+        "shared": 293
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 170,
+        "A2_unique": 308,
+        "shared": 102
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h09",
+      "counts": {
+        "A1_unique": 591,
+        "A2_unique": 77,
+        "shared": 192
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 437,
+        "A2_unique": 37,
+        "shared": 246
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 296,
+        "A2_unique": 192,
+        "shared": 232
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 484,
+        "A2_unique": 67,
+        "shared": 169
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h20",
+      "counts": {
+        "A1_unique": 225,
+        "A2_unique": 359,
+        "shared": 136
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h07",
+      "counts": {
+        "A1_unique": 402,
+        "A2_unique": 116,
+        "shared": 272
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 543,
+        "A2_unique": 140,
+        "shared": 177
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 268,
+        "A2_unique": 418,
+        "shared": 174
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 199,
+        "A2_unique": 367,
+        "shared": 154
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 459,
+        "A2_unique": 58,
+        "shared": 273
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h14",
+      "counts": {
+        "A1_unique": 513,
+        "A2_unique": 192,
+        "shared": 155
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h21",
+      "counts": {
+        "A1_unique": 396,
+        "A2_unique": 120,
+        "shared": 274
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h03",
+      "counts": {
+        "A1_unique": 259,
+        "A2_unique": 155,
+        "shared": 236
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h12",
+      "counts": {
+        "A1_unique": 179,
+        "A2_unique": 283,
+        "shared": 188
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h22",
+      "counts": {
+        "A1_unique": 135,
+        "A2_unique": 225,
+        "shared": 290
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h19",
+      "counts": {
+        "A1_unique": 494,
+        "A2_unique": 64,
+        "shared": 302
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h04",
+      "counts": {
+        "A1_unique": 240,
+        "A2_unique": 247,
+        "shared": 373
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h16",
+      "counts": {
+        "A1_unique": 217,
+        "A2_unique": 184,
+        "shared": 179
+      },
+      "group": "control",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 355,
+        "A2_unique": 276,
+        "shared": 159
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h18",
+      "counts": {
+        "A1_unique": 497,
+        "A2_unique": 78,
+        "shared": 285
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h25",
+      "counts": {
+        "A1_unique": 343,
+        "A2_unique": 120,
+        "shared": 117
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h00",
+      "counts": {
+        "A1_unique": 321,
+        "A2_unique": 142,
+        "shared": 117
+      },
+      "group": "control",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "h08",
+      "counts": {
+        "A1_unique": 513,
+        "A2_unique": 67,
+        "shared": 280
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h13",
+      "counts": {
+        "A1_unique": 55,
+        "A2_unique": 472,
+        "shared": 123
+      },
+      "group": "case",
+      "replicate": 1
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "h10",
+      "counts": {
+        "A1_unique": 399,
+        "A2_unique": 54,
+        "shared": 127
+      },
+      "group": "case",
+      "replicate": 0
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "h06",
+      "counts": {
+        "A1_unique": 141,
+        "A2_unique": 167,
+        "shared": 272
+      },
+      "group": "control",
+      "replicate": 1
+    }
+  ],
+  "synthetic": true
+}

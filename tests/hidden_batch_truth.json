@@ -1,0 +1,144 @@
+{
+  "records": [
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h00",
+      "control_a1_fraction": 0.562578
+    },
+    {
+      "case_a1_fraction": 0.314262,
+      "case_id": "h01",
+      "control_a1_fraction": 0.159262
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h02",
+      "control_a1_fraction": 0.58169
+    },
+    {
+      "case_a1_fraction": 0.253005,
+      "case_id": "h03",
+      "control_a1_fraction": 0.383005
+    },
+    {
+      "case_a1_fraction": 0.085892,
+      "case_id": "h04",
+      "control_a1_fraction": 0.325892
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h05",
+      "control_a1_fraction": 0.33599
+    },
+    {
+      "case_a1_fraction": 0.405802,
+      "case_id": "h06",
+      "control_a1_fraction": 0.250802
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h07",
+      "control_a1_fraction": 0.578939
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h08",
+      "control_a1_fraction": 0.32289
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h09",
+      "control_a1_fraction": 0.282469
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h10",
+      "control_a1_fraction": 0.397991
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h11",
+      "control_a1_fraction": 0.667703
+    },
+    {
+      "case_a1_fraction": 0.06,
+      "case_id": "h12",
+      "control_a1_fraction": 0.212021
+    },
+    {
+      "case_a1_fraction": 0.06,
+      "case_id": "h13",
+      "control_a1_fraction": 0.25516
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h14",
+      "control_a1_fraction": 0.542751
+    },
+    {
+      "case_a1_fraction": 0.802094,
+      "case_id": "h15",
+      "control_a1_fraction": 0.552094
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h16",
+      "control_a1_fraction": 0.341803
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h17",
+      "control_a1_fraction": 0.526564
+    },
+    {
+      "case_a1_fraction": 0.913175,
+      "case_id": "h18",
+      "control_a1_fraction": 0.663175
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "h19",
+      "control_a1_fraction": 0.457367
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h20",
+      "control_a1_fraction": 0.466956
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h21",
+      "control_a1_fraction": 0.557255
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h22",
+      "control_a1_fraction": 0.511165
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h23",
+      "control_a1_fraction": 0.446913
+    },
+    {
+      "case_a1_fraction": 0.347036,
+      "case_id": "h24",
+      "control_a1_fraction": 0.192036
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h25",
+      "control_a1_fraction": 0.580951
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "h26",
+      "control_a1_fraction": 0.480837
+    },
+    {
+      "case_a1_fraction": 0.26634,
+      "case_id": "h27",
+      "control_a1_fraction": 0.39634
+    }
+  ]
+}

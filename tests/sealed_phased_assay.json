@@ -1,0 +1,5011 @@
+{
+  "assay_id": "EDA-phased-RNA-v1",
+  "measurements": [
+    {
+      "batch_id": "lane_B",
+      "case_id": "m19",
+      "counts": {
+        "h0_A1": 434,
+        "h0_A2": 176,
+        "h0_shared": 110,
+        "h1_A1": 248,
+        "h1_A2": 129,
+        "h1_shared": 56,
+        "unassigned": 43,
+        "unphased_A1": 177,
+        "unphased_A2": 74
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m22",
+      "counts": {
+        "h0_A1": 304,
+        "h0_A2": 149,
+        "h0_shared": 62,
+        "h1_A1": 263,
+        "h1_A2": 435,
+        "h1_shared": 70,
+        "unassigned": 44,
+        "unphased_A1": 194,
+        "unphased_A2": 188
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m22",
+      "counts": {
+        "h0_A1": 449,
+        "h0_A2": 208,
+        "h0_shared": 124,
+        "h1_A1": 218,
+        "h1_A2": 120,
+        "h1_shared": 43,
+        "unassigned": 39,
+        "unphased_A1": 150,
+        "unphased_A2": 84
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "counts": {
+        "h0_A1": 312,
+        "h0_A2": 150,
+        "h0_shared": 80,
+        "h1_A1": 297,
+        "h1_A2": 305,
+        "h1_shared": 92,
+        "unassigned": 46,
+        "unphased_A1": 217,
+        "unphased_A2": 138
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "counts": {
+        "h0_A1": 328,
+        "h0_A2": 392,
+        "h0_shared": 85,
+        "h1_A1": 252,
+        "h1_A2": 375,
+        "h1_shared": 64,
+        "unassigned": 56,
+        "unphased_A1": 221,
+        "unphased_A2": 303
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m09",
+      "counts": {
+        "h0_A1": 474,
+        "h0_A2": 153,
+        "h0_shared": 81,
+        "h1_A1": 189,
+        "h1_A2": 162,
+        "h1_shared": 42,
+        "unassigned": 43,
+        "unphased_A1": 223,
+        "unphased_A2": 104
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m21",
+      "counts": {
+        "h0_A1": 14,
+        "h0_A2": 17,
+        "h0_shared": 2,
+        "h1_A1": 9,
+        "h1_A2": 40,
+        "h1_shared": 3,
+        "unassigned": 1,
+        "unphased_A1": 7,
+        "unphased_A2": 17
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m07",
+      "counts": {
+        "h0_A1": 593,
+        "h0_A2": 194,
+        "h0_shared": 125,
+        "h1_A1": 272,
+        "h1_A2": 335,
+        "h1_shared": 82,
+        "unassigned": 76,
+        "unphased_A1": 257,
+        "unphased_A2": 135
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m17",
+      "counts": {
+        "h0_A1": 541,
+        "h0_A2": 321,
+        "h0_shared": 143,
+        "h1_A1": 238,
+        "h1_A2": 192,
+        "h1_shared": 96,
+        "unassigned": 61,
+        "unphased_A1": 189,
+        "unphased_A2": 107
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "counts": {
+        "h0_A1": 141,
+        "h0_A2": 197,
+        "h0_shared": 51,
+        "h1_A1": 79,
+        "h1_A2": 546,
+        "h1_shared": 87,
+        "unassigned": 48,
+        "unphased_A1": 54,
+        "unphased_A2": 233
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m12",
+      "counts": {
+        "h0_A1": 207,
+        "h0_A2": 175,
+        "h0_shared": 54,
+        "h1_A1": 218,
+        "h1_A2": 365,
+        "h1_shared": 79,
+        "unassigned": 42,
+        "unphased_A1": 138,
+        "unphased_A2": 164
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m19",
+      "counts": {
+        "h0_A1": 473,
+        "h0_A2": 109,
+        "h0_shared": 93,
+        "h1_A1": 247,
+        "h1_A2": 221,
+        "h1_shared": 65,
+        "unassigned": 52,
+        "unphased_A1": 224,
+        "unphased_A2": 104
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "counts": {
+        "h0_A1": 131,
+        "h0_A2": 202,
+        "h0_shared": 73,
+        "h1_A1": 169,
+        "h1_A2": 557,
+        "h1_shared": 154,
+        "unassigned": 48,
+        "unphased_A1": 62,
+        "unphased_A2": 177
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m07",
+      "counts": {
+        "h0_A1": 570,
+        "h0_A2": 198,
+        "h0_shared": 151,
+        "h1_A1": 269,
+        "h1_A2": 371,
+        "h1_shared": 119,
+        "unassigned": 61,
+        "unphased_A1": 199,
+        "unphased_A2": 134
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m23",
+      "counts": {
+        "h0_A1": 368,
+        "h0_A2": 134,
+        "h0_shared": 83,
+        "h1_A1": 215,
+        "h1_A2": 483,
+        "h1_shared": 117,
+        "unassigned": 47,
+        "unphased_A1": 149,
+        "unphased_A2": 152
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m12",
+      "counts": {
+        "h0_A1": 317,
+        "h0_A2": 225,
+        "h0_shared": 88,
+        "h1_A1": 301,
+        "h1_A2": 185,
+        "h1_shared": 89,
+        "unassigned": 56,
+        "unphased_A1": 147,
+        "unphased_A2": 96
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m12",
+      "counts": {
+        "h0_A1": 271,
+        "h0_A2": 178,
+        "h0_shared": 80,
+        "h1_A1": 340,
+        "h1_A2": 172,
+        "h1_shared": 64,
+        "unassigned": 67,
+        "unphased_A1": 216,
+        "unphased_A2": 102
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m15",
+      "counts": {
+        "h0_A1": 327,
+        "h0_A2": 245,
+        "h0_shared": 94,
+        "h1_A1": 128,
+        "h1_A2": 416,
+        "h1_shared": 71,
+        "unassigned": 64,
+        "unphased_A1": 132,
+        "unphased_A2": 215
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "counts": {
+        "h0_A1": 644,
+        "h0_A2": 240,
+        "h0_shared": 149,
+        "h1_A1": 91,
+        "h1_A2": 475,
+        "h1_shared": 99,
+        "unassigned": 48,
+        "unphased_A1": 185,
+        "unphased_A2": 168
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m08",
+      "counts": {
+        "h0_A1": 202,
+        "h0_A2": 251,
+        "h0_shared": 82,
+        "h1_A1": 295,
+        "h1_A2": 563,
+        "h1_shared": 111,
+        "unassigned": 49,
+        "unphased_A1": 193,
+        "unphased_A2": 272
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m18",
+      "counts": {
+        "h0_A1": 231,
+        "h0_A2": 330,
+        "h0_shared": 64,
+        "h1_A1": 184,
+        "h1_A2": 249,
+        "h1_shared": 41,
+        "unassigned": 49,
+        "unphased_A1": 122,
+        "unphased_A2": 204
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "counts": {
+        "h0_A1": 219,
+        "h0_A2": 289,
+        "h0_shared": 76,
+        "h1_A1": 142,
+        "h1_A2": 776,
+        "h1_shared": 136,
+        "unassigned": 54,
+        "unphased_A1": 95,
+        "unphased_A2": 268
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "counts": {
+        "h0_A1": 413,
+        "h0_A2": 158,
+        "h0_shared": 93,
+        "h1_A1": 185,
+        "h1_A2": 581,
+        "h1_shared": 89,
+        "unassigned": 66,
+        "unphased_A1": 198,
+        "unphased_A2": 266
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m10",
+      "counts": {
+        "h0_A1": 530,
+        "h0_A2": 157,
+        "h0_shared": 149,
+        "h1_A1": 139,
+        "h1_A2": 206,
+        "h1_shared": 59,
+        "unassigned": 39,
+        "unphased_A1": 204,
+        "unphased_A2": 115
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "counts": {
+        "h0_A1": 136,
+        "h0_A2": 268,
+        "h0_shared": 59,
+        "h1_A1": 214,
+        "h1_A2": 682,
+        "h1_shared": 91,
+        "unassigned": 41,
+        "unphased_A1": 116,
+        "unphased_A2": 372
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "counts": {
+        "h0_A1": 486,
+        "h0_A2": 219,
+        "h0_shared": 117,
+        "h1_A1": 286,
+        "h1_A2": 140,
+        "h1_shared": 82,
+        "unassigned": 47,
+        "unphased_A1": 182,
+        "unphased_A2": 84
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m17",
+      "counts": {
+        "h0_A1": 472,
+        "h0_A2": 284,
+        "h0_shared": 144,
+        "h1_A1": 161,
+        "h1_A2": 333,
+        "h1_shared": 106,
+        "unassigned": 53,
+        "unphased_A1": 165,
+        "unphased_A2": 185
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m09",
+      "counts": {
+        "h0_A1": 472,
+        "h0_A2": 140,
+        "h0_shared": 127,
+        "h1_A1": 175,
+        "h1_A2": 156,
+        "h1_shared": 52,
+        "unassigned": 37,
+        "unphased_A1": 184,
+        "unphased_A2": 91
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m11",
+      "counts": {
+        "h0_A1": 549,
+        "h0_A2": 118,
+        "h0_shared": 106,
+        "h1_A1": 107,
+        "h1_A2": 303,
+        "h1_shared": 63,
+        "unassigned": 40,
+        "unphased_A1": 153,
+        "unphased_A2": 91
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m21",
+      "counts": {
+        "h0_A1": 249,
+        "h0_A2": 226,
+        "h0_shared": 88,
+        "h1_A1": 206,
+        "h1_A2": 431,
+        "h1_shared": 107,
+        "unassigned": 43,
+        "unphased_A1": 94,
+        "unphased_A2": 163
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m15",
+      "counts": {
+        "h0_A1": 299,
+        "h0_A2": 202,
+        "h0_shared": 82,
+        "h1_A1": 274,
+        "h1_A2": 381,
+        "h1_shared": 128,
+        "unassigned": 38,
+        "unphased_A1": 130,
+        "unphased_A2": 140
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m08",
+      "counts": {
+        "h0_A1": 219,
+        "h0_A2": 215,
+        "h0_shared": 43,
+        "h1_A1": 254,
+        "h1_A2": 284,
+        "h1_shared": 62,
+        "unassigned": 40,
+        "unphased_A1": 150,
+        "unphased_A2": 166
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m20",
+      "counts": {
+        "h0_A1": 576,
+        "h0_A2": 148,
+        "h0_shared": 118,
+        "h1_A1": 256,
+        "h1_A2": 400,
+        "h1_shared": 108,
+        "unassigned": 49,
+        "unphased_A1": 203,
+        "unphased_A2": 122
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m01",
+      "counts": {
+        "h0_A1": 213,
+        "h0_A2": 224,
+        "h0_shared": 67,
+        "h1_A1": 278,
+        "h1_A2": 314,
+        "h1_shared": 60,
+        "unassigned": 50,
+        "unphased_A1": 181,
+        "unphased_A2": 209
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m16",
+      "counts": {
+        "h0_A1": 225,
+        "h0_A2": 265,
+        "h0_shared": 64,
+        "h1_A1": 198,
+        "h1_A2": 270,
+        "h1_shared": 47,
+        "unassigned": 52,
+        "unphased_A1": 140,
+        "unphased_A2": 202
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "counts": {
+        "h0_A1": 460,
+        "h0_A2": 147,
+        "h0_shared": 91,
+        "h1_A1": 162,
+        "h1_A2": 508,
+        "h1_shared": 89,
+        "unassigned": 52,
+        "unphased_A1": 155,
+        "unphased_A2": 203
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "counts": {
+        "h0_A1": 21,
+        "h0_A2": 12,
+        "h0_shared": 3,
+        "h1_A1": 14,
+        "h1_A2": 18,
+        "h1_shared": 4,
+        "unassigned": 1,
+        "unphased_A1": 20,
+        "unphased_A2": 17
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "counts": {
+        "h0_A1": 410,
+        "h0_A2": 181,
+        "h0_shared": 80,
+        "h1_A1": 276,
+        "h1_A2": 120,
+        "h1_shared": 51,
+        "unassigned": 51,
+        "unphased_A1": 247,
+        "unphased_A2": 91
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m14",
+      "counts": {
+        "h0_A1": 316,
+        "h0_A2": 198,
+        "h0_shared": 70,
+        "h1_A1": 140,
+        "h1_A2": 268,
+        "h1_shared": 46,
+        "unassigned": 46,
+        "unphased_A1": 161,
+        "unphased_A2": 173
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m21",
+      "counts": {
+        "h0_A1": 15,
+        "h0_A2": 18,
+        "h0_shared": 8,
+        "h1_A1": 17,
+        "h1_A2": 20,
+        "h1_shared": 6,
+        "unassigned": 3,
+        "unphased_A1": 12,
+        "unphased_A2": 11
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "counts": {
+        "h0_A1": 335,
+        "h0_A2": 161,
+        "h0_shared": 77,
+        "h1_A1": 312,
+        "h1_A2": 355,
+        "h1_shared": 68,
+        "unassigned": 43,
+        "unphased_A1": 256,
+        "unphased_A2": 206
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m09",
+      "counts": {
+        "h0_A1": 463,
+        "h0_A2": 117,
+        "h0_shared": 93,
+        "h1_A1": 126,
+        "h1_A2": 227,
+        "h1_shared": 49,
+        "unassigned": 48,
+        "unphased_A1": 180,
+        "unphased_A2": 111
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m08",
+      "counts": {
+        "h0_A1": 320,
+        "h0_A2": 284,
+        "h0_shared": 104,
+        "h1_A1": 358,
+        "h1_A2": 423,
+        "h1_shared": 118,
+        "unassigned": 57,
+        "unphased_A1": 174,
+        "unphased_A2": 167
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m08",
+      "counts": {
+        "h0_A1": 212,
+        "h0_A2": 233,
+        "h0_shared": 41,
+        "h1_A1": 215,
+        "h1_A2": 502,
+        "h1_shared": 80,
+        "unassigned": 50,
+        "unphased_A1": 137,
+        "unphased_A2": 267
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "counts": {
+        "h0_A1": 271,
+        "h0_A2": 293,
+        "h0_shared": 88,
+        "h1_A1": 157,
+        "h1_A2": 285,
+        "h1_shared": 94,
+        "unassigned": 44,
+        "unphased_A1": 126,
+        "unphased_A2": 128
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m18",
+      "counts": {
+        "h0_A1": 200,
+        "h0_A2": 285,
+        "h0_shared": 99,
+        "h1_A1": 225,
+        "h1_A2": 576,
+        "h1_shared": 140,
+        "unassigned": 50,
+        "unphased_A1": 112,
+        "unphased_A2": 221
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m01",
+      "counts": {
+        "h0_A1": 269,
+        "h0_A2": 200,
+        "h0_shared": 80,
+        "h1_A1": 347,
+        "h1_A2": 311,
+        "h1_shared": 125,
+        "unassigned": 53,
+        "unphased_A1": 149,
+        "unphased_A2": 140
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m06",
+      "counts": {
+        "h0_A1": 312,
+        "h0_A2": 130,
+        "h0_shared": 63,
+        "h1_A1": 378,
+        "h1_A2": 156,
+        "h1_shared": 56,
+        "unassigned": 40,
+        "unphased_A1": 242,
+        "unphased_A2": 95
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m07",
+      "counts": {
+        "h0_A1": 677,
+        "h0_A2": 223,
+        "h0_shared": 160,
+        "h1_A1": 310,
+        "h1_A2": 205,
+        "h1_shared": 102,
+        "unassigned": 68,
+        "unphased_A1": 250,
+        "unphased_A2": 95
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m16",
+      "counts": {
+        "h0_A1": 243,
+        "h0_A2": 297,
+        "h0_shared": 98,
+        "h1_A1": 211,
+        "h1_A2": 498,
+        "h1_shared": 136,
+        "unassigned": 52,
+        "unphased_A1": 134,
+        "unphased_A2": 205
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m23",
+      "counts": {
+        "h0_A1": 606,
+        "h0_A2": 220,
+        "h0_shared": 145,
+        "h1_A1": 177,
+        "h1_A2": 232,
+        "h1_shared": 65,
+        "unassigned": 45,
+        "unphased_A1": 225,
+        "unphased_A2": 115
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m20",
+      "counts": {
+        "h0_A1": 430,
+        "h0_A2": 108,
+        "h0_shared": 77,
+        "h1_A1": 247,
+        "h1_A2": 298,
+        "h1_shared": 55,
+        "unassigned": 44,
+        "unphased_A1": 219,
+        "unphased_A2": 166
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m08",
+      "counts": {
+        "h0_A1": 224,
+        "h0_A2": 236,
+        "h0_shared": 78,
+        "h1_A1": 289,
+        "h1_A2": 514,
+        "h1_shared": 123,
+        "unassigned": 55,
+        "unphased_A1": 129,
+        "unphased_A2": 184
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m20",
+      "counts": {
+        "h0_A1": 519,
+        "h0_A2": 141,
+        "h0_shared": 116,
+        "h1_A1": 268,
+        "h1_A2": 322,
+        "h1_shared": 82,
+        "unassigned": 72,
+        "unphased_A1": 255,
+        "unphased_A2": 163
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m23",
+      "counts": {
+        "h0_A1": 389,
+        "h0_A2": 132,
+        "h0_shared": 107,
+        "h1_A1": 225,
+        "h1_A2": 541,
+        "h1_shared": 112,
+        "unassigned": 71,
+        "unphased_A1": 192,
+        "unphased_A2": 209
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "counts": {
+        "h0_A1": 431,
+        "h0_A2": 222,
+        "h0_shared": 140,
+        "h1_A1": 512,
+        "h1_A2": 201,
+        "h1_shared": 145,
+        "unassigned": 57,
+        "unphased_A1": 223,
+        "unphased_A2": 93
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m20",
+      "counts": {
+        "h0_A1": 556,
+        "h0_A2": 140,
+        "h0_shared": 114,
+        "h1_A1": 136,
+        "h1_A2": 548,
+        "h1_shared": 68,
+        "unassigned": 54,
+        "unphased_A1": 197,
+        "unphased_A2": 160
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m10",
+      "counts": {
+        "h0_A1": 512,
+        "h0_A2": 162,
+        "h0_shared": 119,
+        "h1_A1": 137,
+        "h1_A2": 206,
+        "h1_shared": 46,
+        "unassigned": 38,
+        "unphased_A1": 166,
+        "unphased_A2": 108
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m20",
+      "counts": {
+        "h0_A1": 437,
+        "h0_A2": 131,
+        "h0_shared": 80,
+        "h1_A1": 109,
+        "h1_A2": 394,
+        "h1_shared": 92,
+        "unassigned": 33,
+        "unphased_A1": 132,
+        "unphased_A2": 102
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "counts": {
+        "h0_A1": 144,
+        "h0_A2": 241,
+        "h0_shared": 65,
+        "h1_A1": 298,
+        "h1_A2": 439,
+        "h1_shared": 103,
+        "unassigned": 50,
+        "unphased_A1": 147,
+        "unphased_A2": 241
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m16",
+      "counts": {
+        "h0_A1": 283,
+        "h0_A2": 356,
+        "h0_shared": 107,
+        "h1_A1": 215,
+        "h1_A2": 288,
+        "h1_shared": 98,
+        "unassigned": 53,
+        "unphased_A1": 112,
+        "unphased_A2": 136
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m16",
+      "counts": {
+        "h0_A1": 236,
+        "h0_A2": 302,
+        "h0_shared": 65,
+        "h1_A1": 186,
+        "h1_A2": 488,
+        "h1_shared": 87,
+        "unassigned": 68,
+        "unphased_A1": 154,
+        "unphased_A2": 322
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m03",
+      "counts": {
+        "h0_A1": 28,
+        "h0_A2": 13,
+        "h0_shared": 8,
+        "h1_A1": 25,
+        "h1_A2": 6,
+        "h1_shared": 2,
+        "unassigned": 6,
+        "unphased_A1": 16,
+        "unphased_A2": 6
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m15",
+      "counts": {
+        "h0_A1": 299,
+        "h0_A2": 250,
+        "h0_shared": 97,
+        "h1_A1": 126,
+        "h1_A2": 359,
+        "h1_shared": 85,
+        "unassigned": 44,
+        "unphased_A1": 116,
+        "unphased_A2": 151
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "counts": {
+        "h0_A1": 251,
+        "h0_A2": 253,
+        "h0_shared": 68,
+        "h1_A1": 346,
+        "h1_A2": 249,
+        "h1_shared": 82,
+        "unassigned": 49,
+        "unphased_A1": 193,
+        "unphased_A2": 159
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m15",
+      "counts": {
+        "h0_A1": 339,
+        "h0_A2": 260,
+        "h0_shared": 69,
+        "h1_A1": 137,
+        "h1_A2": 458,
+        "h1_shared": 64,
+        "unassigned": 60,
+        "unphased_A1": 170,
+        "unphased_A2": 307
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m11",
+      "counts": {
+        "h0_A1": 502,
+        "h0_A2": 119,
+        "h0_shared": 105,
+        "h1_A1": 261,
+        "h1_A2": 345,
+        "h1_shared": 123,
+        "unassigned": 63,
+        "unphased_A1": 195,
+        "unphased_A2": 123
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m13",
+      "counts": {
+        "h0_A1": 151,
+        "h0_A2": 222,
+        "h0_shared": 64,
+        "h1_A1": 195,
+        "h1_A2": 498,
+        "h1_shared": 129,
+        "unassigned": 49,
+        "unphased_A1": 61,
+        "unphased_A2": 180
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m09",
+      "counts": {
+        "h0_A1": 472,
+        "h0_A2": 147,
+        "h0_shared": 75,
+        "h1_A1": 177,
+        "h1_A2": 303,
+        "h1_shared": 56,
+        "unassigned": 52,
+        "unphased_A1": 247,
+        "unphased_A2": 161
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m13",
+      "counts": {
+        "h0_A1": 252,
+        "h0_A2": 419,
+        "h0_shared": 92,
+        "h1_A1": 258,
+        "h1_A2": 449,
+        "h1_shared": 68,
+        "unassigned": 51,
+        "unphased_A1": 163,
+        "unphased_A2": 316
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m21",
+      "counts": {
+        "h0_A1": 304,
+        "h0_A2": 325,
+        "h0_shared": 94,
+        "h1_A1": 228,
+        "h1_A2": 353,
+        "h1_shared": 97,
+        "unassigned": 60,
+        "unphased_A1": 202,
+        "unphased_A2": 249
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m04",
+      "counts": {
+        "h0_A1": 156,
+        "h0_A2": 269,
+        "h0_shared": 48,
+        "h1_A1": 314,
+        "h1_A2": 559,
+        "h1_shared": 77,
+        "unassigned": 64,
+        "unphased_A1": 155,
+        "unphased_A2": 314
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m20",
+      "counts": {
+        "h0_A1": 534,
+        "h0_A2": 113,
+        "h0_shared": 81,
+        "h1_A1": 164,
+        "h1_A2": 551,
+        "h1_shared": 76,
+        "unassigned": 52,
+        "unphased_A1": 248,
+        "unphased_A2": 216
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m18",
+      "counts": {
+        "h0_A1": 153,
+        "h0_A2": 231,
+        "h0_shared": 55,
+        "h1_A1": 146,
+        "h1_A2": 404,
+        "h1_shared": 79,
+        "unassigned": 44,
+        "unphased_A1": 94,
+        "unphased_A2": 213
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m19",
+      "counts": {
+        "h0_A1": 505,
+        "h0_A2": 141,
+        "h0_shared": 99,
+        "h1_A1": 334,
+        "h1_A2": 127,
+        "h1_shared": 35,
+        "unassigned": 53,
+        "unphased_A1": 281,
+        "unphased_A2": 119
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m05",
+      "counts": {
+        "h0_A1": 463,
+        "h0_A2": 182,
+        "h0_shared": 114,
+        "h1_A1": 201,
+        "h1_A2": 528,
+        "h1_shared": 125,
+        "unassigned": 66,
+        "unphased_A1": 189,
+        "unphased_A2": 172
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m12",
+      "counts": {
+        "h0_A1": 26,
+        "h0_A2": 18,
+        "h0_shared": 3,
+        "h1_A1": 27,
+        "h1_A2": 11,
+        "h1_shared": 1,
+        "unassigned": 1,
+        "unphased_A1": 12,
+        "unphased_A2": 11
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m11",
+      "counts": {
+        "h0_A1": 409,
+        "h0_A2": 109,
+        "h0_shared": 75,
+        "h1_A1": 213,
+        "h1_A2": 332,
+        "h1_shared": 40,
+        "unassigned": 43,
+        "unphased_A1": 221,
+        "unphased_A2": 148
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m15",
+      "counts": {
+        "h0_A1": 320,
+        "h0_A2": 242,
+        "h0_shared": 85,
+        "h1_A1": 337,
+        "h1_A2": 451,
+        "h1_shared": 108,
+        "unassigned": 74,
+        "unphased_A1": 221,
+        "unphased_A2": 252
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m13",
+      "counts": {
+        "h0_A1": 263,
+        "h0_A2": 437,
+        "h0_shared": 118,
+        "h1_A1": 257,
+        "h1_A2": 391,
+        "h1_shared": 97,
+        "unassigned": 62,
+        "unphased_A1": 166,
+        "unphased_A2": 275
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m18",
+      "counts": {
+        "h0_A1": 299,
+        "h0_A2": 438,
+        "h0_shared": 132,
+        "h1_A1": 250,
+        "h1_A2": 317,
+        "h1_shared": 93,
+        "unassigned": 44,
+        "unphased_A1": 141,
+        "unphased_A2": 195
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "counts": {
+        "h0_A1": 162,
+        "h0_A2": 256,
+        "h0_shared": 49,
+        "h1_A1": 121,
+        "h1_A2": 498,
+        "h1_shared": 74,
+        "unassigned": 39,
+        "unphased_A1": 92,
+        "unphased_A2": 280
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m11",
+      "counts": {
+        "h0_A1": 464,
+        "h0_A2": 92,
+        "h0_shared": 85,
+        "h1_A1": 110,
+        "h1_A2": 292,
+        "h1_shared": 50,
+        "unassigned": 30,
+        "unphased_A1": 198,
+        "unphased_A2": 139
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m16",
+      "counts": {
+        "h0_A1": 222,
+        "h0_A2": 226,
+        "h0_shared": 70,
+        "h1_A1": 161,
+        "h1_A2": 362,
+        "h1_shared": 61,
+        "unassigned": 42,
+        "unphased_A1": 112,
+        "unphased_A2": 210
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m19",
+      "counts": {
+        "h0_A1": 470,
+        "h0_A2": 134,
+        "h0_shared": 97,
+        "h1_A1": 214,
+        "h1_A2": 247,
+        "h1_shared": 54,
+        "unassigned": 61,
+        "unphased_A1": 212,
+        "unphased_A2": 83
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m19",
+      "counts": {
+        "h0_A1": 544,
+        "h0_A2": 173,
+        "h0_shared": 125,
+        "h1_A1": 316,
+        "h1_A2": 150,
+        "h1_shared": 72,
+        "unassigned": 52,
+        "unphased_A1": 286,
+        "unphased_A2": 101
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m12",
+      "counts": {
+        "h0_A1": 18,
+        "h0_A2": 12,
+        "h0_shared": 7,
+        "h1_A1": 11,
+        "h1_A2": 25,
+        "h1_shared": 3,
+        "unassigned": 4,
+        "unphased_A1": 11,
+        "unphased_A2": 19
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m13",
+      "counts": {
+        "h0_A1": 310,
+        "h0_A2": 416,
+        "h0_shared": 127,
+        "h1_A1": 262,
+        "h1_A2": 397,
+        "h1_shared": 123,
+        "unassigned": 61,
+        "unphased_A1": 129,
+        "unphased_A2": 204
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m17",
+      "counts": {
+        "h0_A1": 427,
+        "h0_A2": 225,
+        "h0_shared": 94,
+        "h1_A1": 179,
+        "h1_A2": 176,
+        "h1_shared": 46,
+        "unassigned": 43,
+        "unphased_A1": 197,
+        "unphased_A2": 113
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m08",
+      "counts": {
+        "h0_A1": 300,
+        "h0_A2": 280,
+        "h0_shared": 89,
+        "h1_A1": 349,
+        "h1_A2": 330,
+        "h1_shared": 86,
+        "unassigned": 55,
+        "unphased_A1": 198,
+        "unphased_A2": 196
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m18",
+      "counts": {
+        "h0_A1": 136,
+        "h0_A2": 216,
+        "h0_shared": 50,
+        "h1_A1": 151,
+        "h1_A2": 455,
+        "h1_shared": 79,
+        "unassigned": 38,
+        "unphased_A1": 97,
+        "unphased_A2": 234
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m09",
+      "counts": {
+        "h0_A1": 495,
+        "h0_A2": 183,
+        "h0_shared": 125,
+        "h1_A1": 183,
+        "h1_A2": 150,
+        "h1_shared": 64,
+        "unassigned": 40,
+        "unphased_A1": 146,
+        "unphased_A2": 61
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m23",
+      "counts": {
+        "h0_A1": 487,
+        "h0_A2": 144,
+        "h0_shared": 85,
+        "h1_A1": 165,
+        "h1_A2": 239,
+        "h1_shared": 43,
+        "unassigned": 51,
+        "unphased_A1": 203,
+        "unphased_A2": 140
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m14",
+      "counts": {
+        "h0_A1": 311,
+        "h0_A2": 164,
+        "h0_shared": 77,
+        "h1_A1": 130,
+        "h1_A2": 486,
+        "h1_shared": 74,
+        "unassigned": 41,
+        "unphased_A1": 146,
+        "unphased_A2": 229
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m14",
+      "counts": {
+        "h0_A1": 491,
+        "h0_A2": 289,
+        "h0_shared": 135,
+        "h1_A1": 177,
+        "h1_A2": 354,
+        "h1_shared": 77,
+        "unassigned": 58,
+        "unphased_A1": 203,
+        "unphased_A2": 198
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m22",
+      "counts": {
+        "h0_A1": 284,
+        "h0_A2": 151,
+        "h0_shared": 76,
+        "h1_A1": 269,
+        "h1_A2": 424,
+        "h1_shared": 100,
+        "unassigned": 52,
+        "unphased_A1": 209,
+        "unphased_A2": 184
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m10",
+      "counts": {
+        "h0_A1": 638,
+        "h0_A2": 162,
+        "h0_shared": 117,
+        "h1_A1": 182,
+        "h1_A2": 284,
+        "h1_shared": 49,
+        "unassigned": 58,
+        "unphased_A1": 258,
+        "unphased_A2": 155
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m02",
+      "counts": {
+        "h0_A1": 155,
+        "h0_A2": 199,
+        "h0_shared": 58,
+        "h1_A1": 137,
+        "h1_A2": 482,
+        "h1_shared": 70,
+        "unassigned": 42,
+        "unphased_A1": 90,
+        "unphased_A2": 216
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m18",
+      "counts": {
+        "h0_A1": 244,
+        "h0_A2": 352,
+        "h0_shared": 97,
+        "h1_A1": 230,
+        "h1_A2": 220,
+        "h1_shared": 63,
+        "unassigned": 56,
+        "unphased_A1": 154,
+        "unphased_A2": 170
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m23",
+      "counts": {
+        "h0_A1": 288,
+        "h0_A2": 109,
+        "h0_shared": 52,
+        "h1_A1": 152,
+        "h1_A2": 439,
+        "h1_shared": 64,
+        "unassigned": 41,
+        "unphased_A1": 161,
+        "unphased_A2": 189
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m12",
+      "counts": {
+        "h0_A1": 317,
+        "h0_A2": 220,
+        "h0_shared": 91,
+        "h1_A1": 267,
+        "h1_A2": 459,
+        "h1_shared": 105,
+        "unassigned": 55,
+        "unphased_A1": 168,
+        "unphased_A2": 150
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m04",
+      "counts": {
+        "h0_A1": 147,
+        "h0_A2": 232,
+        "h0_shared": 71,
+        "h1_A1": 289,
+        "h1_A2": 448,
+        "h1_shared": 112,
+        "unassigned": 41,
+        "unphased_A1": 96,
+        "unphased_A2": 148
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m05",
+      "counts": {
+        "h0_A1": 499,
+        "h0_A2": 183,
+        "h0_shared": 98,
+        "h1_A1": 110,
+        "h1_A2": 467,
+        "h1_shared": 62,
+        "unassigned": 60,
+        "unphased_A1": 207,
+        "unphased_A2": 246
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m21",
+      "counts": {
+        "h0_A1": 200,
+        "h0_A2": 204,
+        "h0_shared": 74,
+        "h1_A1": 200,
+        "h1_A2": 502,
+        "h1_shared": 81,
+        "unassigned": 60,
+        "unphased_A1": 125,
+        "unphased_A2": 219
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m05",
+      "counts": {
+        "h0_A1": 455,
+        "h0_A2": 133,
+        "h0_shared": 102,
+        "h1_A1": 55,
+        "h1_A2": 316,
+        "h1_shared": 42,
+        "unassigned": 52,
+        "unphased_A1": 157,
+        "unphased_A2": 183
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m23",
+      "counts": {
+        "h0_A1": 659,
+        "h0_A2": 169,
+        "h0_shared": 134,
+        "h1_A1": 191,
+        "h1_A2": 223,
+        "h1_shared": 67,
+        "unassigned": 67,
+        "unphased_A1": 248,
+        "unphased_A2": 154
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m10",
+      "counts": {
+        "h0_A1": 311,
+        "h0_A2": 121,
+        "h0_shared": 56,
+        "h1_A1": 168,
+        "h1_A2": 396,
+        "h1_shared": 100,
+        "unassigned": 45,
+        "unphased_A1": 105,
+        "unphased_A2": 112
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m09",
+      "counts": {
+        "h0_A1": 471,
+        "h0_A2": 144,
+        "h0_shared": 91,
+        "h1_A1": 126,
+        "h1_A2": 246,
+        "h1_shared": 88,
+        "unassigned": 36,
+        "unphased_A1": 158,
+        "unphased_A2": 92
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m22",
+      "counts": {
+        "h0_A1": 595,
+        "h0_A2": 264,
+        "h0_shared": 130,
+        "h1_A1": 315,
+        "h1_A2": 137,
+        "h1_shared": 57,
+        "unassigned": 66,
+        "unphased_A1": 303,
+        "unphased_A2": 121
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m22",
+      "counts": {
+        "h0_A1": 343,
+        "h0_A2": 154,
+        "h0_shared": 87,
+        "h1_A1": 256,
+        "h1_A2": 435,
+        "h1_shared": 113,
+        "unassigned": 65,
+        "unphased_A1": 151,
+        "unphased_A2": 126
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m14",
+      "counts": {
+        "h0_A1": 540,
+        "h0_A2": 265,
+        "h0_shared": 136,
+        "h1_A1": 185,
+        "h1_A2": 339,
+        "h1_shared": 95,
+        "unassigned": 59,
+        "unphased_A1": 157,
+        "unphased_A2": 133
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m11",
+      "counts": {
+        "h0_A1": 443,
+        "h0_A2": 110,
+        "h0_shared": 99,
+        "h1_A1": 196,
+        "h1_A2": 324,
+        "h1_shared": 91,
+        "unassigned": 57,
+        "unphased_A1": 235,
+        "unphased_A2": 127
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m13",
+      "counts": {
+        "h0_A1": 146,
+        "h0_A2": 233,
+        "h0_shared": 48,
+        "h1_A1": 207,
+        "h1_A2": 530,
+        "h1_shared": 103,
+        "unassigned": 47,
+        "unphased_A1": 103,
+        "unphased_A2": 253
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m10",
+      "counts": {
+        "h0_A1": 393,
+        "h0_A2": 157,
+        "h0_shared": 64,
+        "h1_A1": 194,
+        "h1_A2": 600,
+        "h1_shared": 83,
+        "unassigned": 45,
+        "unphased_A1": 188,
+        "unphased_A2": 248
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m04",
+      "counts": {
+        "h0_A1": 149,
+        "h0_A2": 233,
+        "h0_shared": 51,
+        "h1_A1": 194,
+        "h1_A2": 674,
+        "h1_shared": 119,
+        "unassigned": 65,
+        "unphased_A1": 115,
+        "unphased_A2": 280
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m02",
+      "counts": {
+        "h0_A1": 225,
+        "h0_A2": 221,
+        "h0_shared": 69,
+        "h1_A1": 171,
+        "h1_A2": 553,
+        "h1_shared": 107,
+        "unassigned": 33,
+        "unphased_A1": 86,
+        "unphased_A2": 181
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m11",
+      "counts": {
+        "h0_A1": 675,
+        "h0_A2": 120,
+        "h0_shared": 140,
+        "h1_A1": 156,
+        "h1_A2": 379,
+        "h1_shared": 61,
+        "unassigned": 60,
+        "unphased_A1": 257,
+        "unphased_A2": 165
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m17",
+      "counts": {
+        "h0_A1": 352,
+        "h0_A2": 224,
+        "h0_shared": 68,
+        "h1_A1": 139,
+        "h1_A2": 318,
+        "h1_shared": 51,
+        "unassigned": 30,
+        "unphased_A1": 192,
+        "unphased_A2": 185
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m02",
+      "counts": {
+        "h0_A1": 175,
+        "h0_A2": 278,
+        "h0_shared": 54,
+        "h1_A1": 75,
+        "h1_A2": 778,
+        "h1_shared": 98,
+        "unassigned": 47,
+        "unphased_A1": 80,
+        "unphased_A2": 376
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m07",
+      "counts": {
+        "h0_A1": 619,
+        "h0_A2": 183,
+        "h0_shared": 96,
+        "h1_A1": 382,
+        "h1_A2": 213,
+        "h1_shared": 60,
+        "unassigned": 61,
+        "unphased_A1": 344,
+        "unphased_A2": 130
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m03",
+      "counts": {
+        "h0_A1": 402,
+        "h0_A2": 170,
+        "h0_shared": 98,
+        "h1_A1": 243,
+        "h1_A2": 330,
+        "h1_shared": 109,
+        "unassigned": 47,
+        "unphased_A1": 146,
+        "unphased_A2": 122
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m17",
+      "counts": {
+        "h0_A1": 378,
+        "h0_A2": 226,
+        "h0_shared": 94,
+        "h1_A1": 199,
+        "h1_A2": 184,
+        "h1_shared": 39,
+        "unassigned": 42,
+        "unphased_A1": 198,
+        "unphased_A2": 160
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m21",
+      "counts": {
+        "h0_A1": 337,
+        "h0_A2": 292,
+        "h0_shared": 121,
+        "h1_A1": 225,
+        "h1_A2": 350,
+        "h1_shared": 102,
+        "unassigned": 44,
+        "unphased_A1": 141,
+        "unphased_A2": 165
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m10",
+      "counts": {
+        "h0_A1": 435,
+        "h0_A2": 123,
+        "h0_shared": 72,
+        "h1_A1": 169,
+        "h1_A2": 579,
+        "h1_shared": 80,
+        "unassigned": 56,
+        "unphased_A1": 169,
+        "unphased_A2": 205
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m17",
+      "counts": {
+        "h0_A1": 347,
+        "h0_A2": 187,
+        "h0_shared": 105,
+        "h1_A1": 125,
+        "h1_A2": 283,
+        "h1_shared": 38,
+        "unassigned": 44,
+        "unphased_A1": 147,
+        "unphased_A2": 154
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m06",
+      "counts": {
+        "h0_A1": 377,
+        "h0_A2": 192,
+        "h0_shared": 105,
+        "h1_A1": 344,
+        "h1_A2": 337,
+        "h1_shared": 109,
+        "unassigned": 56,
+        "unphased_A1": 198,
+        "unphased_A2": 132
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m03",
+      "counts": {
+        "h0_A1": 402,
+        "h0_A2": 166,
+        "h0_shared": 96,
+        "h1_A1": 263,
+        "h1_A2": 317,
+        "h1_shared": 82,
+        "unassigned": 65,
+        "unphased_A1": 193,
+        "unphased_A2": 186
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m01",
+      "counts": {
+        "h0_A1": 377,
+        "h0_A2": 425,
+        "h0_shared": 114,
+        "h1_A1": 242,
+        "h1_A2": 331,
+        "h1_shared": 70,
+        "unassigned": 78,
+        "unphased_A1": 205,
+        "unphased_A2": 249
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m15",
+      "counts": {
+        "h0_A1": 233,
+        "h0_A2": 159,
+        "h0_shared": 55,
+        "h1_A1": 234,
+        "h1_A2": 361,
+        "h1_shared": 61,
+        "unassigned": 50,
+        "unphased_A1": 182,
+        "unphased_A2": 189
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_B",
+      "case_id": "m14",
+      "counts": {
+        "h0_A1": 385,
+        "h0_A2": 197,
+        "h0_shared": 85,
+        "h1_A1": 175,
+        "h1_A2": 538,
+        "h1_shared": 103,
+        "unassigned": 48,
+        "unphased_A1": 122,
+        "unphased_A2": 159
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m16",
+      "counts": {
+        "h0_A1": 256,
+        "h0_A2": 306,
+        "h0_shared": 70,
+        "h1_A1": 179,
+        "h1_A2": 201,
+        "h1_shared": 55,
+        "unassigned": 60,
+        "unphased_A1": 149,
+        "unphased_A2": 142
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m14",
+      "counts": {
+        "h0_A1": 368,
+        "h0_A2": 217,
+        "h0_shared": 69,
+        "h1_A1": 161,
+        "h1_A2": 604,
+        "h1_shared": 83,
+        "unassigned": 57,
+        "unphased_A1": 175,
+        "unphased_A2": 267
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m07",
+      "counts": {
+        "h0_A1": 541,
+        "h0_A2": 124,
+        "h0_shared": 134,
+        "h1_A1": 275,
+        "h1_A2": 167,
+        "h1_shared": 60,
+        "unassigned": 60,
+        "unphased_A1": 233,
+        "unphased_A2": 89
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m22",
+      "counts": {
+        "h0_A1": 656,
+        "h0_A2": 269,
+        "h0_shared": 118,
+        "h1_A1": 294,
+        "h1_A2": 179,
+        "h1_shared": 48,
+        "unassigned": 60,
+        "unphased_A1": 324,
+        "unphased_A2": 138
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m07",
+      "counts": {
+        "h0_A1": 404,
+        "h0_A2": 151,
+        "h0_shared": 80,
+        "h1_A1": 192,
+        "h1_A2": 247,
+        "h1_shared": 40,
+        "unassigned": 56,
+        "unphased_A1": 232,
+        "unphased_A2": 157
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m19",
+      "counts": {
+        "h0_A1": 348,
+        "h0_A2": 111,
+        "h0_shared": 98,
+        "h1_A1": 244,
+        "h1_A2": 247,
+        "h1_shared": 55,
+        "unassigned": 49,
+        "unphased_A1": 195,
+        "unphased_A2": 127
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_C",
+      "case_id": "m13",
+      "counts": {
+        "h0_A1": 149,
+        "h0_A2": 266,
+        "h0_shared": 53,
+        "h1_A1": 157,
+        "h1_A2": 697,
+        "h1_shared": 89,
+        "unassigned": 46,
+        "unphased_A1": 90,
+        "unphased_A2": 298
+      },
+      "group": "control",
+      "replicate_id": "rna1"
+    },
+    {
+      "batch_id": "lane_A",
+      "case_id": "m06",
+      "counts": {
+        "h0_A1": 410,
+        "h0_A2": 143,
+        "h0_shared": 88,
+        "h1_A1": 435,
+        "h1_A2": 152,
+        "h1_shared": 95,
+        "unassigned": 45,
+        "unphased_A1": 285,
+        "unphased_A2": 109
+      },
+      "group": "case",
+      "replicate_id": "rna1"
+    }
+  ],
+  "product_classes": [
+    "hap0_A1",
+    "hap0_A2",
+    "hap1_A1",
+    "hap1_A2"
+  ],
+  "signal_categories": [
+    "h0_A1",
+    "h0_A2",
+    "h1_A1",
+    "h1_A2",
+    "h0_shared",
+    "h1_shared",
+    "unphased_A1",
+    "unphased_A2",
+    "unassigned"
+  ],
+  "standards": [
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 84,
+        "h0_A2": 7,
+        "h0_shared": 11,
+        "h1_A1": 1525,
+        "h1_A2": 113,
+        "h1_shared": 251,
+        "unassigned": 87,
+        "unphased_A1": 508,
+        "unphased_A2": 44
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 919,
+        "h0_A2": 470,
+        "h0_shared": 252,
+        "h1_A1": 142,
+        "h1_A2": 26,
+        "h1_shared": 29,
+        "unassigned": 99,
+        "unphased_A1": 322,
+        "unphased_A2": 151
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 129,
+        "h0_A2": 506,
+        "h0_shared": 77,
+        "h1_A1": 72,
+        "h1_A2": 980,
+        "h1_shared": 104,
+        "unassigned": 75,
+        "unphased_A1": 60,
+        "unphased_A2": 517
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r3",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 497,
+        "h0_A2": 274,
+        "h0_shared": 126,
+        "h1_A1": 241,
+        "h1_A2": 492,
+        "h1_shared": 98,
+        "unassigned": 74,
+        "unphased_A1": 258,
+        "unphased_A2": 240
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r1",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 524,
+        "h0_A2": 307,
+        "h0_shared": 144,
+        "h1_A1": 279,
+        "h1_A2": 517,
+        "h1_shared": 150,
+        "unassigned": 60,
+        "unphased_A1": 222,
+        "unphased_A2": 207
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r2",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 5,
+        "h0_A2": 50,
+        "h0_shared": 8,
+        "h1_A1": 120,
+        "h1_A2": 1363,
+        "h1_shared": 155,
+        "unassigned": 71,
+        "unphased_A1": 44,
+        "unphased_A2": 484
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 7,
+        "h0_A2": 122,
+        "h0_shared": 14,
+        "h1_A1": 93,
+        "h1_A2": 1321,
+        "h1_shared": 143,
+        "unassigned": 62,
+        "unphased_A1": 33,
+        "unphased_A2": 505
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 577,
+        "h0_A2": 174,
+        "h0_shared": 88,
+        "h1_A1": 192,
+        "h1_A2": 778,
+        "h1_shared": 107,
+        "unassigned": 74,
+        "unphased_A1": 251,
+        "unphased_A2": 389
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r4",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 178,
+        "h0_A2": 1367,
+        "h0_shared": 228,
+        "h1_A1": 9,
+        "h1_A2": 55,
+        "h1_shared": 10,
+        "unassigned": 60,
+        "unphased_A1": 42,
+        "unphased_A2": 351
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 546,
+        "h0_A2": 187,
+        "h0_shared": 126,
+        "h1_A1": 177,
+        "h1_A2": 679,
+        "h1_shared": 148,
+        "unassigned": 55,
+        "unphased_A1": 176,
+        "unphased_A2": 206
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r1",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 996,
+        "h0_A2": 141,
+        "h0_shared": 185,
+        "h1_A1": 341,
+        "h1_A2": 114,
+        "h1_shared": 97,
+        "unassigned": 72,
+        "unphased_A1": 300,
+        "unphased_A2": 54
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r1",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 503,
+        "h0_A2": 287,
+        "h0_shared": 118,
+        "h1_A1": 280,
+        "h1_A2": 534,
+        "h1_shared": 141,
+        "unassigned": 64,
+        "unphased_A1": 194,
+        "unphased_A2": 179
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r1",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 36,
+        "h0_A2": 149,
+        "h0_shared": 32,
+        "h1_A1": 417,
+        "h1_A2": 905,
+        "h1_shared": 186,
+        "unassigned": 51,
+        "unphased_A1": 175,
+        "unphased_A2": 349
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r1",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 127,
+        "h0_A2": 1389,
+        "h0_shared": 194,
+        "h1_A1": 4,
+        "h1_A2": 39,
+        "h1_shared": 12,
+        "unassigned": 61,
+        "unphased_A1": 38,
+        "unphased_A2": 436
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 1575,
+        "h0_A2": 133,
+        "h0_shared": 290,
+        "h1_A1": 49,
+        "h1_A2": 12,
+        "h1_shared": 16,
+        "unassigned": 71,
+        "unphased_A1": 447,
+        "unphased_A2": 37
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1025,
+        "h0_A2": 163,
+        "h0_shared": 225,
+        "h1_A1": 316,
+        "h1_A2": 140,
+        "h1_shared": 95,
+        "unassigned": 64,
+        "unphased_A1": 335,
+        "unphased_A2": 47
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r2",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 942,
+        "h0_A2": 82,
+        "h0_shared": 181,
+        "h1_A1": 340,
+        "h1_A2": 134,
+        "h1_shared": 68,
+        "unassigned": 85,
+        "unphased_A1": 412,
+        "unphased_A2": 56
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r1",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 483,
+        "h0_A2": 290,
+        "h0_shared": 139,
+        "h1_A1": 293,
+        "h1_A2": 502,
+        "h1_shared": 101,
+        "unassigned": 76,
+        "unphased_A1": 260,
+        "unphased_A2": 266
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r2",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 143,
+        "h0_A2": 1416,
+        "h0_shared": 237,
+        "h1_A1": 3,
+        "h1_A2": 56,
+        "h1_shared": 5,
+        "unassigned": 59,
+        "unphased_A1": 52,
+        "unphased_A2": 439
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 593,
+        "h0_A2": 157,
+        "h0_shared": 149,
+        "h1_A1": 164,
+        "h1_A2": 783,
+        "h1_shared": 129,
+        "unassigned": 96,
+        "unphased_A1": 274,
+        "unphased_A2": 285
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r4",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 98,
+        "h0_A2": 10,
+        "h0_shared": 6,
+        "h1_A1": 1360,
+        "h1_A2": 117,
+        "h1_shared": 147,
+        "unassigned": 38,
+        "unphased_A1": 485,
+        "unphased_A2": 39
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1258,
+        "h0_A2": 178,
+        "h0_shared": 284,
+        "h1_A1": 61,
+        "h1_A2": 7,
+        "h1_shared": 10,
+        "unassigned": 89,
+        "unphased_A1": 361,
+        "unphased_A2": 52
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 868,
+        "h0_A2": 430,
+        "h0_shared": 175,
+        "h1_A1": 161,
+        "h1_A2": 47,
+        "h1_shared": 24,
+        "unassigned": 61,
+        "unphased_A1": 373,
+        "unphased_A2": 161
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 28,
+        "h0_A2": 150,
+        "h0_shared": 26,
+        "h1_A1": 507,
+        "h1_A2": 951,
+        "h1_shared": 241,
+        "unassigned": 57,
+        "unphased_A1": 135,
+        "unphased_A2": 315
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r2",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 28,
+        "h0_A2": 161,
+        "h0_shared": 35,
+        "h1_A1": 460,
+        "h1_A2": 1043,
+        "h1_shared": 268,
+        "unassigned": 93,
+        "unphased_A1": 121,
+        "unphased_A2": 311
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r3",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 47,
+        "h0_A2": 199,
+        "h0_shared": 44,
+        "h1_A1": 392,
+        "h1_A2": 1014,
+        "h1_shared": 171,
+        "unassigned": 63,
+        "unphased_A1": 163,
+        "unphased_A2": 427
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r3",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 140,
+        "h0_A2": 507,
+        "h0_shared": 109,
+        "h1_A1": 80,
+        "h1_A2": 914,
+        "h1_shared": 150,
+        "unassigned": 66,
+        "unphased_A1": 68,
+        "unphased_A2": 486
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r3",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 1015,
+        "h0_A2": 530,
+        "h0_shared": 272,
+        "h1_A1": 159,
+        "h1_A2": 21,
+        "h1_shared": 26,
+        "unassigned": 93,
+        "unphased_A1": 340,
+        "unphased_A2": 174
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 526,
+        "h0_A2": 142,
+        "h0_shared": 123,
+        "h1_A1": 138,
+        "h1_A2": 718,
+        "h1_shared": 102,
+        "unassigned": 84,
+        "unphased_A1": 216,
+        "unphased_A2": 251
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r1",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 1072,
+        "h0_A2": 64,
+        "h0_shared": 161,
+        "h1_A1": 442,
+        "h1_A2": 170,
+        "h1_shared": 59,
+        "unassigned": 92,
+        "unphased_A1": 501,
+        "unphased_A2": 69
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r4",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 12,
+        "h0_A2": 116,
+        "h0_shared": 12,
+        "h1_A1": 85,
+        "h1_A2": 1407,
+        "h1_shared": 173,
+        "unassigned": 59,
+        "unphased_A1": 33,
+        "unphased_A2": 513
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 870,
+        "h0_A2": 485,
+        "h0_shared": 206,
+        "h1_A1": 143,
+        "h1_A2": 24,
+        "h1_shared": 34,
+        "unassigned": 78,
+        "unphased_A1": 301,
+        "unphased_A2": 159
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 913,
+        "h0_A2": 54,
+        "h0_shared": 163,
+        "h1_A1": 412,
+        "h1_A2": 133,
+        "h1_shared": 46,
+        "unassigned": 66,
+        "unphased_A1": 447,
+        "unphased_A2": 66
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r1",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 124,
+        "h0_A2": 464,
+        "h0_shared": 69,
+        "h1_A1": 70,
+        "h1_A2": 934,
+        "h1_shared": 103,
+        "unassigned": 71,
+        "unphased_A1": 61,
+        "unphased_A2": 514
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r2",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 150,
+        "h0_A2": 447,
+        "h0_shared": 109,
+        "h1_A1": 118,
+        "h1_A2": 849,
+        "h1_shared": 169,
+        "unassigned": 60,
+        "unphased_A1": 64,
+        "unphased_A2": 334
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r1",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 506,
+        "h0_A2": 294,
+        "h0_shared": 122,
+        "h1_A1": 287,
+        "h1_A2": 582,
+        "h1_shared": 106,
+        "unassigned": 85,
+        "unphased_A1": 260,
+        "unphased_A2": 278
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r3",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 574,
+        "h0_A2": 197,
+        "h0_shared": 128,
+        "h1_A1": 193,
+        "h1_A2": 777,
+        "h1_shared": 163,
+        "unassigned": 67,
+        "unphased_A1": 199,
+        "unphased_A2": 222
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r3",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 105,
+        "h0_A2": 5,
+        "h0_shared": 14,
+        "h1_A1": 1532,
+        "h1_A2": 119,
+        "h1_shared": 157,
+        "unassigned": 50,
+        "unphased_A1": 497,
+        "unphased_A2": 41
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 8,
+        "h0_A2": 60,
+        "h0_shared": 17,
+        "h1_A1": 204,
+        "h1_A2": 1540,
+        "h1_shared": 316,
+        "unassigned": 58,
+        "unphased_A1": 62,
+        "unphased_A2": 365
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 108,
+        "h0_A2": 460,
+        "h0_shared": 55,
+        "h1_A1": 65,
+        "h1_A2": 881,
+        "h1_shared": 103,
+        "unassigned": 58,
+        "unphased_A1": 64,
+        "unphased_A2": 506
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r1",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 996,
+        "h0_A2": 83,
+        "h0_shared": 204,
+        "h1_A1": 343,
+        "h1_A2": 119,
+        "h1_shared": 63,
+        "unassigned": 94,
+        "unphased_A1": 432,
+        "unphased_A2": 76
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r2",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 496,
+        "h0_A2": 305,
+        "h0_shared": 103,
+        "h1_A1": 272,
+        "h1_A2": 537,
+        "h1_shared": 78,
+        "unassigned": 75,
+        "unphased_A1": 242,
+        "unphased_A2": 302
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r2",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 998,
+        "h0_A2": 68,
+        "h0_shared": 174,
+        "h1_A1": 422,
+        "h1_A2": 157,
+        "h1_shared": 56,
+        "unassigned": 85,
+        "unphased_A1": 508,
+        "unphased_A2": 52
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r3",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 127,
+        "h0_A2": 497,
+        "h0_shared": 88,
+        "h1_A1": 93,
+        "h1_A2": 909,
+        "h1_shared": 113,
+        "unassigned": 72,
+        "unphased_A1": 63,
+        "unphased_A2": 448
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r2",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 72,
+        "h0_A2": 7,
+        "h0_shared": 5,
+        "h1_A1": 1308,
+        "h1_A2": 95,
+        "h1_shared": 222,
+        "unassigned": 86,
+        "unphased_A1": 475,
+        "unphased_A2": 30
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1044,
+        "h0_A2": 144,
+        "h0_shared": 202,
+        "h1_A1": 376,
+        "h1_A2": 128,
+        "h1_shared": 110,
+        "unassigned": 74,
+        "unphased_A1": 362,
+        "unphased_A2": 80
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r3",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 24,
+        "h0_A2": 157,
+        "h0_shared": 28,
+        "h1_A1": 477,
+        "h1_A2": 935,
+        "h1_shared": 184,
+        "unassigned": 55,
+        "unphased_A1": 164,
+        "unphased_A2": 386
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r2",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 555,
+        "h0_A2": 154,
+        "h0_shared": 79,
+        "h1_A1": 147,
+        "h1_A2": 785,
+        "h1_shared": 105,
+        "unassigned": 85,
+        "unphased_A1": 236,
+        "unphased_A2": 374
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r3",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 940,
+        "h0_A2": 65,
+        "h0_shared": 134,
+        "h1_A1": 445,
+        "h1_A2": 131,
+        "h1_shared": 54,
+        "unassigned": 81,
+        "unphased_A1": 486,
+        "unphased_A2": 74
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r2",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1019,
+        "h0_A2": 541,
+        "h0_shared": 249,
+        "h1_A1": 153,
+        "h1_A2": 39,
+        "h1_shared": 45,
+        "unassigned": 70,
+        "unphased_A1": 328,
+        "unphased_A2": 186
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 523,
+        "h0_A2": 299,
+        "h0_shared": 141,
+        "h1_A1": 303,
+        "h1_A2": 597,
+        "h1_shared": 152,
+        "unassigned": 80,
+        "unphased_A1": 224,
+        "unphased_A2": 201
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r3",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1147,
+        "h0_A2": 178,
+        "h0_shared": 212,
+        "h1_A1": 386,
+        "h1_A2": 162,
+        "h1_shared": 80,
+        "unassigned": 72,
+        "unphased_A1": 329,
+        "unphased_A2": 64
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r4",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 623,
+        "h0_A2": 321,
+        "h0_shared": 140,
+        "h1_A1": 289,
+        "h1_A2": 576,
+        "h1_shared": 167,
+        "unassigned": 73,
+        "unphased_A1": 221,
+        "unphased_A2": 220
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r4",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 31,
+        "h0_A2": 231,
+        "h0_shared": 31,
+        "h1_A1": 452,
+        "h1_A2": 1027,
+        "h1_shared": 143,
+        "unassigned": 76,
+        "unphased_A1": 184,
+        "unphased_A2": 455
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r4",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 164,
+        "h0_A2": 496,
+        "h0_shared": 104,
+        "h1_A1": 121,
+        "h1_A2": 897,
+        "h1_shared": 155,
+        "unassigned": 76,
+        "unphased_A1": 88,
+        "unphased_A2": 309
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r2",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 925,
+        "h0_A2": 510,
+        "h0_shared": 245,
+        "h1_A1": 156,
+        "h1_A2": 40,
+        "h1_shared": 25,
+        "unassigned": 84,
+        "unphased_A1": 270,
+        "unphased_A2": 155
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 886,
+        "h0_A2": 523,
+        "h0_shared": 232,
+        "h1_A1": 159,
+        "h1_A2": 33,
+        "h1_shared": 22,
+        "unassigned": 60,
+        "unphased_A1": 262,
+        "unphased_A2": 123
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 1468,
+        "h0_A2": 86,
+        "h0_shared": 224,
+        "h1_A1": 131,
+        "h1_A2": 6,
+        "h1_shared": 16,
+        "unassigned": 85,
+        "unphased_A1": 583,
+        "unphased_A2": 31
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 36,
+        "h0_A2": 188,
+        "h0_shared": 25,
+        "h1_A1": 422,
+        "h1_A2": 976,
+        "h1_shared": 149,
+        "unassigned": 58,
+        "unphased_A1": 151,
+        "unphased_A2": 405
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r2",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 220,
+        "h0_A2": 1531,
+        "h0_shared": 274,
+        "h1_A1": 5,
+        "h1_A2": 64,
+        "h1_shared": 9,
+        "unassigned": 77,
+        "unphased_A1": 61,
+        "unphased_A2": 389
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 1042,
+        "h0_A2": 88,
+        "h0_shared": 201,
+        "h1_A1": 387,
+        "h1_A2": 144,
+        "h1_shared": 72,
+        "unassigned": 81,
+        "unphased_A1": 435,
+        "unphased_A2": 70
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r3",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 39,
+        "h0_A2": 165,
+        "h0_shared": 27,
+        "h1_A1": 521,
+        "h1_A2": 1009,
+        "h1_shared": 204,
+        "unassigned": 79,
+        "unphased_A1": 192,
+        "unphased_A2": 394
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r4",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 1077,
+        "h0_A2": 86,
+        "h0_shared": 200,
+        "h1_A1": 414,
+        "h1_A2": 124,
+        "h1_shared": 71,
+        "unassigned": 90,
+        "unphased_A1": 491,
+        "unphased_A2": 77
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.55,
+        "hap0_A2": 0,
+        "hap1_A1": 0.4,
+        "hap1_A2": 0.05
+      },
+      "replicate_id": "r4",
+      "standard_id": "a1_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 1444,
+        "h0_A2": 63,
+        "h0_shared": 216,
+        "h1_A1": 117,
+        "h1_A2": 6,
+        "h1_shared": 15,
+        "unassigned": 85,
+        "unphased_A1": 538,
+        "unphased_A2": 36
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 437,
+        "h0_A2": 282,
+        "h0_shared": 89,
+        "h1_A1": 272,
+        "h1_A2": 531,
+        "h1_shared": 83,
+        "unassigned": 62,
+        "unphased_A1": 264,
+        "unphased_A2": 280
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r1",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 5,
+        "h0_A2": 46,
+        "h0_shared": 13,
+        "h1_A1": 122,
+        "h1_A2": 1419,
+        "h1_shared": 174,
+        "unassigned": 82,
+        "unphased_A1": 43,
+        "unphased_A2": 506
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 68,
+        "h0_A2": 10,
+        "h0_shared": 10,
+        "h1_A1": 1384,
+        "h1_A2": 151,
+        "h1_shared": 263,
+        "unassigned": 62,
+        "unphased_A1": 318,
+        "unphased_A2": 34
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 121,
+        "h0_A2": 7,
+        "h0_shared": 16,
+        "h1_A1": 1561,
+        "h1_A2": 104,
+        "h1_shared": 174,
+        "unassigned": 77,
+        "unphased_A1": 522,
+        "unphased_A2": 48
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 1304,
+        "h0_A2": 61,
+        "h0_shared": 216,
+        "h1_A1": 117,
+        "h1_A2": 5,
+        "h1_shared": 13,
+        "unassigned": 69,
+        "unphased_A1": 491,
+        "unphased_A2": 24
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 170,
+        "h0_A2": 499,
+        "h0_shared": 107,
+        "h1_A1": 143,
+        "h1_A2": 952,
+        "h1_shared": 176,
+        "unassigned": 77,
+        "unphased_A1": 62,
+        "unphased_A2": 334
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r3",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1494,
+        "h0_A2": 220,
+        "h0_shared": 285,
+        "h1_A1": 80,
+        "h1_A2": 15,
+        "h1_shared": 16,
+        "unassigned": 77,
+        "unphased_A1": 389,
+        "unphased_A2": 54
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 6,
+        "h0_A2": 65,
+        "h0_shared": 12,
+        "h1_A1": 182,
+        "h1_A2": 1290,
+        "h1_shared": 286,
+        "unassigned": 67,
+        "unphased_A1": 46,
+        "unphased_A2": 346
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 4,
+        "h0_A2": 62,
+        "h0_shared": 7,
+        "h1_A1": 142,
+        "h1_A2": 1540,
+        "h1_shared": 217,
+        "unassigned": 65,
+        "unphased_A1": 49,
+        "unphased_A2": 544
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 560,
+        "h0_A2": 142,
+        "h0_shared": 136,
+        "h1_A1": 147,
+        "h1_A2": 729,
+        "h1_shared": 115,
+        "unassigned": 70,
+        "unphased_A1": 235,
+        "unphased_A2": 276
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r2",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 170,
+        "h0_A2": 525,
+        "h0_shared": 108,
+        "h1_A1": 122,
+        "h1_A2": 995,
+        "h1_shared": 208,
+        "unassigned": 63,
+        "unphased_A1": 80,
+        "unphased_A2": 359
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r4",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 1353,
+        "h0_A2": 95,
+        "h0_shared": 217,
+        "h1_A1": 108,
+        "h1_A2": 4,
+        "h1_shared": 17,
+        "unassigned": 80,
+        "unphased_A1": 515,
+        "unphased_A2": 21
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 236,
+        "h0_A2": 1442,
+        "h0_shared": 265,
+        "h1_A1": 10,
+        "h1_A2": 73,
+        "h1_shared": 12,
+        "unassigned": 61,
+        "unphased_A1": 45,
+        "unphased_A2": 376
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 485,
+        "h0_A2": 157,
+        "h0_shared": 95,
+        "h1_A1": 149,
+        "h1_A2": 748,
+        "h1_shared": 96,
+        "unassigned": 66,
+        "unphased_A1": 211,
+        "unphased_A2": 293
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r1",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 1414,
+        "h0_A2": 114,
+        "h0_shared": 259,
+        "h1_A1": 54,
+        "h1_A2": 4,
+        "h1_shared": 9,
+        "unassigned": 93,
+        "unphased_A1": 425,
+        "unphased_A2": 38
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 131,
+        "h0_A2": 484,
+        "h0_shared": 99,
+        "h1_A1": 110,
+        "h1_A2": 836,
+        "h1_shared": 95,
+        "unassigned": 66,
+        "unphased_A1": 63,
+        "unphased_A2": 416
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r1",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 110,
+        "h0_A2": 7,
+        "h0_shared": 9,
+        "h1_A1": 1400,
+        "h1_A2": 111,
+        "h1_shared": 158,
+        "unassigned": 54,
+        "unphased_A1": 527,
+        "unphased_A2": 34
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 3,
+        "h0_A2": 133,
+        "h0_shared": 14,
+        "h1_A1": 89,
+        "h1_A2": 1510,
+        "h1_shared": 165,
+        "unassigned": 61,
+        "unphased_A1": 51,
+        "unphased_A2": 604
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 45,
+        "h0_A2": 181,
+        "h0_shared": 18,
+        "h1_A1": 405,
+        "h1_A2": 931,
+        "h1_shared": 138,
+        "unassigned": 55,
+        "unphased_A1": 152,
+        "unphased_A2": 375
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r1",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 75,
+        "h0_A2": 5,
+        "h0_shared": 11,
+        "h1_A1": 1400,
+        "h1_A2": 117,
+        "h1_shared": 240,
+        "unassigned": 87,
+        "unphased_A1": 546,
+        "unphased_A2": 39
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 139,
+        "h0_A2": 542,
+        "h0_shared": 93,
+        "h1_A1": 67,
+        "h1_A2": 985,
+        "h1_shared": 115,
+        "unassigned": 71,
+        "unphased_A1": 77,
+        "unphased_A2": 541
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r4",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 28,
+        "h0_A2": 153,
+        "h0_shared": 29,
+        "h1_A1": 501,
+        "h1_A2": 990,
+        "h1_shared": 192,
+        "unassigned": 68,
+        "unphased_A1": 178,
+        "unphased_A2": 381
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r3",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 63,
+        "h0_A2": 5,
+        "h0_shared": 11,
+        "h1_A1": 1397,
+        "h1_A2": 114,
+        "h1_shared": 207,
+        "unassigned": 69,
+        "unphased_A1": 501,
+        "unphased_A2": 43
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 173,
+        "h0_A2": 1558,
+        "h0_shared": 221,
+        "h1_A1": 6,
+        "h1_A2": 44,
+        "h1_shared": 11,
+        "unassigned": 91,
+        "unphased_A1": 52,
+        "unphased_A2": 474
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 556,
+        "h0_A2": 154,
+        "h0_shared": 141,
+        "h1_A1": 161,
+        "h1_A2": 739,
+        "h1_shared": 121,
+        "unassigned": 95,
+        "unphased_A1": 240,
+        "unphased_A2": 313
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r3",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 62,
+        "h0_A2": 9,
+        "h0_shared": 9,
+        "h1_A1": 1415,
+        "h1_A2": 183,
+        "h1_shared": 308,
+        "unassigned": 68,
+        "unphased_A1": 310,
+        "unphased_A2": 46
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 634,
+        "h0_A2": 186,
+        "h0_shared": 129,
+        "h1_A1": 190,
+        "h1_A2": 800,
+        "h1_shared": 172,
+        "unassigned": 73,
+        "unphased_A1": 208,
+        "unphased_A2": 238
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r4",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 219,
+        "h0_A2": 1349,
+        "h0_shared": 264,
+        "h1_A1": 46,
+        "h1_A2": 133,
+        "h1_shared": 27,
+        "unassigned": 63,
+        "unphased_A1": 72,
+        "unphased_A2": 347
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 554,
+        "h0_A2": 304,
+        "h0_shared": 103,
+        "h1_A1": 286,
+        "h1_A2": 627,
+        "h1_shared": 98,
+        "unassigned": 69,
+        "unphased_A1": 285,
+        "unphased_A2": 304
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r4",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 34,
+        "h0_A2": 177,
+        "h0_shared": 37,
+        "h1_A1": 472,
+        "h1_A2": 874,
+        "h1_shared": 272,
+        "unassigned": 73,
+        "unphased_A1": 108,
+        "unphased_A2": 253
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r1",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 163,
+        "h0_A2": 549,
+        "h0_shared": 101,
+        "h1_A1": 77,
+        "h1_A2": 960,
+        "h1_shared": 128,
+        "unassigned": 70,
+        "unphased_A1": 67,
+        "unphased_A2": 515
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.05,
+        "hap0_A2": 0.5,
+        "hap1_A1": 0,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r4",
+      "standard_id": "a2_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 4,
+        "h0_A2": 68,
+        "h0_shared": 3,
+        "h1_A1": 139,
+        "h1_A2": 1453,
+        "h1_shared": 190,
+        "unassigned": 57,
+        "unphased_A1": 31,
+        "unphased_A2": 575
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 197,
+        "h0_A2": 1395,
+        "h0_shared": 228,
+        "h1_A1": 7,
+        "h1_A2": 57,
+        "h1_shared": 10,
+        "unassigned": 65,
+        "unphased_A1": 52,
+        "unphased_A2": 399
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 4,
+        "h0_A2": 118,
+        "h0_shared": 13,
+        "h1_A1": 94,
+        "h1_A2": 1431,
+        "h1_shared": 167,
+        "unassigned": 62,
+        "unphased_A1": 41,
+        "unphased_A2": 590
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 948,
+        "h0_A2": 517,
+        "h0_shared": 174,
+        "h1_A1": 180,
+        "h1_A2": 50,
+        "h1_shared": 26,
+        "unassigned": 76,
+        "unphased_A1": 367,
+        "unphased_A2": 182
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 912,
+        "h0_A2": 445,
+        "h0_shared": 157,
+        "h1_A1": 187,
+        "h1_A2": 73,
+        "h1_shared": 24,
+        "unassigned": 62,
+        "unphased_A1": 366,
+        "unphased_A2": 184
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 586,
+        "h0_A2": 338,
+        "h0_shared": 145,
+        "h1_A1": 312,
+        "h1_A2": 534,
+        "h1_shared": 111,
+        "unassigned": 69,
+        "unphased_A1": 261,
+        "unphased_A2": 274
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r4",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 985,
+        "h0_A2": 509,
+        "h0_shared": 266,
+        "h1_A1": 160,
+        "h1_A2": 22,
+        "h1_shared": 30,
+        "unassigned": 86,
+        "unphased_A1": 319,
+        "unphased_A2": 143
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1398,
+        "h0_A2": 215,
+        "h0_shared": 286,
+        "h1_A1": 91,
+        "h1_A2": 12,
+        "h1_shared": 20,
+        "unassigned": 80,
+        "unphased_A1": 362,
+        "unphased_A2": 56
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 154,
+        "h0_A2": 1503,
+        "h0_shared": 238,
+        "h1_A1": 1,
+        "h1_A2": 48,
+        "h1_shared": 7,
+        "unassigned": 74,
+        "unphased_A1": 48,
+        "unphased_A2": 447
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 1351,
+        "h0_A2": 200,
+        "h0_shared": 258,
+        "h1_A1": 76,
+        "h1_A2": 23,
+        "h1_shared": 12,
+        "unassigned": 71,
+        "unphased_A1": 360,
+        "unphased_A2": 59
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 6,
+        "h0_A2": 58,
+        "h0_shared": 9,
+        "h1_A1": 184,
+        "h1_A2": 1362,
+        "h1_shared": 293,
+        "unassigned": 60,
+        "unphased_A1": 54,
+        "unphased_A2": 384
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 525,
+        "h0_A2": 150,
+        "h0_shared": 106,
+        "h1_A1": 170,
+        "h1_A2": 729,
+        "h1_shared": 89,
+        "unassigned": 67,
+        "unphased_A1": 219,
+        "unphased_A2": 355
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r2",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 9,
+        "h0_A2": 64,
+        "h0_shared": 12,
+        "h1_A1": 205,
+        "h1_A2": 1438,
+        "h1_shared": 298,
+        "unassigned": 65,
+        "unphased_A1": 44,
+        "unphased_A2": 385
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 1
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_3"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 47,
+        "h0_A2": 176,
+        "h0_shared": 30,
+        "h1_A1": 548,
+        "h1_A2": 1077,
+        "h1_shared": 257,
+        "unassigned": 79,
+        "unphased_A1": 128,
+        "unphased_A2": 288
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0.13,
+        "hap1_A1": 0.43,
+        "hap1_A2": 0.44
+      },
+      "replicate_id": "r4",
+      "standard_id": "hap1_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 81,
+        "h0_A2": 1260,
+        "h0_shared": 189,
+        "h1_A1": 8,
+        "h1_A2": 134,
+        "h1_shared": 17,
+        "unassigned": 57,
+        "unphased_A1": 43,
+        "unphased_A2": 511
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 500,
+        "h0_A2": 306,
+        "h0_shared": 102,
+        "h1_A1": 287,
+        "h1_A2": 614,
+        "h1_shared": 83,
+        "unassigned": 59,
+        "unphased_A1": 257,
+        "unphased_A2": 312
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.25,
+        "hap0_A2": 0.25,
+        "hap1_A1": 0.25,
+        "hap1_A2": 0.25
+      },
+      "replicate_id": "r3",
+      "standard_id": "balanced"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 1327,
+        "h0_A2": 100,
+        "h0_shared": 259,
+        "h1_A1": 44,
+        "h1_A2": 4,
+        "h1_shared": 8,
+        "unassigned": 94,
+        "unphased_A1": 437,
+        "unphased_A2": 27
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r1",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_A",
+      "counts": {
+        "h0_A1": 1469,
+        "h0_A2": 119,
+        "h0_shared": 272,
+        "h1_A1": 52,
+        "h1_A2": 1,
+        "h1_shared": 17,
+        "unassigned": 86,
+        "unphased_A1": 469,
+        "unphased_A2": 35
+      },
+      "known_product_fractions": {
+        "hap0_A1": 1,
+        "hap0_A2": 0,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_0"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 1008,
+        "h0_A2": 520,
+        "h0_shared": 181,
+        "h1_A1": 185,
+        "h1_A2": 56,
+        "h1_shared": 23,
+        "unassigned": 59,
+        "unphased_A1": 396,
+        "unphased_A2": 202
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.44,
+        "hap0_A2": 0.44,
+        "hap1_A1": 0.12,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "hap0_rich"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 108,
+        "h0_A2": 1346,
+        "h0_shared": 171,
+        "h1_A1": 8,
+        "h1_A2": 116,
+        "h1_shared": 13,
+        "unassigned": 84,
+        "unphased_A1": 39,
+        "unphased_A2": 525
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r2",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 90,
+        "h0_A2": 1448,
+        "h0_shared": 170,
+        "h1_A1": 9,
+        "h1_A2": 122,
+        "h1_shared": 13,
+        "unassigned": 67,
+        "unphased_A1": 47,
+        "unphased_A2": 554
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 72,
+        "h0_A2": 9,
+        "h0_shared": 14,
+        "h1_A1": 1479,
+        "h1_A2": 176,
+        "h1_shared": 303,
+        "unassigned": 82,
+        "unphased_A1": 338,
+        "unphased_A2": 47
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r3",
+      "standard_id": "pure_2"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 567,
+        "h0_A2": 188,
+        "h0_shared": 134,
+        "h1_A1": 190,
+        "h1_A2": 727,
+        "h1_shared": 166,
+        "unassigned": 56,
+        "unphased_A1": 180,
+        "unphased_A2": 202
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0.35,
+        "hap0_A2": 0.1,
+        "hap1_A1": 0.1,
+        "hap1_A2": 0.45
+      },
+      "replicate_id": "r2",
+      "standard_id": "crossed"
+    },
+    {
+      "batch_id": "lane_C",
+      "counts": {
+        "h0_A1": 101,
+        "h0_A2": 1470,
+        "h0_shared": 181,
+        "h1_A1": 13,
+        "h1_A2": 138,
+        "h1_shared": 16,
+        "unassigned": 79,
+        "unphased_A1": 38,
+        "unphased_A2": 594
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 1,
+        "hap1_A1": 0,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_1"
+    },
+    {
+      "batch_id": "lane_B",
+      "counts": {
+        "h0_A1": 76,
+        "h0_A2": 8,
+        "h0_shared": 11,
+        "h1_A1": 1515,
+        "h1_A2": 214,
+        "h1_shared": 306,
+        "unassigned": 76,
+        "unphased_A1": 365,
+        "unphased_A2": 59
+      },
+      "known_product_fractions": {
+        "hap0_A1": 0,
+        "hap0_A2": 0,
+        "hap1_A1": 1,
+        "hap1_A2": 0
+      },
+      "replicate_id": "r4",
+      "standard_id": "pure_2"
+    }
+  ],
+  "synthetic": true
+}

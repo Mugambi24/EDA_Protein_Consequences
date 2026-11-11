@@ -1,0 +1,119 @@
+{
+  "records": [
+    {
+      "case_a1_fraction": 0.875169,
+      "case_id": "m01",
+      "control_a1_fraction": 0.685169
+    },
+    {
+      "case_a1_fraction": 0.392702,
+      "case_id": "m02",
+      "control_a1_fraction": 0.237702
+    },
+    {
+      "case_a1_fraction": 0.143629,
+      "case_id": "m03",
+      "control_a1_fraction": 0.273629
+    },
+    {
+      "case_a1_fraction": 0.343065,
+      "case_id": "m04",
+      "control_a1_fraction": 0.188065
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "m05",
+      "control_a1_fraction": 0.592839
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "m06",
+      "control_a1_fraction": 0.312709
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "m07",
+      "control_a1_fraction": 0.414669
+    },
+    {
+      "case_a1_fraction": 0.850058,
+      "case_id": "m08",
+      "control_a1_fraction": 0.660058
+    },
+    {
+      "case_a1_fraction": 0.06,
+      "case_id": "m09",
+      "control_a1_fraction": 0.235676
+    },
+    {
+      "case_a1_fraction": 0.37991,
+      "case_id": "m10",
+      "control_a1_fraction": 0.21991
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "m11",
+      "control_a1_fraction": 0.365027
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "m12",
+      "control_a1_fraction": 0.671111
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "m13",
+      "control_a1_fraction": 0.458217
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "m14",
+      "control_a1_fraction": 0.530355
+    },
+    {
+      "case_a1_fraction": 0.80934,
+      "case_id": "m15",
+      "control_a1_fraction": 0.61934
+    },
+    {
+      "case_a1_fraction": 0.78,
+      "case_id": "m16",
+      "control_a1_fraction": 0.410206
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "m17",
+      "control_a1_fraction": 0.548046
+    },
+    {
+      "case_a1_fraction": 0.06,
+      "case_id": "m18",
+      "control_a1_fraction": 0.288407
+    },
+    {
+      "case_a1_fraction": 0.457647,
+      "case_id": "m19",
+      "control_a1_fraction": 0.207647
+    },
+    {
+      "case_a1_fraction": 0.339116,
+      "case_id": "m20",
+      "control_a1_fraction": 0.179116
+    },
+    {
+      "case_a1_fraction": 0.21939,
+      "case_id": "m21",
+      "control_a1_fraction": 0.34939
+    },
+    {
+      "case_a1_fraction": 0.406947,
+      "case_id": "m22",
+      "control_a1_fraction": 0.246947
+    },
+    {
+      "case_a1_fraction": 0.22,
+      "case_id": "m23",
+      "control_a1_fraction": 0.529892
+    }
+  ]
+}

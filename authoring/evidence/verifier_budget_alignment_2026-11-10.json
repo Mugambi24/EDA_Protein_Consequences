@@ -1,0 +1,186 @@
+{
+  "audit_findings_addressed": [
+    "The canonical protein FASTA/genome anchor is a global integrity condition distinct from variant-specific reference_mismatch records; documented explicitly.",
+    "Batch A2-to-A1 molecule shifts enforce increasing A1 fraction without an undocumented >0.07 jump-size gate.",
+    "Longitudinal calibration/perturbation enforces changed six-decimal output, not a hidden ten-case >0.02 gate.",
+    "Isolated test processes securely reuse one fresh verifier-only baseline result per sealed/hidden fixture; actual invocation count is within 100.",
+    "Global 900-second solver budget is independently measured; 1100-second outer verifier time includes trusted overhead instead of taking away agent allowance.",
+    "Current calibration evidence separates simulated fixture populations from reused random seeds and reports per-haplotype uncertainty metrics.",
+    "Current 72-test evidence and README headings are consistent.",
+    "Each batch case independently defeats fixed +/-0.11 raw pooling with original calibrated numeric gates; negative input controls cover duplicate IDs, invalid counts, invalid calibration fractions, and phase-graph cardinality and replicate uniqueness."
+  ],
+  "casewise_discrimination_evidence": "authoring/evidence/current_submission_validation_2026-11-10.json",
+  "changed_source_sha256": {
+    "authoring/provenance/generate_batch_assay.py": "1b0674baee11c2c7e4eafb629fdfbbc578471d74287c0b110eed496d4beed4ed",
+    "authoring/provenance/generate_phase_graph.py": "5c6472659ec1bec860c63f318a7c4bc074ed3bb6a2cca6b61faebf9508a593e3",
+    "authoring/provenance/independent_submission/cli.py": "c1ea1b69451875aacf4a7c99617fbd2a72a1c378ab7d79f1c59a2d6639080b15",
+    "authoring/provenance/independent_submission/coding.py": "700120b39c4b459e2e04078873ea51d9d99a016ac3f28ad7c07115bbca887b4f",
+    "authoring/provenance/independent_submission/inference.py": "41629b255aaa571cb629b2ec59a39a2fc691e0293e737072cc6f55beb534f2e2",
+    "environment/data/batch_assay_protocol.txt": "8daa6d9365a683a8f78925382ebfd94316f30109f6a90b47051fcbf316ec5692",
+    "environment/data/longitudinal_protocol.txt": "9247022b3efd8eb017eda8ade6c2fda94186ba313fa7e43ee3ec2db529115049",
+    "instruction.md": "5c968d32f293df4643f523f161ebde44c6cdf69bf1256322f459de4eb9c8cb13",
+    "solution/cli.py": "c1ea1b69451875aacf4a7c99617fbd2a72a1c378ab7d79f1c59a2d6639080b15",
+    "solution/coding.py": "700120b39c4b459e2e04078873ea51d9d99a016ac3f28ad7c07115bbca887b4f",
+    "solution/inference.py": "842729a231777e8a2de7ce9059e10d46fbf2a9bca93fa4f20fdf90b264757b7c",
+    "task.toml": "48200ca70dbf4b01feb4f780cfcccc85ab24d36b72be85b6b9ff25c390f82901",
+    "tests/run_isolated.py": "7217dc5ef95386309264fc368c1fe0b9fbf84daf12e1f0141780b2e17f62baea",
+    "tests/test_workflow.py": "394f988b85c174df2e2c39377917c0194c201b34e262c5e24a6f914973b0d984"
+  },
+  "commands": [
+    "EDA_WORKBENCH_ARTIFACT=<solution_path> python3 tests/run_isolated.py /logs/verifier/junit.xml",
+    "python3 authoring/provenance/validate_submission.py",
+    "python3 authoring/provenance/phased_model_audit.py"
+  ],
+  "current_method_results": {
+    "independent": {
+      "actual_invocations": 100,
+      "agent_seconds": 34.181586,
+      "elapsed_verifier_seconds": 66.4298,
+      "errors": 0,
+      "failures": 0,
+      "max_agent_seconds": 900,
+      "max_invocations": 100,
+      "run_type": "complete local trusted bounded-runner verification of updated synthetic fixtures",
+      "skipped": 0,
+      "tests": 72
+    },
+    "reference": {
+      "actual_invocations": 100,
+      "agent_seconds": 50.743094,
+      "elapsed_verifier_seconds": 80.87,
+      "errors": 0,
+      "failures": 0,
+      "max_agent_seconds": 900,
+      "max_invocations": 100,
+      "run_type": "complete local trusted bounded-runner verification of updated synthetic fixtures",
+      "skipped": 0,
+      "tests": 72
+    }
+  },
+  "current_regenerated_fixture_verification": "Reference and independent solver completed the entire 72-test bounded manifest with zero errors; reward-gate equivalence checked by test manifest assertions. Platform acceptance is not claimed.",
+  "date": "2026-11-10",
+  "previous_fixture_method_results": {
+    "independent": {
+      "actual_invocations": 99,
+      "agent_seconds": 26.585875,
+      "elapsed_verifier_seconds": 54.1088,
+      "errors": 0,
+      "failures": 0,
+      "maximum_agent_seconds": 900,
+      "maximum_invocations": 100,
+      "per_invocation_limit_seconds": 35,
+      "skipped": 0,
+      "tests": 72
+    },
+    "reference": {
+      "actual_invocations": 99,
+      "agent_seconds": 41.350669,
+      "elapsed_verifier_seconds": 68.5471,
+      "errors": 0,
+      "failures": 0,
+      "maximum_agent_seconds": 900,
+      "maximum_invocations": 100,
+      "per_invocation_limit_seconds": 35,
+      "skipped": 0,
+      "tests": 72
+    }
+  },
+  "runner_group_sizes": [
+    20,
+    13,
+    1,
+    1,
+    4,
+    9,
+    11,
+    8,
+    5
+  ],
+  "scientific_haplotype_gate_results": {
+    "multinomial_EM": {
+      "hidden": {
+        "hap0": {
+          "MAE": 0.015181,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.131473,
+          "maximum_error": 0.036791,
+          "mean_width": 0.093849,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.014792,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.18498,
+          "maximum_error": 0.05744,
+          "mean_width": 0.100148,
+          "meets_all_gates": true
+        }
+      },
+      "sealed": {
+        "hap0": {
+          "MAE": 0.017117,
+          "errors_ge_0_08": 1,
+          "interval_coverage": 0.978261,
+          "max_width": 0.168053,
+          "maximum_error": 0.08276,
+          "mean_width": 0.102578,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.014831,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.178219,
+          "maximum_error": 0.057017,
+          "mean_width": 0.098928,
+          "meets_all_gates": true
+        }
+      }
+    },
+    "projected_least_squares": {
+      "hidden": {
+        "hap0": {
+          "MAE": 0.015113,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.133691,
+          "maximum_error": 0.038653,
+          "mean_width": 0.094881,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.014301,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.181407,
+          "maximum_error": 0.053635,
+          "mean_width": 0.101583,
+          "meets_all_gates": true
+        }
+      },
+      "sealed": {
+        "hap0": {
+          "MAE": 0.016702,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 0.956522,
+          "max_width": 0.167626,
+          "maximum_error": 0.079274,
+          "mean_width": 0.102247,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.015626,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.185672,
+          "maximum_error": 0.068002,
+          "mean_width": 0.100844,
+          "meets_all_gates": true
+        }
+      }
+    }
+  },
+  "scope": "Local reference and independently implemented estimator only. Not external platform validation."
+}

@@ -1,0 +1,60 @@
+{
+  "independent_generator": "authoring/provenance/generate_phase_graph.py",
+  "method": "independent bitmask enumeration of all anchored configurations with batch-specific control-fitted binomial link likelihoods",
+  "model": "calibrated signed-cycle phasing",
+  "results": [
+    {
+      "calibrated_mean_absolute_error_against_planted_phase": 0.007053,
+      "calibrated_phase_brier_score": 0.000999,
+      "cases": 23,
+      "casewise_near_certain_all_zero_shortcuts": [],
+      "confident_call_accuracy": 1,
+      "dataset": "sealed",
+      "fixed_all_zero_error_fraction": 0.45528455284552843,
+      "fraction_truth_phase_1": 0.45528455284552843,
+      "loci": 246,
+      "map_posterior_range": [
+        0.629203,
+        0.999993
+      ],
+      "minimum_planted_opposite_bits_per_case": 1,
+      "minimum_sites_preferring_opposite_phase_per_case": 1,
+      "named_hidden_case_check": null,
+      "partial_case_count": 7,
+      "uncertain_site_count": 11
+    },
+    {
+      "calibrated_mean_absolute_error_against_planted_phase": 0.027475,
+      "calibrated_phase_brier_score": 0.014686,
+      "cases": 28,
+      "casewise_near_certain_all_zero_shortcuts": [],
+      "confident_call_accuracy": 1,
+      "dataset": "hidden",
+      "fixed_all_zero_error_fraction": 0.4171974522292994,
+      "fraction_truth_phase_1": 0.4171974522292994,
+      "loci": 314,
+      "map_posterior_range": [
+        0.536433,
+        0.999966
+      ],
+      "minimum_planted_opposite_bits_per_case": 2,
+      "minimum_sites_preferring_opposite_phase_per_case": 3,
+      "named_hidden_case_check": {
+        "case_id": "h09",
+        "map_posterior": 0.996798,
+        "planted_opposite_bits": 4,
+        "posterior_sites_preferring_opposite_phase": 4
+      },
+      "partial_case_count": 10,
+      "uncertain_site_count": 23
+    }
+  ],
+  "sha256": {
+    "tests/hidden_phase_graph_assay.json": "1f756426e8292880980454ba2afeae7c00b2f7bf171bc549dd656c442ebab875",
+    "tests/hidden_phase_graph_truth.json": "d0725024691cf7d504d79eea895d65ba061bb4fb067d4e341ea26545a2b6293a",
+    "tests/sealed_phase_graph_assay.json": "d30efdbd5403624b941f415761b83e5f99a9630f677ddd9aa285793641beb963",
+    "tests/sealed_phase_graph_truth.json": "250454a4799881a8c1a35aa0c3a54620c77fe8621f9e683e0f3544053cfa10fd"
+  },
+  "status": "fully synthetic",
+  "untrusted_data_warning": "Planted truth is verifier-only, never agent environment."
+}

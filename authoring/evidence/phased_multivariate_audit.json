@@ -1,0 +1,139 @@
+{
+  "baseline": {
+    "hidden": {
+      "constant_fraction_0_5_MAE": 0.177429,
+      "uncorrected_haplotype_junction_MAE": 0.131334
+    },
+    "sealed": {
+      "constant_fraction_0_5_MAE": 0.168587,
+      "uncorrected_haplotype_junction_MAE": 0.134969
+    }
+  },
+  "multinomial_EM": {
+    "hidden": {
+      "interval_95_covered": 112,
+      "interval_95_total": 112,
+      "max_absolute_error": 0.05744,
+      "max_interval_width": 0.18498,
+      "mean_absolute_error": 0.014987,
+      "mean_interval_width": 0.096999,
+      "num_fraction_estimates": 112,
+      "per_haplotype": {
+        "hap0": {
+          "MAE": 0.015181,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.131473,
+          "maximum_error": 0.036791,
+          "mean_width": 0.093849,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.014792,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.18498,
+          "maximum_error": 0.05744,
+          "mean_width": 0.100148,
+          "meets_all_gates": true
+        }
+      }
+    },
+    "sealed": {
+      "interval_95_covered": 91,
+      "interval_95_total": 92,
+      "max_absolute_error": 0.08276,
+      "max_interval_width": 0.178219,
+      "mean_absolute_error": 0.015974,
+      "mean_interval_width": 0.100753,
+      "num_fraction_estimates": 92,
+      "per_haplotype": {
+        "hap0": {
+          "MAE": 0.017117,
+          "errors_ge_0_08": 1,
+          "interval_coverage": 0.978261,
+          "max_width": 0.168053,
+          "maximum_error": 0.08276,
+          "mean_width": 0.102578,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.014831,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.178219,
+          "maximum_error": 0.057017,
+          "mean_width": 0.098928,
+          "meets_all_gates": true
+        }
+      }
+    }
+  },
+  "projected_least_squares": {
+    "hidden": {
+      "interval_95_covered": 112,
+      "interval_95_total": 112,
+      "max_absolute_error": 0.053635,
+      "max_interval_width": 0.181407,
+      "mean_absolute_error": 0.014707,
+      "mean_interval_width": 0.098232,
+      "num_fraction_estimates": 112,
+      "per_haplotype": {
+        "hap0": {
+          "MAE": 0.015113,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.133691,
+          "maximum_error": 0.038653,
+          "mean_width": 0.094881,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.014301,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.181407,
+          "maximum_error": 0.053635,
+          "mean_width": 0.101583,
+          "meets_all_gates": true
+        }
+      }
+    },
+    "sealed": {
+      "interval_95_covered": 90,
+      "interval_95_total": 92,
+      "max_absolute_error": 0.079274,
+      "max_interval_width": 0.185672,
+      "mean_absolute_error": 0.016164,
+      "mean_interval_width": 0.101545,
+      "num_fraction_estimates": 92,
+      "per_haplotype": {
+        "hap0": {
+          "MAE": 0.016702,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 0.956522,
+          "max_width": 0.167626,
+          "maximum_error": 0.079274,
+          "mean_width": 0.102247,
+          "meets_all_gates": true
+        },
+        "hap1": {
+          "MAE": 0.015626,
+          "errors_ge_0_08": 0,
+          "interval_coverage": 1.0,
+          "max_width": 0.185672,
+          "maximum_error": 0.068002,
+          "mean_width": 0.100844,
+          "meets_all_gates": true
+        }
+      }
+    }
+  },
+  "provenance": {
+    "alternate_method": "projected least squares, standard-derived capture ratios",
+    "data_type": "seeded synthetic RNA",
+    "generator": "authoring/provenance/generate_phased_assay.py",
+    "note": "No clinical samples, EDA patient reads, or experimentally measured allele-specific splicing are claimed.",
+    "reference_method": "multinomial EM, standard-derived capture ratios"
+  }
+}

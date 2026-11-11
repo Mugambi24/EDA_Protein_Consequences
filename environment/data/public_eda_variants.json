@@ -1,0 +1,130 @@
+{
+  "panel_id": "EDA_PUBLIC_PROTEIN_HGVS_SNAPSHOT_2026_11_06",
+  "protein_anchor": "NP_001390.1",
+  "transcript_anchor": "NM_001399.5",
+  "source_type": "public curated human EDA variant assertions; no participant-level data",
+  "clinical_use": false,
+  "variants": [
+    {
+      "variant_id": "EDA-NM_001399.5-c457C_T",
+      "transcript": "NM_001399.5",
+      "protein_reference": "NP_001390.1",
+      "protein_change": "p.Arg153Cys",
+      "classification_observations": [
+        {
+          "source": "ClinVar",
+          "classification": "Pathogenic",
+          "record": "VCV000044193",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/44193/"
+        }
+      ],
+      "provenance_note": "Clinical annotation published for EDA c.457C>T, p.Arg153Cys; this panel checks protein sequence consequences only."
+    },
+    {
+      "variant_id": "EDA-NM_001399.5-c463C_T",
+      "transcript": "NM_001399.5",
+      "protein_reference": "NP_001390.1",
+      "protein_change": "p.Arg155Cys",
+      "classification_observations": [
+        {
+          "source": "LOVD",
+          "classification": "Pathogenic",
+          "record": "EDA_000069",
+          "url": "https://databases.lovd.nl/shared/variants/EDA/unique"
+        }
+      ],
+      "provenance_note": "LOVD records EDA c.463C>T, p.Arg155Cys."
+    },
+    {
+      "variant_id": "EDA-A1-pArg156His",
+      "transcript": "NM_001399.5",
+      "protein_reference": "NP_001390.1",
+      "protein_change": "p.Arg156His",
+      "classification_observations": [
+        {
+          "source": "ClinVar",
+          "classification": "Pathogenic",
+          "record": "VCV000011037",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/11037/"
+        }
+      ],
+      "provenance_note": "ClinVar reports p.Arg156His in EDA."
+    },
+    {
+      "variant_id": "EDA-NM_001399.5-c1067C_A",
+      "transcript": "NM_001399.5",
+      "protein_reference": "NP_001390.1",
+      "protein_change": "p.Ala356Asp",
+      "classification_observations": [
+        {
+          "source": "ClinVar",
+          "classification": "Pathogenic",
+          "record": "VCV001072864",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV001385709/"
+        }
+      ],
+      "provenance_note": "ClinVar reports EDA c.1067C>A, p.Ala356Asp."
+    },
+    {
+      "variant_id": "EDA-NM_001399.5-c1093G_A",
+      "transcript": "NM_001399.5",
+      "protein_reference": "NP_001390.1",
+      "protein_change": "p.Val365Met",
+      "classification_observations": [
+        {
+          "source": "ClinVar",
+          "classification": "Likely pathogenic",
+          "record": "VCV001482275",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/300120430/"
+        }
+      ],
+      "provenance_note": "ClinVar report for EDA c.1093G>A, p.Val365Met."
+    },
+    {
+      "variant_id": "EDA-A1-pArg153His",
+      "transcript": "NM_001399.5",
+      "protein_reference": "NP_001390.1",
+      "protein_change": "p.Arg153His",
+      "classification_observations": [
+        {
+          "source": "LOVD",
+          "classification": "Pathogenic",
+          "record": "EDA_000078",
+          "url": "https://databases.lovd.nl/shared/variants/EDA/unique"
+        },
+        {
+          "source": "LOVD",
+          "classification": "Likely benign",
+          "record": "EDA_000078",
+          "url": "https://databases.lovd.nl/shared/variants/EDA/unique"
+        }
+      ],
+      "provenance_note": "LOVD lists discordant interpretations for p.Arg153His; no clinical reclassification is attempted."
+    }
+  ],
+  "genome_context": {
+    "assembly": "GRCh38.p14",
+    "chromosome_accession": "NC_000023.11",
+    "gene_orientation": "+",
+    "gene_interval_1based_closed": [
+      69616113,
+      70039472
+    ],
+    "mane_select_transcript": "NM_001399.5",
+    "a2_transcript": "NM_001005609.2",
+    "gene_source": "https://www.ncbi.nlm.nih.gov/gene/1896"
+  },
+  "genomic_crosswalk_records": [
+    {
+      "variant_id": "EDA-NM_001399.5-c457C_T",
+      "genomic_hgvs": "NC_000023.11:g.69957087C>T",
+      "transcript_hgvs": {
+        "A1": "NM_001399.5:c.457C>T",
+        "A2": "NM_001005609.2:c.457C>T"
+      },
+      "protein_change": "p.Arg153Cys",
+      "clinical_record": "RCV006905138.1",
+      "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV006905138.1/"
+    }
+  ]
+}

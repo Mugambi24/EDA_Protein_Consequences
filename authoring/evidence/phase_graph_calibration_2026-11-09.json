@@ -1,0 +1,370 @@
+{
+  "calibration_algorithm_a": "solution/inference.py exact tuple-enumeration log-sum-exp",
+  "calibration_algorithm_b": "authoring/provenance/independent_submission/inference.py independent integer-bitmask enumeration",
+  "definition": "Brier score is mean squared error (reported posterior opposite-anchor phase probability - planted binary phase bit)^2 over all sites in each withheld dataset",
+  "description": "Fully synthetic method-neutral phase-graph accuracy calibration; no patient evidence",
+  "interpretation": "The 0.03 marginal and 0.025 MAP tolerances are loose agreement ceilings, not measured computational error. The 0.08 Brier gate is supported by simulations and separates fixed guesses, not clinical calibration.",
+  "requirements": {
+    "mean_absolute_posterior_error_strict": 0.01,
+    "mean_brier_strict": 0.08,
+    "per_case_map_posterior_error_strict": 0.025,
+    "per_site_absolute_posterior_error_strict": 0.03
+  },
+  "sealed_hidden": {
+    "hidden": {
+      "cases": 28,
+      "fixed_half_brier": 0.25,
+      "fixed_zero_brier": 0.417197452,
+      "max_cross_method_map_difference": 0.0,
+      "max_cross_method_site_difference": 0.0,
+      "mean_brier": 0.014685991,
+      "sites": 314
+    },
+    "sealed": {
+      "cases": 23,
+      "fixed_half_brier": 0.25,
+      "fixed_zero_brier": 0.455284553,
+      "max_cross_method_map_difference": 0.0,
+      "max_cross_method_site_difference": 0.0,
+      "mean_brier": 0.000999013,
+      "sites": 246
+    }
+  },
+  "sha256": {
+    "tests/hidden_phase_graph_assay.json": "1f756426e8292880980454ba2afeae7c00b2f7bf171bc549dd656c442ebab875",
+    "tests/hidden_phase_graph_truth.json": "d0725024691cf7d504d79eea895d65ba061bb4fb067d4e341ea26545a2b6293a",
+    "tests/sealed_phase_graph_assay.json": "d30efdbd5403624b941f415761b83e5f99a9630f677ddd9aa285793641beb963",
+    "tests/sealed_phase_graph_truth.json": "250454a4799881a8c1a35aa0c3a54620c77fe8621f9e683e0f3544053cfa10fd"
+  },
+  "simulation": {
+    "cases_per_seed": 16,
+    "datasets": 32,
+    "datasets_passing_brier": 32,
+    "maximum_brier": 0.043993053,
+    "mean_brier": 0.010773199,
+    "results": [
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.497237569,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.013278557,
+        "seed": 1200,
+        "sites": 181
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.398876404,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.017627203,
+        "seed": 1201,
+        "sites": 178
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.471590909,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.043993053,
+        "seed": 1202,
+        "sites": 176
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.480446927,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.001266918,
+        "seed": 1203,
+        "sites": 179
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.44,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.010069953,
+        "seed": 1204,
+        "sites": 175
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.485549133,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.006596116,
+        "seed": 1205,
+        "sites": 173
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.5,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.003170325,
+        "seed": 1206,
+        "sites": 176
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.422857143,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.006253046,
+        "seed": 1207,
+        "sites": 175
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.453488372,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.003073182,
+        "seed": 1208,
+        "sites": 172
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.468926554,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.024643936,
+        "seed": 1209,
+        "sites": 177
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.45505618,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.007219269,
+        "seed": 1210,
+        "sites": 178
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.468571429,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.00660425,
+        "seed": 1211,
+        "sites": 175
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.383333333,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.007247586,
+        "seed": 1212,
+        "sites": 180
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.404494382,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.005468667,
+        "seed": 1213,
+        "sites": 178
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.431818182,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.012362206,
+        "seed": 1214,
+        "sites": 176
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.423076923,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.007215646,
+        "seed": 1215,
+        "sites": 182
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.422222222,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.000823369,
+        "seed": 1216,
+        "sites": 180
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.491525424,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.015545605,
+        "seed": 1217,
+        "sites": 177
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.422857143,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.004328748,
+        "seed": 1218,
+        "sites": 175
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.438202247,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.018903193,
+        "seed": 1219,
+        "sites": 178
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.479768786,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.007997851,
+        "seed": 1220,
+        "sites": 173
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.488636364,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.010161756,
+        "seed": 1221,
+        "sites": 176
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.462427746,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.004181233,
+        "seed": 1222,
+        "sites": 173
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.460227273,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.040008929,
+        "seed": 1223,
+        "sites": 176
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.459770115,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.004665537,
+        "seed": 1224,
+        "sites": 174
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.459302326,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.002556174,
+        "seed": 1225,
+        "sites": 172
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.453488372,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.001867624,
+        "seed": 1226,
+        "sites": 172
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.457627119,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.005568968,
+        "seed": 1227,
+        "sites": 177
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.445714286,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.009720844,
+        "seed": 1228,
+        "sites": 175
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.50867052,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.010863122,
+        "seed": 1229,
+        "sites": 173
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.494318182,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.01731249,
+        "seed": 1230,
+        "sites": 176
+      },
+      {
+        "cases": 16,
+        "fixed_half_brier": 0.25,
+        "fixed_zero_brier": 0.390804598,
+        "max_cross_method_map_difference": 0.0,
+        "max_cross_method_site_difference": 0.0,
+        "mean_brier": 0.014147007,
+        "seed": 1231,
+        "sites": 174
+      }
+    ],
+    "seeds": "1200-1231 inclusive"
+  },
+  "six_decimal_rounding": true
+}

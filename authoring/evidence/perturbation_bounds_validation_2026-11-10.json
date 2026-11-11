@@ -1,0 +1,135 @@
+{
+  "input_sha256": {
+    "tests/sealed_batch_assay.json": "14a243080f32d742c8758be1f4fd84942a8d1c3b8f5a86f239d4b0ed044962ed",
+    "tests/sealed_phase_graph_assay.json": "d30efdbd5403624b941f415761b83e5f99a9630f677ddd9aa285793641beb963",
+    "tests/sealed_phased_assay.json": "183e13dcfcad9cfdf6ec9a9459ac39aab59fc7448df6c71f6665f3a5a3346cbf"
+  },
+  "interpretation": "Lower thresholds require an observable response exceeding six-decimal rounding noise, but retain separation below measured correct-model responses. Upper thresholds reject large sensitivity to isolated damaged standards while remaining above independent correct-model observations. These are chosen for the fixed specified synthetic perturbations; they are not general biological calibration estimates.",
+  "methods": {
+    "independent_regression_LS_bitmask": "separately implemented batch quadratic regression, phased constrained least squares and bitmask exact phase posterior",
+    "reference_robust_interpolation_EM_tuple": "reference batch robust interpolation, phased EM and tuple-based exact phase posterior"
+  },
+  "methods_results": {
+    "independent_regression_LS_bitmask": {
+      "gate_pass": {
+        "contaminated_replicate_max_deviation": true,
+        "contaminated_standard_max_hap0_deviation": true,
+        "lane_b_calibration_max_response": true,
+        "mixed_calibration_max_response": true,
+        "reassigned_junction_hap1_signed_response": true,
+        "reversed_lane_a_calibration_sum_response": true,
+        "swapped_edge_counts_max_site_response": true
+      },
+      "metrics": {
+        "contaminated_replicate_max_deviation": 0.028427,
+        "contaminated_replicate_mean_deviation": 0.010441826,
+        "contaminated_standard_max_hap0_deviation": 0.0,
+        "contaminated_standard_mean_hap0_deviation": 0.0,
+        "lane_b_calibration_max_response": 0.018098,
+        "lane_b_calibration_mean_response": 0.00715487,
+        "mixed_calibration_max_response": 0.179796,
+        "mixed_calibration_mean_response": 0.089785304,
+        "reassigned_junction_hap0_abs_response": 0.012826,
+        "reassigned_junction_hap1_signed_response": 0.070616,
+        "reversed_lane_a_calibration_sum_response": 5.726118,
+        "swapped_edge_counts_max_site_response": 1.0,
+        "swapped_edge_counts_mean_site_response": 0.503820917
+      }
+    },
+    "reference_robust_interpolation_EM_tuple": {
+      "gate_pass": {
+        "contaminated_replicate_max_deviation": true,
+        "contaminated_standard_max_hap0_deviation": true,
+        "lane_b_calibration_max_response": true,
+        "mixed_calibration_max_response": true,
+        "reassigned_junction_hap1_signed_response": true,
+        "reversed_lane_a_calibration_sum_response": true,
+        "swapped_edge_counts_max_site_response": true
+      },
+      "metrics": {
+        "contaminated_replicate_max_deviation": 0.029577,
+        "contaminated_replicate_mean_deviation": 0.006365435,
+        "contaminated_standard_max_hap0_deviation": 1.6e-05,
+        "contaminated_standard_mean_hap0_deviation": 4.435e-06,
+        "lane_b_calibration_max_response": 0.029504,
+        "lane_b_calibration_mean_response": 0.018075826,
+        "mixed_calibration_max_response": 0.179941,
+        "mixed_calibration_mean_response": 0.090211609,
+        "reassigned_junction_hap0_abs_response": 0.021352,
+        "reassigned_junction_hap1_signed_response": 0.070078,
+        "reversed_lane_a_calibration_sum_response": 5.726118,
+        "swapped_edge_counts_max_site_response": 1.0,
+        "swapped_edge_counts_mean_site_response": 0.503820917
+      }
+    }
+  },
+  "metrics": {
+    "contaminated_replicate_max_deviation": {
+      "both_methods_pass": true,
+      "max_observed": 0.029577,
+      "min_observed": 0.028427,
+      "operator": "<",
+      "threshold": 0.03
+    },
+    "contaminated_standard_max_hap0_deviation": {
+      "both_methods_pass": true,
+      "max_observed": 1.6e-05,
+      "min_observed": 0.0,
+      "operator": "<",
+      "threshold": 0.05
+    },
+    "lane_b_calibration_max_response": {
+      "both_methods_pass": true,
+      "max_observed": 0.029504,
+      "min_observed": 0.018098,
+      "operator": ">",
+      "threshold": 0.004
+    },
+    "mixed_calibration_max_response": {
+      "both_methods_pass": true,
+      "max_observed": 0.179941,
+      "min_observed": 0.179796,
+      "operator": ">",
+      "threshold": 0.004
+    },
+    "reassigned_junction_hap1_signed_response": {
+      "both_methods_pass": true,
+      "max_observed": 0.070616,
+      "min_observed": 0.070078,
+      "operator": ">",
+      "threshold": 0.035
+    },
+    "reversed_lane_a_calibration_sum_response": {
+      "both_methods_pass": true,
+      "max_observed": 5.726118,
+      "min_observed": 5.726118,
+      "operator": ">",
+      "threshold": 0.1
+    },
+    "swapped_edge_counts_max_site_response": {
+      "both_methods_pass": true,
+      "max_observed": 1.0,
+      "min_observed": 1.0,
+      "operator": ">",
+      "threshold": 0.03
+    }
+  },
+  "negative_controls": {
+    "frozen_outputs": "A constant or cached output produces zero response to perturbations and fails all positive-change gates",
+    "nonselective_junction": "Hap0 response to the hap1 perturbation is recorded as a diagnostic only; the verifier enforces a per-case hap1 increase, not a hap0 drift cap",
+    "unrobust_contamination": "The upper-bound gates detect instability under a single calibration replicate corrupted without changing true sample observations"
+  },
+  "non_gating_diagnostics": {
+    "reassigned_junction_hap0_abs_response": {
+      "description": "Measured for descriptive analysis only; no 0.04 hap0 drift bound is enforced by the actual verifier.",
+      "graded": false,
+      "max_observed": 0.021352,
+      "min_observed": 0.012826,
+      "verifier_assertion": false
+    }
+  },
+  "protocol": "Perturbation operations reproduce those in tests/test_workflow.py, but numerical outputs are computed without importing the verifier. Two distinct correct estimators process the same synthetic assay inputs.",
+  "purpose": "Method-separated calibration of seven verifier-enforced response/discrimination inequalities plus one non-gating hap0 diagnostic",
+  "reproduction_command": "python3 authoring/provenance/validate_perturbation_bounds.py",
+  "scope": "synthetic sealed fixtures only; not clinical data, not an empirical proof of universal robustness"
+}

@@ -1,0 +1,763 @@
+{
+  "records": [
+    {
+      "case": {
+        "a1_fraction": 0.265625,
+        "counts": {
+          "A1_unique": 7,
+          "A2_unique": 22,
+          "shared": 14
+        },
+        "deduplicated": 43,
+        "interval_95": [
+          0.114932,
+          0.416318
+        ],
+        "usable_unique": 29
+      },
+      "case_id": "m01",
+      "control": {
+        "a1_fraction": 0.391892,
+        "counts": {
+          "A1_unique": 13,
+          "A2_unique": 21,
+          "shared": 12
+        },
+        "deduplicated": 46,
+        "interval_95": [
+          0.236675,
+          0.547108
+        ],
+        "usable_unique": 34
+      },
+      "delta_a1_fraction": -0.126267,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.258621,
+        "counts": {
+          "A1_unique": 6,
+          "A2_unique": 20,
+          "shared": 16
+        },
+        "deduplicated": 42,
+        "interval_95": [
+          0.101929,
+          0.415313
+        ],
+        "usable_unique": 26
+      },
+      "case_id": "m02",
+      "control": {
+        "a1_fraction": 0.5,
+        "counts": {
+          "A1_unique": 14,
+          "A2_unique": 14,
+          "shared": 13
+        },
+        "deduplicated": 41,
+        "interval_95": [
+          0.326759,
+          0.673241
+        ],
+        "usable_unique": 28
+      },
+      "delta_a1_fraction": -0.241379,
+      "evidence_class": "A2_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.402778,
+        "counts": {
+          "A1_unique": 13,
+          "A2_unique": 20,
+          "shared": 13
+        },
+        "deduplicated": 46,
+        "interval_95": [
+          0.244742,
+          0.560814
+        ],
+        "usable_unique": 33
+      },
+      "case_id": "m03",
+      "control": {
+        "a1_fraction": 0.4875,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 19,
+          "shared": 17
+        },
+        "deduplicated": 54,
+        "interval_95": [
+          0.334498,
+          0.640502
+        ],
+        "usable_unique": 37
+      },
+      "delta_a1_fraction": -0.084722,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.642857,
+        "counts": {
+          "A1_unique": 21,
+          "A2_unique": 11,
+          "shared": 14
+        },
+        "deduplicated": 46,
+        "interval_95": [
+          0.486332,
+          0.799382
+        ],
+        "usable_unique": 32
+      },
+      "case_id": "m04",
+      "control": {
+        "a1_fraction": 0.530303,
+        "counts": {
+          "A1_unique": 16,
+          "A2_unique": 14,
+          "shared": 18
+        },
+        "deduplicated": 48,
+        "interval_95": [
+          0.362543,
+          0.698063
+        ],
+        "usable_unique": 30
+      },
+      "delta_a1_fraction": 0.112554,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.69,
+        "counts": {
+          "A1_unique": 33,
+          "A2_unique": 14,
+          "shared": 15
+        },
+        "deduplicated": 62,
+        "interval_95": [
+          0.563066,
+          0.816934
+        ],
+        "usable_unique": 47
+      },
+      "case_id": "m05",
+      "control": {
+        "a1_fraction": 0.628205,
+        "counts": {
+          "A1_unique": 23,
+          "A2_unique": 13,
+          "shared": 21
+        },
+        "deduplicated": 57,
+        "interval_95": [
+          0.478434,
+          0.777976
+        ],
+        "usable_unique": 36
+      },
+      "delta_a1_fraction": 0.061795,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.277778,
+        "counts": {
+          "A1_unique": 6,
+          "A2_unique": 18,
+          "shared": 11
+        },
+        "deduplicated": 35,
+        "interval_95": [
+          0.111872,
+          0.443683
+        ],
+        "usable_unique": 24
+      },
+      "case_id": "m06",
+      "control": {
+        "a1_fraction": 0.263889,
+        "counts": {
+          "A1_unique": 8,
+          "A2_unique": 25,
+          "shared": 13
+        },
+        "deduplicated": 46,
+        "interval_95": [
+          0.121873,
+          0.405905
+        ],
+        "usable_unique": 33
+      },
+      "delta_a1_fraction": 0.013889,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.393617,
+        "counts": {
+          "A1_unique": 17,
+          "A2_unique": 27,
+          "shared": 14
+        },
+        "deduplicated": 58,
+        "interval_95": [
+          0.255405,
+          0.531829
+        ],
+        "usable_unique": 44
+      },
+      "case_id": "m07",
+      "control": {
+        "a1_fraction": 0.433333,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 24,
+          "shared": 14
+        },
+        "deduplicated": 56,
+        "interval_95": [
+          0.29013,
+          0.576536
+        ],
+        "usable_unique": 42
+      },
+      "delta_a1_fraction": -0.039716,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.585714,
+        "counts": {
+          "A1_unique": 19,
+          "A2_unique": 13,
+          "shared": 19
+        },
+        "deduplicated": 51,
+        "interval_95": [
+          0.424799,
+          0.74663
+        ],
+        "usable_unique": 32
+      },
+      "case_id": "m08",
+      "control": {
+        "a1_fraction": 0.439394,
+        "counts": {
+          "A1_unique": 13,
+          "A2_unique": 17,
+          "shared": 20
+        },
+        "deduplicated": 50,
+        "interval_95": [
+          0.272565,
+          0.606223
+        ],
+        "usable_unique": 30
+      },
+      "delta_a1_fraction": 0.14632,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.75,
+        "counts": {
+          "A1_unique": 30,
+          "A2_unique": 9,
+          "shared": 21
+        },
+        "deduplicated": 60,
+        "interval_95": [
+          0.620574,
+          0.879426
+        ],
+        "usable_unique": 39
+      },
+      "case_id": "m09",
+      "control": {
+        "a1_fraction": 0.522222,
+        "counts": {
+          "A1_unique": 22,
+          "A2_unique": 20,
+          "shared": 17
+        },
+        "deduplicated": 59,
+        "interval_95": [
+          0.377872,
+          0.666573
+        ],
+        "usable_unique": 42
+      },
+      "delta_a1_fraction": 0.227778,
+      "evidence_class": "A1_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.671053,
+        "counts": {
+          "A1_unique": 24,
+          "A2_unique": 11,
+          "shared": 17
+        },
+        "deduplicated": 52,
+        "interval_95": [
+          0.523596,
+          0.81851
+        ],
+        "usable_unique": 35
+      },
+      "case_id": "m10",
+      "control": {
+        "a1_fraction": 0.327586,
+        "counts": {
+          "A1_unique": 8,
+          "A2_unique": 18,
+          "shared": 18
+        },
+        "deduplicated": 44,
+        "interval_95": [
+          0.159638,
+          0.495535
+        ],
+        "usable_unique": 26
+      },
+      "delta_a1_fraction": 0.343467,
+      "evidence_class": "A1_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.320513,
+        "counts": {
+          "A1_unique": 11,
+          "A2_unique": 25,
+          "shared": 11
+        },
+        "deduplicated": 47,
+        "interval_95": [
+          0.175889,
+          0.465137
+        ],
+        "usable_unique": 36
+      },
+      "case_id": "m11",
+      "control": {
+        "a1_fraction": 0.45122,
+        "counts": {
+          "A1_unique": 17,
+          "A2_unique": 21,
+          "shared": 16
+        },
+        "deduplicated": 54,
+        "interval_95": [
+          0.300724,
+          0.601715
+        ],
+        "usable_unique": 38
+      },
+      "delta_a1_fraction": -0.130707,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.458333,
+        "counts": {
+          "A1_unique": 15,
+          "A2_unique": 18,
+          "shared": 17
+        },
+        "deduplicated": 50,
+        "interval_95": [
+          0.297783,
+          0.618884
+        ],
+        "usable_unique": 33
+      },
+      "case_id": "m12",
+      "control": {
+        "a1_fraction": 0.527027,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 16,
+          "shared": 22
+        },
+        "deduplicated": 56,
+        "interval_95": [
+          0.368282,
+          0.685772
+        ],
+        "usable_unique": 34
+      },
+      "delta_a1_fraction": -0.068694,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.5,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 18,
+          "shared": 16
+        },
+        "deduplicated": 52,
+        "interval_95": [
+          0.345048,
+          0.654952
+        ],
+        "usable_unique": 36
+      },
+      "case_id": "m13",
+      "control": {
+        "a1_fraction": 0.579545,
+        "counts": {
+          "A1_unique": 24,
+          "A2_unique": 17,
+          "shared": 16
+        },
+        "deduplicated": 57,
+        "interval_95": [
+          0.435316,
+          0.723775
+        ],
+        "usable_unique": 41
+      },
+      "delta_a1_fraction": -0.079545,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.608108,
+        "counts": {
+          "A1_unique": 21,
+          "A2_unique": 13,
+          "shared": 14
+        },
+        "deduplicated": 48,
+        "interval_95": [
+          0.452892,
+          0.763325
+        ],
+        "usable_unique": 34
+      },
+      "case_id": "m14",
+      "control": {
+        "a1_fraction": 0.364865,
+        "counts": {
+          "A1_unique": 12,
+          "A2_unique": 22,
+          "shared": 13
+        },
+        "deduplicated": 47,
+        "interval_95": [
+          0.211804,
+          0.517925
+        ],
+        "usable_unique": 34
+      },
+      "delta_a1_fraction": 0.243243,
+      "evidence_class": "A1_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.734375,
+        "counts": {
+          "A1_unique": 22,
+          "A2_unique": 7,
+          "shared": 16
+        },
+        "deduplicated": 45,
+        "interval_95": [
+          0.583682,
+          0.885068
+        ],
+        "usable_unique": 29
+      },
+      "case_id": "m15",
+      "control": {
+        "a1_fraction": 0.359375,
+        "counts": {
+          "A1_unique": 10,
+          "A2_unique": 19,
+          "shared": 21
+        },
+        "deduplicated": 50,
+        "interval_95": [
+          0.195665,
+          0.523085
+        ],
+        "usable_unique": 29
+      },
+      "delta_a1_fraction": 0.375,
+      "evidence_class": "A1_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.345238,
+        "counts": {
+          "A1_unique": 13,
+          "A2_unique": 26,
+          "shared": 17
+        },
+        "deduplicated": 56,
+        "interval_95": [
+          0.203129,
+          0.487348
+        ],
+        "usable_unique": 39
+      },
+      "case_id": "m16",
+      "control": {
+        "a1_fraction": 0.557143,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 14,
+          "shared": 21
+        },
+        "deduplicated": 53,
+        "interval_95": [
+          0.39488,
+          0.719406
+        ],
+        "usable_unique": 32
+      },
+      "delta_a1_fraction": -0.211905,
+      "evidence_class": "A2_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.310811,
+        "counts": {
+          "A1_unique": 10,
+          "A2_unique": 24,
+          "shared": 19
+        },
+        "deduplicated": 53,
+        "interval_95": [
+          0.163654,
+          0.457968
+        ],
+        "usable_unique": 34
+      },
+      "case_id": "m17",
+      "control": {
+        "a1_fraction": 0.573171,
+        "counts": {
+          "A1_unique": 22,
+          "A2_unique": 16,
+          "shared": 19
+        },
+        "deduplicated": 57,
+        "interval_95": [
+          0.423581,
+          0.72276
+        ],
+        "usable_unique": 38
+      },
+      "delta_a1_fraction": -0.26236,
+      "evidence_class": "A2_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.592105,
+        "counts": {
+          "A1_unique": 21,
+          "A2_unique": 14,
+          "shared": 14
+        },
+        "deduplicated": 49,
+        "interval_95": [
+          0.437865,
+          0.746345
+        ],
+        "usable_unique": 35
+      },
+      "case_id": "m18",
+      "control": {
+        "a1_fraction": 0.511905,
+        "counts": {
+          "A1_unique": 20,
+          "A2_unique": 19,
+          "shared": 11
+        },
+        "deduplicated": 50,
+        "interval_95": [
+          0.362499,
+          0.661311
+        ],
+        "usable_unique": 39
+      },
+      "delta_a1_fraction": 0.0802,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.814286,
+        "counts": {
+          "A1_unique": 27,
+          "A2_unique": 5,
+          "shared": 13
+        },
+        "deduplicated": 45,
+        "interval_95": [
+          0.687253,
+          0.941319
+        ],
+        "usable_unique": 32
+      },
+      "case_id": "m19",
+      "control": {
+        "a1_fraction": 0.47561,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 20,
+          "shared": 20
+        },
+        "deduplicated": 58,
+        "interval_95": [
+          0.324572,
+          0.626647
+        ],
+        "usable_unique": 38
+      },
+      "delta_a1_fraction": 0.338676,
+      "evidence_class": "A1_enriched"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.318182,
+        "counts": {
+          "A1_unique": 9,
+          "A2_unique": 21,
+          "shared": 20
+        },
+        "deduplicated": 50,
+        "interval_95": [
+          0.161619,
+          0.474745
+        ],
+        "usable_unique": 30
+      },
+      "case_id": "m20",
+      "control": {
+        "a1_fraction": 0.5,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 18,
+          "shared": 16
+        },
+        "deduplicated": 52,
+        "interval_95": [
+          0.345048,
+          0.654952
+        ],
+        "usable_unique": 36
+      },
+      "delta_a1_fraction": -0.181818,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.440476,
+        "counts": {
+          "A1_unique": 17,
+          "A2_unique": 22,
+          "shared": 24
+        },
+        "deduplicated": 63,
+        "interval_95": [
+          0.29209,
+          0.588862
+        ],
+        "usable_unique": 39
+      },
+      "case_id": "m21",
+      "control": {
+        "a1_fraction": 0.554348,
+        "counts": {
+          "A1_unique": 24,
+          "A2_unique": 19,
+          "shared": 24
+        },
+        "deduplicated": 67,
+        "interval_95": [
+          0.412247,
+          0.696449
+        ],
+        "usable_unique": 43
+      },
+      "delta_a1_fraction": -0.113872,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.421875,
+        "counts": {
+          "A1_unique": 12,
+          "A2_unique": 17,
+          "shared": 16
+        },
+        "deduplicated": 45,
+        "interval_95": [
+          0.253374,
+          0.590376
+        ],
+        "usable_unique": 29
+      },
+      "case_id": "m22",
+      "control": {
+        "a1_fraction": 0.265625,
+        "counts": {
+          "A1_unique": 7,
+          "A2_unique": 22,
+          "shared": 12
+        },
+        "deduplicated": 41,
+        "interval_95": [
+          0.114932,
+          0.416318
+        ],
+        "usable_unique": 29
+      },
+      "delta_a1_fraction": 0.15625,
+      "evidence_class": "inconclusive"
+    },
+    {
+      "case": {
+        "a1_fraction": 0.680556,
+        "counts": {
+          "A1_unique": 23,
+          "A2_unique": 10,
+          "shared": 14
+        },
+        "deduplicated": 47,
+        "interval_95": [
+          0.530316,
+          0.830795
+        ],
+        "usable_unique": 33
+      },
+      "case_id": "m23",
+      "control": {
+        "a1_fraction": 0.590909,
+        "counts": {
+          "A1_unique": 18,
+          "A2_unique": 12,
+          "shared": 14
+        },
+        "deduplicated": 44,
+        "interval_95": [
+          0.425642,
+          0.756176
+        ],
+        "usable_unique": 30
+      },
+      "delta_a1_fraction": 0.089647,
+      "evidence_class": "inconclusive"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "calibration_input": "tests/assets/spikein_calibration.json",
+  "fixtures": {
+    "hidden": {
+      "independent_optimizer_max_absolute_difference": 0.0,
+      "perturbed_optimizer_max_absolute_difference": 1.0000000000287557e-06,
+      "perturbed_panels": 224,
+      "records": 28,
+      "reproducible_keys_exact_match": true,
+      "source_evidence_exact_match": true,
+      "source_files_sha256": {
+        "tests/hidden_evidence_expected.json": "4e2ad6f2d1000421a725b839d1d2a76f01fa61d3755f9d00cf349ec76c081549",
+        "tests/hidden_likelihood_expected.json": "2e1e393b717897fdbcbd5a9a73d5d747aad0a1459db76dbff8e2ab6c79b317ab",
+        "tests/hidden_observations.json": "f8b39cabc707da0ea4c596f9f68667984203e2f6b40938b3ad026362db4edd62"
+      }
+    },
+    "sealed": {
+      "independent_optimizer_max_absolute_difference": 1.0000000000287557e-06,
+      "perturbed_optimizer_max_absolute_difference": 1.0000000000287557e-06,
+      "perturbed_panels": 184,
+      "records": 23,
+      "reproducible_keys_exact_match": true,
+      "source_evidence_exact_match": true,
+      "source_files_sha256": {
+        "tests/sealed_evidence_expected.json": "63edb3c334cbddc8297785db0f3d543e764efcdbfdfc6e1a405d21e65649a671",
+        "tests/sealed_likelihood_expected.json": "3f363140441248c6b22246184b69aea818a352caccd46a096d86f1ca634ab41b",
+        "tests/sealed_observations.json": "9fe95c602867855612e10deb3672f709f92e7653ca96150849c0ad7034eb535f"
+      }
+    }
+  },
+  "independent_evidence": "tests/independent_evidence.py:independently_verify",
+  "independent_optimizer": "tests/independent_calibration.py:calculate",
+  "interpretation": "The absolute 3e-6 threshold is three six-decimal output units. Fixed-key matches and deterministic seeded count perturbations compare two independently implemented convex optimizers (golden section versus derivative bisection). The bound permits minor numerical convergence differences without substituting biological accuracy criteria; all output-range, rounding, molecule-count and delta-identity constraints are enforced separately. This is algorithmic reproducibility evidence, not clinical measurement calibration.",
+  "numeric_gate_absolute_tolerance": 3e-06,
+  "output_rounding_decimal_places": 6,
+  "reference_crosscheck": "solution/inference.py:infer",
+  "reproducible_key_producer": "tests/independent_calibration.py:calculate",
+  "seed_for_sensitivity": 20261109
+}

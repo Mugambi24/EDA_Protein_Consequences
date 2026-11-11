@@ -1,0 +1,649 @@
+{
+  "calibration_id": "EDA_ANNOTATION_SPIKEIN_V1",
+  "records": [
+    {
+      "case": {
+        "a1_mle": 0.056913,
+        "log_likelihood": -44.948185,
+        "molecules": 49,
+        "profile_95": [
+          0.0,
+          0.232924
+        ]
+      },
+      "case_id": "h00",
+      "control": {
+        "a1_mle": 0.171837,
+        "log_likelihood": -42.916409,
+        "molecules": 41,
+        "profile_95": [
+          0.026066,
+          0.370335
+        ]
+      },
+      "delta_a1_mle": -0.114924,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.275357,
+        "log_likelihood": -53.507112,
+        "molecules": 49,
+        "profile_95": [
+          0.112207,
+          0.470864
+        ]
+      },
+      "case_id": "h01",
+      "control": {
+        "a1_mle": 0.318355,
+        "log_likelihood": -45.143968,
+        "molecules": 38,
+        "profile_95": [
+          0.146107,
+          0.516624
+        ]
+      },
+      "delta_a1_mle": -0.042998,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.378659,
+        "log_likelihood": -61.294657,
+        "molecules": 54,
+        "profile_95": [
+          0.208603,
+          0.564233
+        ]
+      },
+      "case_id": "h02",
+      "control": {
+        "a1_mle": 0.448441,
+        "log_likelihood": -60.466085,
+        "molecules": 54,
+        "profile_95": [
+          0.264168,
+          0.640221
+        ]
+      },
+      "delta_a1_mle": -0.069782,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.453207,
+        "log_likelihood": -65.533483,
+        "molecules": 58,
+        "profile_95": [
+          0.277245,
+          0.635283
+        ]
+      },
+      "case_id": "h03",
+      "control": {
+        "a1_mle": 0.598374,
+        "log_likelihood": -60.121195,
+        "molecules": 55,
+        "profile_95": [
+          0.402113,
+          0.781214
+        ]
+      },
+      "delta_a1_mle": -0.145167,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.760293,
+        "log_likelihood": -62.786445,
+        "molecules": 60,
+        "profile_95": [
+          0.583189,
+          0.905447
+        ]
+      },
+      "case_id": "h04",
+      "control": {
+        "a1_mle": 0.567601,
+        "log_likelihood": -57.128712,
+        "molecules": 51,
+        "profile_95": [
+          0.372363,
+          0.753622
+        ]
+      },
+      "delta_a1_mle": 0.192692,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.094001,
+        "log_likelihood": -48.903158,
+        "molecules": 50,
+        "profile_95": [
+          0.0,
+          0.260043
+        ]
+      },
+      "case_id": "h05",
+      "control": {
+        "a1_mle": 0.504825,
+        "log_likelihood": -48.309013,
+        "molecules": 42,
+        "profile_95": [
+          0.301708,
+          0.707374
+        ]
+      },
+      "delta_a1_mle": -0.410824,
+      "mixture_class": "A2_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.218059,
+        "log_likelihood": -46.298912,
+        "molecules": 44,
+        "profile_95": [
+          0.057777,
+          0.425286
+        ]
+      },
+      "case_id": "h06",
+      "control": {
+        "a1_mle": 0.584776,
+        "log_likelihood": -68.595578,
+        "molecules": 63,
+        "profile_95": [
+          0.39899,
+          0.760321
+        ]
+      },
+      "delta_a1_mle": -0.366717,
+      "mixture_class": "A2_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.601025,
+        "log_likelihood": -60.93233,
+        "molecules": 57,
+        "profile_95": [
+          0.398897,
+          0.788838
+        ]
+      },
+      "case_id": "h07",
+      "control": {
+        "a1_mle": 0.594419,
+        "log_likelihood": -60.993508,
+        "molecules": 55,
+        "profile_95": [
+          0.403557,
+          0.772957
+        ]
+      },
+      "delta_a1_mle": 0.006606,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.515733,
+        "log_likelihood": -60.434873,
+        "molecules": 53,
+        "profile_95": [
+          0.330621,
+          0.699036
+        ]
+      },
+      "case_id": "h08",
+      "control": {
+        "a1_mle": 0.581575,
+        "log_likelihood": -56.573816,
+        "molecules": 49,
+        "profile_95": [
+          0.39355,
+          0.758952
+        ]
+      },
+      "delta_a1_mle": -0.065842,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.719943,
+        "log_likelihood": -47.60972,
+        "molecules": 46,
+        "profile_95": [
+          0.496694,
+          0.903265
+        ]
+      },
+      "case_id": "h09",
+      "control": {
+        "a1_mle": 0.153565,
+        "log_likelihood": -41.732288,
+        "molecules": 43,
+        "profile_95": [
+          0.0,
+          0.382063
+        ]
+      },
+      "delta_a1_mle": 0.566378,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.184677,
+        "log_likelihood": -58.302731,
+        "molecules": 55,
+        "profile_95": [
+          0.052752,
+          0.354138
+        ]
+      },
+      "case_id": "h10",
+      "control": {
+        "a1_mle": 0.43356,
+        "log_likelihood": -55.82778,
+        "molecules": 49,
+        "profile_95": [
+          0.248244,
+          0.628487
+        ]
+      },
+      "delta_a1_mle": -0.248883,
+      "mixture_class": "A2_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.236087,
+        "log_likelihood": -58.168627,
+        "molecules": 54,
+        "profile_95": [
+          0.088357,
+          0.417779
+        ]
+      },
+      "case_id": "h11",
+      "control": {
+        "a1_mle": 0.545474,
+        "log_likelihood": -61.914692,
+        "molecules": 55,
+        "profile_95": [
+          0.358791,
+          0.726545
+        ]
+      },
+      "delta_a1_mle": -0.309387,
+      "mixture_class": "A2_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.326264,
+        "log_likelihood": -63.869036,
+        "molecules": 57,
+        "profile_95": [
+          0.167218,
+          0.506304
+        ]
+      },
+      "case_id": "h12",
+      "control": {
+        "a1_mle": 0.375515,
+        "log_likelihood": -58.330942,
+        "molecules": 53,
+        "profile_95": [
+          0.195483,
+          0.573966
+        ]
+      },
+      "delta_a1_mle": -0.049251,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.769806,
+        "log_likelihood": -50.252343,
+        "molecules": 49,
+        "profile_95": [
+          0.565165,
+          0.93101
+        ]
+      },
+      "case_id": "h13",
+      "control": {
+        "a1_mle": 0.248217,
+        "log_likelihood": -55.035604,
+        "molecules": 52,
+        "profile_95": [
+          0.089255,
+          0.444376
+        ]
+      },
+      "delta_a1_mle": 0.521589,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.896683,
+        "log_likelihood": -49.41268,
+        "molecules": 52,
+        "profile_95": [
+          0.731097,
+          1.0
+        ]
+      },
+      "case_id": "h14",
+      "control": {
+        "a1_mle": 0.285709,
+        "log_likelihood": -53.329566,
+        "molecules": 49,
+        "profile_95": [
+          0.11852,
+          0.484736
+        ]
+      },
+      "delta_a1_mle": 0.610974,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.257613,
+        "log_likelihood": -59.937932,
+        "molecules": 55,
+        "profile_95": [
+          0.107094,
+          0.438626
+        ]
+      },
+      "case_id": "h15",
+      "control": {
+        "a1_mle": 0.382148,
+        "log_likelihood": -60.898614,
+        "molecules": 55,
+        "profile_95": [
+          0.205701,
+          0.575096
+        ]
+      },
+      "delta_a1_mle": -0.124535,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.550111,
+        "log_likelihood": -72.317305,
+        "molecules": 65,
+        "profile_95": [
+          0.374103,
+          0.720711
+        ]
+      },
+      "case_id": "h16",
+      "control": {
+        "a1_mle": 0.563804,
+        "log_likelihood": -71.767618,
+        "molecules": 64,
+        "profile_95": [
+          0.389268,
+          0.731397
+        ]
+      },
+      "delta_a1_mle": -0.013693,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.617376,
+        "log_likelihood": -49.935518,
+        "molecules": 45,
+        "profile_95": [
+          0.408696,
+          0.807639
+        ]
+      },
+      "case_id": "h17",
+      "control": {
+        "a1_mle": 0.536113,
+        "log_likelihood": -54.878892,
+        "molecules": 48,
+        "profile_95": [
+          0.342343,
+          0.724983
+        ]
+      },
+      "delta_a1_mle": 0.081263,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.684155,
+        "log_likelihood": -58.877645,
+        "molecules": 57,
+        "profile_95": [
+          0.474829,
+          0.864705
+        ]
+      },
+      "case_id": "h18",
+      "control": {
+        "a1_mle": 0.388473,
+        "log_likelihood": -54.305015,
+        "molecules": 47,
+        "profile_95": [
+          0.210648,
+          0.581621
+        ]
+      },
+      "delta_a1_mle": 0.295682,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.176738,
+        "log_likelihood": -46.886132,
+        "molecules": 46,
+        "profile_95": [
+          0.028334,
+          0.378562
+        ]
+      },
+      "case_id": "h19",
+      "control": {
+        "a1_mle": 0.454849,
+        "log_likelihood": -58.850543,
+        "molecules": 51,
+        "profile_95": [
+          0.274288,
+          0.641433
+        ]
+      },
+      "delta_a1_mle": -0.278111,
+      "mixture_class": "A2_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.2405,
+        "log_likelihood": -62.909698,
+        "molecules": 60,
+        "profile_95": [
+          0.090801,
+          0.424474
+        ]
+      },
+      "case_id": "h20",
+      "control": {
+        "a1_mle": 0.355973,
+        "log_likelihood": -56.467051,
+        "molecules": 53,
+        "profile_95": [
+          0.16939,
+          0.566731
+        ]
+      },
+      "delta_a1_mle": -0.115473,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.50231,
+        "log_likelihood": -59.255156,
+        "molecules": 51,
+        "profile_95": [
+          0.320235,
+          0.684175
+        ]
+      },
+      "case_id": "h21",
+      "control": {
+        "a1_mle": 0.221945,
+        "log_likelihood": -42.247058,
+        "molecules": 39,
+        "profile_95": [
+          0.060022,
+          0.430255
+        ]
+      },
+      "delta_a1_mle": 0.280365,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.855194,
+        "log_likelihood": -45.858601,
+        "molecules": 48,
+        "profile_95": [
+          0.644159,
+          0.999726
+        ]
+      },
+      "case_id": "h22",
+      "control": {
+        "a1_mle": 0.312564,
+        "log_likelihood": -48.8469,
+        "molecules": 44,
+        "profile_95": [
+          0.135318,
+          0.51946
+        ]
+      },
+      "delta_a1_mle": 0.54263,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.808727,
+        "log_likelihood": -51.828523,
+        "molecules": 51,
+        "profile_95": [
+          0.620967,
+          0.952052
+        ]
+      },
+      "case_id": "h23",
+      "control": {
+        "a1_mle": 0.431883,
+        "log_likelihood": -57.484184,
+        "molecules": 51,
+        "profile_95": [
+          0.246864,
+          0.626847
+        ]
+      },
+      "delta_a1_mle": 0.376844,
+      "mixture_class": "A1_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.27786,
+        "log_likelihood": -56.354996,
+        "molecules": 51,
+        "profile_95": [
+          0.119843,
+          0.465346
+        ]
+      },
+      "case_id": "h24",
+      "control": {
+        "a1_mle": 0.530329,
+        "log_likelihood": -59.877855,
+        "molecules": 55,
+        "profile_95": [
+          0.331598,
+          0.72536
+        ]
+      },
+      "delta_a1_mle": -0.252469,
+      "mixture_class": "A2_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.138953,
+        "log_likelihood": -43.253783,
+        "molecules": 43,
+        "profile_95": [
+          0.002169,
+          0.335239
+        ]
+      },
+      "case_id": "h25",
+      "control": {
+        "a1_mle": 0.501919,
+        "log_likelihood": -50.811598,
+        "molecules": 45,
+        "profile_95": [
+          0.299157,
+          0.704789
+        ]
+      },
+      "delta_a1_mle": -0.362966,
+      "mixture_class": "A2_supported"
+    },
+    {
+      "case": {
+        "a1_mle": 0.554724,
+        "log_likelihood": -54.306689,
+        "molecules": 49,
+        "profile_95": [
+          0.351491,
+          0.750061
+        ]
+      },
+      "case_id": "h26",
+      "control": {
+        "a1_mle": 0.519912,
+        "log_likelihood": -51.153752,
+        "molecules": 46,
+        "profile_95": [
+          0.312636,
+          0.724529
+        ]
+      },
+      "delta_a1_mle": 0.034812,
+      "mixture_class": "no_strong_shift"
+    },
+    {
+      "case": {
+        "a1_mle": 0.674893,
+        "log_likelihood": -48.392281,
+        "molecules": 46,
+        "profile_95": [
+          0.450694,
+          0.867768
+        ]
+      },
+      "case_id": "h27",
+      "control": {
+        "a1_mle": 0.360153,
+        "log_likelihood": -68.555642,
+        "molecules": 61,
+        "profile_95": [
+          0.199875,
+          0.536681
+        ]
+      },
+      "delta_a1_mle": 0.31474,
+      "mixture_class": "A1_supported"
+    }
+  ]
+}

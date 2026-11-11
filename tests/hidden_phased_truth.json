@@ -1,0 +1,340 @@
+{
+  "records": [
+    {
+      "case": {
+        "hap0_a1_fraction": 0.2820274139587354,
+        "hap1_a1_fraction": 0.5758466400149831
+      },
+      "case_id": "h00",
+      "control": {
+        "hap0_a1_fraction": 0.28651397667988965,
+        "hap1_a1_fraction": 0.7599592121272576
+      },
+      "variant_linked_shift": -0.17962600939112022
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.2771959288210478,
+        "hap1_a1_fraction": 0.37840376711940726
+      },
+      "case_id": "h01",
+      "control": {
+        "hap0_a1_fraction": 0.23565168113557625,
+        "hap1_a1_fraction": 0.5833807556010718
+      },
+      "variant_linked_shift": -0.24652123616713617
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.35885954443240864,
+        "hap1_a1_fraction": 0.8841338790776573
+      },
+      "case_id": "h02",
+      "control": {
+        "hap0_a1_fraction": 0.31718807853128356,
+        "hap1_a1_fraction": 0.6676716813174315
+      },
+      "variant_linked_shift": 0.1747907318591007
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.5542365280762587,
+        "hap1_a1_fraction": 0.8691480688842348
+      },
+      "case_id": "h03",
+      "control": {
+        "hap0_a1_fraction": 0.5986421632741535,
+        "hap1_a1_fraction": 0.6045244105329304
+      },
+      "variant_linked_shift": 0.3090292935491993
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.4444797645861143,
+        "hap1_a1_fraction": 0.42320759438933264
+      },
+      "case_id": "h04",
+      "control": {
+        "hap0_a1_fraction": 0.47584021833020085,
+        "hap1_a1_fraction": 0.6719591446666693
+      },
+      "variant_linked_shift": -0.21739109653325012
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.3937595685609693,
+        "hap1_a1_fraction": 0.7865587769222877
+      },
+      "case_id": "h05",
+      "control": {
+        "hap0_a1_fraction": 0.4132278707408973,
+        "hap1_a1_fraction": 0.5808558147637741
+      },
+      "variant_linked_shift": 0.2251712643384416
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.5831561336503579,
+        "hap1_a1_fraction": 0.7952104686068786
+      },
+      "case_id": "h06",
+      "control": {
+        "hap0_a1_fraction": 0.559042896986217,
+        "hap1_a1_fraction": 0.6045239907250874
+      },
+      "variant_linked_shift": 0.16657324121765027
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.4087409455697217,
+        "hap1_a1_fraction": 0.27768606470492807
+      },
+      "case_id": "h07",
+      "control": {
+        "hap0_a1_fraction": 0.36744180998443987,
+        "hap1_a1_fraction": 0.5558573790195483
+      },
+      "variant_linked_shift": -0.3194704498999021
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.4497217059262951,
+        "hap1_a1_fraction": 0.751649891112612
+      },
+      "case_id": "h08",
+      "control": {
+        "hap0_a1_fraction": 0.44820744692721,
+        "hap1_a1_fraction": 0.5447142554695483
+      },
+      "variant_linked_shift": 0.20542137664397858
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.306453286116897,
+        "hap1_a1_fraction": 0.6159905239037529
+      },
+      "case_id": "h09",
+      "control": {
+        "hap0_a1_fraction": 0.2634156324306929,
+        "hap1_a1_fraction": 0.380126785462456
+      },
+      "variant_linked_shift": 0.19282608475509277
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.7908421252048823,
+        "hap1_a1_fraction": 0.45476984453279423
+      },
+      "case_id": "h10",
+      "control": {
+        "hap0_a1_fraction": 0.788679911309575,
+        "hap1_a1_fraction": 0.6206001443697298
+      },
+      "variant_linked_shift": -0.16799251373224278
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.6888427461747071,
+        "hap1_a1_fraction": 0.925
+      },
+      "case_id": "h11",
+      "control": {
+        "hap0_a1_fraction": 0.7106992076961843,
+        "hap1_a1_fraction": 0.6847028148462494
+      },
+      "variant_linked_shift": 0.2621536466752279
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.8019092530398093,
+        "hap1_a1_fraction": 0.7815263543545655
+      },
+      "case_id": "h12",
+      "control": {
+        "hap0_a1_fraction": 0.7654699905140437,
+        "hap1_a1_fraction": 0.5574078182991915
+      },
+      "variant_linked_shift": 0.18767927352960845
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.27381573091742645,
+        "hap1_a1_fraction": 0.4035943167284915
+      },
+      "case_id": "h13",
+      "control": {
+        "hap0_a1_fraction": 0.25999992831638635,
+        "hap1_a1_fraction": 0.6795163077442855
+      },
+      "variant_linked_shift": -0.2897377936168341
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.7517032805911181,
+        "hap1_a1_fraction": 0.7670158469322724
+      },
+      "case_id": "h14",
+      "control": {
+        "hap0_a1_fraction": 0.7608928274741202,
+        "hap1_a1_fraction": 0.525020674543669
+      },
+      "variant_linked_shift": 0.25118471927160557
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.5514126816835085,
+        "hap1_a1_fraction": 0.40679360966930134
+      },
+      "case_id": "h15",
+      "control": {
+        "hap0_a1_fraction": 0.5940967453718443,
+        "hap1_a1_fraction": 0.2269313495034343
+      },
+      "variant_linked_shift": 0.2225463238542028
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.24963853287245494,
+        "hap1_a1_fraction": 0.075
+      },
+      "case_id": "h16",
+      "control": {
+        "hap0_a1_fraction": 0.24949914012672453,
+        "hap1_a1_fraction": 0.3022798136569528
+      },
+      "variant_linked_shift": -0.2274192064026832
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.37368437859585363,
+        "hap1_a1_fraction": 0.7009107925658682
+      },
+      "case_id": "h17",
+      "control": {
+        "hap0_a1_fraction": 0.36986901483735113,
+        "hap1_a1_fraction": 0.5198896905300728
+      },
+      "variant_linked_shift": 0.17720573827729286
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.7735594713938139,
+        "hap1_a1_fraction": 0.6559290128425611
+      },
+      "case_id": "h18",
+      "control": {
+        "hap0_a1_fraction": 0.7898737597970141,
+        "hap1_a1_fraction": 0.37819185759636353
+      },
+      "variant_linked_shift": 0.29405144364939784
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.6117015272620379,
+        "hap1_a1_fraction": 0.09448972186332905
+      },
+      "case_id": "h19",
+      "control": {
+        "hap0_a1_fraction": 0.6563657866211547,
+        "hap1_a1_fraction": 0.3659662414534719
+      },
+      "variant_linked_shift": -0.22681226023102596
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.8049325748185182,
+        "hap1_a1_fraction": 0.345420867580323
+      },
+      "case_id": "h20",
+      "control": {
+        "hap0_a1_fraction": 0.7750773403211151,
+        "hap1_a1_fraction": 0.5314440834875824
+      },
+      "variant_linked_shift": -0.21587845040466258
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.262800543215337,
+        "hap1_a1_fraction": 0.5782364685824746
+      },
+      "case_id": "h21",
+      "control": {
+        "hap0_a1_fraction": 0.23829540174817915,
+        "hap1_a1_fraction": 0.35034060679234125
+      },
+      "variant_linked_shift": 0.20339072032297545
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.3477853654531071,
+        "hap1_a1_fraction": 0.075
+      },
+      "case_id": "h22",
+      "control": {
+        "hap0_a1_fraction": 0.32831707001557586,
+        "hap1_a1_fraction": 0.3236486622576689
+      },
+      "variant_linked_shift": -0.26811695769520016
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.6666266427593154,
+        "hap1_a1_fraction": 0.7127243978621437
+      },
+      "case_id": "h23",
+      "control": {
+        "hap0_a1_fraction": 0.621767999594729,
+        "hap1_a1_fraction": 0.42331068639163216
+      },
+      "variant_linked_shift": 0.2445550683059251
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.6737451239796606,
+        "hap1_a1_fraction": 0.49959322690886565
+      },
+      "case_id": "h24",
+      "control": {
+        "hap0_a1_fraction": 0.6613176597656282,
+        "hap1_a1_fraction": 0.20447869058144377
+      },
+      "variant_linked_shift": 0.2826870721133895
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.7577684751629987,
+        "hap1_a1_fraction": 0.8519528305973377
+      },
+      "case_id": "h25",
+      "control": {
+        "hap0_a1_fraction": 0.7408948088053193,
+        "hap1_a1_fraction": 0.6533542099718057
+      },
+      "variant_linked_shift": 0.18172495426785262
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.48608335745685716,
+        "hap1_a1_fraction": 0.6848116823015176
+      },
+      "case_id": "h26",
+      "control": {
+        "hap0_a1_fraction": 0.48174639946328446,
+        "hap1_a1_fraction": 0.42690678809184135
+      },
+      "variant_linked_shift": 0.2535679362161035
+    },
+    {
+      "case": {
+        "hap0_a1_fraction": 0.6917759810059201,
+        "hap1_a1_fraction": 0.9224352244971374
+      },
+      "case_id": "h27",
+      "control": {
+        "hap0_a1_fraction": 0.7237746486426677,
+        "hap1_a1_fraction": 0.68512236425444
+      },
+      "variant_linked_shift": 0.2693115278794451
+    }
+  ]
+}

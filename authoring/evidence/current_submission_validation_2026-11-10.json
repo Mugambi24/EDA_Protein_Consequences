@@ -1,0 +1,184 @@
+{
+  "README_required_sections": true,
+  "batch_lane_B_perturbation": {
+    "lane_B_spikein_response_max": 0.029504,
+    "published_minimum": 0.004
+  },
+  "batch_simulation_summary": {
+    "alternative": {
+      "datasets": 12,
+      "largest_max_width": 0.11,
+      "largest_mean_width": 0.11,
+      "minimum_coverage": 1,
+      "passed": 12,
+      "worst_max_error": 0.054635,
+      "worst_mean_error": 0.016088
+    },
+    "reference": {
+      "datasets": 12,
+      "largest_max_width": 0.11,
+      "largest_mean_width": 0.11,
+      "minimum_coverage": 1,
+      "passed": 12,
+      "worst_max_error": 0.050782,
+      "worst_mean_error": 0.021722
+    }
+  },
+  "casewise_baseline_discrimination": {
+    "hidden": {
+      "EM_response": {
+        "all_cases_respond": true,
+        "minimum_batch": 0.051487,
+        "minimum_longitudinal": 0.268244,
+        "minimum_phased": 0.077124
+      },
+      "cases": 28,
+      "copy_control_batch_point_passes": 0,
+      "copy_control_phased_point_passes": 0,
+      "fixed_positive_negative_quarter_longitudinal_point_passes": 0,
+      "global_median_longitudinal_casewise_joint_passes": 0,
+      "global_median_longitudinal_point_only_passes": 16,
+      "independent_LS_response": {
+        "all_cases_respond": true,
+        "minimum_batch": 0.05899,
+        "minimum_longitudinal": 0.271883,
+        "minimum_phased": 0.076173
+      },
+      "note": "A global median may be numerically near some case means, but it cannot respond to the explicitly graded case-level treatment-junction perturbation; every case is checked for a response."
+    },
+    "sealed": {
+      "EM_response": {
+        "all_cases_respond": true,
+        "minimum_batch": 0.100807,
+        "minimum_longitudinal": 0.303572,
+        "minimum_phased": 0.073524
+      },
+      "cases": 23,
+      "copy_control_batch_point_passes": 0,
+      "copy_control_phased_point_passes": 0,
+      "fixed_positive_negative_quarter_longitudinal_point_passes": 0,
+      "global_median_longitudinal_casewise_joint_passes": 0,
+      "global_median_longitudinal_point_only_passes": 17,
+      "independent_LS_response": {
+        "all_cases_respond": true,
+        "minimum_batch": 0.122483,
+        "minimum_longitudinal": 0.318149,
+        "minimum_phased": 0.073958
+      },
+      "note": "A global median may be numerically near some case means, but it cannot respond to the explicitly graded case-level treatment-junction perturbation; every case is checked for a response."
+    }
+  },
+  "coding_key_provenance": {
+    "hidden": {
+      "checks": "Genomic-plus exon edit/reverse complement; coding and peptide SHA-256/length separately reconstructed with Biopython codon table",
+      "expected_file": "tests/hidden_expected.json",
+      "independent_resolved_checks": 56,
+      "sha256": "d9713b523e85feb297327a75ea5807ce033b327916f8c0f156b835c1616e5732",
+      "source": "solution/coding.py:compute() (reference-produced, then persisted)",
+      "unresolved_records_oracle": 0
+    },
+    "sealed": {
+      "checks": "Genomic-plus exon edit/reverse complement; coding and peptide SHA-256/length separately reconstructed with Biopython codon table",
+      "expected_file": "tests/sealed_expected.json",
+      "independent_resolved_checks": 36,
+      "sha256": "daf89dbd05f00942684b32b970f40e6d3047ce2ebbdcb9dda14016252bf0ace7",
+      "source": "solution/coding.py:compute() (reference-produced, then persisted)",
+      "unresolved_records_oracle": 10
+    }
+  },
+  "date": "2026-11-10",
+  "donor_zero_baselines": {
+    "hidden": {
+      "cases": 28,
+      "constant_zero_donor_MAE": 0.426804,
+      "donors": 168,
+      "donors_with_truth_inside_fixed_[-0.15,0.15]": 0,
+      "min_absolute_case_truth": 0.385966,
+      "min_absolute_donor_truth": 0.374421
+    },
+    "sealed": {
+      "cases": 23,
+      "constant_zero_donor_MAE": 0.432314,
+      "donors": 138,
+      "donors_with_truth_inside_fixed_[-0.15,0.15]": 0,
+      "min_absolute_case_truth": 0.393227,
+      "min_absolute_donor_truth": 0.376869
+    }
+  },
+  "independent_solver_full_pytest": "72 named tests; run independent verifier for current outcomes",
+  "instruction_characters": 9988,
+  "instruction_suffix_exact": true,
+  "longitudinal_simulation_summary": {
+    "multinomial_EM": {
+      "datasets": 22,
+      "max_case_mae": 0.042229,
+      "max_case_mean_width": 0.187881,
+      "max_case_p90": 0.079023,
+      "max_donor_mae": 0.087355,
+      "max_donor_mean_width": 0.272418,
+      "min_case_coverage": 0.869565,
+      "min_donor_coverage": 0.782609,
+      "passed": 22
+    },
+    "simplex_least_squares": {
+      "datasets": 22,
+      "max_case_mae": 0.043211,
+      "max_case_mean_width": 0.192509,
+      "max_case_p90": 0.077172,
+      "max_donor_mae": 0.085979,
+      "max_donor_mean_width": 0.272466,
+      "min_case_coverage": 0.869565,
+      "min_donor_coverage": 0.785714,
+      "passed": 22
+    }
+  },
+  "problems_addressed": [
+    "no consequence labels in input",
+    "donor-level zero baseline defeated",
+    "expected coding-key source disclosed and independently reconstructed",
+    "batch accuracy/coverage/width and perturbation response calibrated",
+    "README includes designated Difficulty, Reference solution and Verification sections"
+  ],
+  "reference_solver_full_pytest": "72 named tests; run new verifier for current outcomes",
+  "scope": "Local only; no claim about external validation stages",
+  "source_manifest_hashes": "all declared batch, phased, longitudinal and variant-input hashes recomputed and validated",
+  "test_functions": 72,
+  "uncorrected_longitudinal_baselines": {
+    "hidden": {
+      "fails_published_case_gate": true,
+      "mean_abs_error": 0.146738,
+      "p90_lower_order": 0.229554
+    },
+    "sealed": {
+      "fails_published_case_gate": true,
+      "mean_abs_error": 0.124268,
+      "p90_lower_order": 0.250506
+    }
+  },
+  "variant_input_schema": {
+    "hidden": {
+      "answer_label_keys": 0,
+      "case_fields": [
+        "case_id",
+        "variants"
+      ],
+      "cases": 28
+    },
+    "practice": {
+      "answer_label_keys": 0,
+      "case_fields": [
+        "case_id",
+        "variants"
+      ],
+      "cases": 6
+    },
+    "sealed": {
+      "answer_label_keys": 0,
+      "case_fields": [
+        "case_id",
+        "variants"
+      ],
+      "cases": 23
+    }
+  }
+}

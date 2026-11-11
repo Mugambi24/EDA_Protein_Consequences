@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "case_id": "m01",
+      "variants": [
+        {
+          "start": 10140,
+          "ref": "C",
+          "alt": "G"
+        }
+      ]
+    },
+    {
+      "case_id": "m02",
+      "variants": [
+        {
+          "start": 10118,
+          "ref": "C",
+          "alt": "G"
+        }
+      ]
+    },
+    {
+      "case_id": "m03",
+      "variants": [
+        {
+          "start": 8304,
+          "ref": "",
+          "alt": "C"
+        }
+      ]
+    },
+    {
+      "case_id": "m04",
+      "variants": [
+        {
+          "start": 8359,
+          "ref": "",
+          "alt": "CTT"
+        }
+      ]
+    },
+    {
+      "case_id": "m05",
+      "variants": [
+        {
+          "start": 6697,
+          "ref": "ATT",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "case_id": "m06",
+      "variants": [
+        {
+          "start": 10179,
+          "ref": "T",
+          "alt": "A"
+        }
+      ]
+    }
+  ]
+}

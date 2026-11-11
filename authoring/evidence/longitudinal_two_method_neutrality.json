@@ -1,0 +1,739 @@
+{
+  "bounds": {
+    "case_coverage": {
+      "comparison": "ge",
+      "threshold": 0.8
+    },
+    "case_mae": {
+      "comparison": "lt",
+      "threshold": 0.06
+    },
+    "case_mean_width": {
+      "comparison": "lt",
+      "threshold": 0.31
+    },
+    "case_p90": {
+      "comparison": "lt",
+      "threshold": 0.105
+    },
+    "donor_coverage": {
+      "comparison": "ge",
+      "threshold": 0.75
+    },
+    "donor_mae": {
+      "comparison": "lt",
+      "threshold": 0.115
+    },
+    "donor_mean_width": {
+      "comparison": "lt",
+      "threshold": 0.48
+    }
+  },
+  "calibration_scope": "Both estimate batch chemistry solely from provided pure and mixed independent standards; neither accesses test truth.",
+  "dataset_type": "Synthetic only; generated truth withheld from solver inputs",
+  "methodology": "Each score is evaluated against independent latent donor and case truth; results are not matched to reference-estimator coefficients. Coverage/width gates are checked together with error gates. These are synthetic sensitivity results, not proof of calibration in real patients.",
+  "purpose": "Assess method-neutral longitudinal pass bounds using two mathematically distinct correct estimators and independently seeded synthetic truth",
+  "results": [
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.033684,
+        "case_mean_width": 0.174092,
+        "case_p90": 0.050485,
+        "donor_coverage": 0.847826,
+        "donor_mae": 0.077707,
+        "donor_mean_width": 0.271859
+      },
+      "passes": true,
+      "seed_offset": 0
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.956522,
+        "case_mae": 0.033924,
+        "case_mean_width": 0.163774,
+        "case_p90": 0.069296,
+        "donor_coverage": 0.876812,
+        "donor_mae": 0.07179,
+        "donor_mean_width": 0.271807
+      },
+      "passes": true,
+      "seed_offset": 0
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.029048,
+        "case_mean_width": 0.187881,
+        "case_p90": 0.053233,
+        "donor_coverage": 0.827381,
+        "donor_mae": 0.08358,
+        "donor_mean_width": 0.272281
+      },
+      "passes": true,
+      "seed_offset": 0
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.027582,
+        "case_mean_width": 0.192509,
+        "case_p90": 0.043247,
+        "donor_coverage": 0.803571,
+        "donor_mae": 0.084942,
+        "donor_mean_width": 0.27234
+      },
+      "passes": true,
+      "seed_offset": 0
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.021012,
+        "case_mean_width": 0.178209,
+        "case_p90": 0.038848,
+        "donor_coverage": 0.855072,
+        "donor_mae": 0.072501,
+        "donor_mean_width": 0.271744
+      },
+      "passes": true,
+      "seed_offset": 100
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.021174,
+        "case_mean_width": 0.17124,
+        "case_p90": 0.041459,
+        "donor_coverage": 0.891304,
+        "donor_mae": 0.066105,
+        "donor_mean_width": 0.271732
+      },
+      "passes": true,
+      "seed_offset": 100
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.024345,
+        "case_mean_width": 0.178318,
+        "case_p90": 0.044958,
+        "donor_coverage": 0.869048,
+        "donor_mae": 0.075729,
+        "donor_mean_width": 0.272341
+      },
+      "passes": true,
+      "seed_offset": 100
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.022719,
+        "case_mean_width": 0.179854,
+        "case_p90": 0.049408,
+        "donor_coverage": 0.857143,
+        "donor_mae": 0.076755,
+        "donor_mean_width": 0.272385
+      },
+      "passes": true,
+      "seed_offset": 100
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.869565,
+        "case_mae": 0.042229,
+        "case_mean_width": 0.181962,
+        "case_p90": 0.079023,
+        "donor_coverage": 0.797101,
+        "donor_mae": 0.087355,
+        "donor_mean_width": 0.271391
+      },
+      "passes": true,
+      "seed_offset": 251
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.869565,
+        "case_mae": 0.043211,
+        "case_mean_width": 0.173475,
+        "case_p90": 0.077172,
+        "donor_coverage": 0.826087,
+        "donor_mae": 0.078058,
+        "donor_mean_width": 0.271362
+      },
+      "passes": true,
+      "seed_offset": 251
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 0.964286,
+        "case_mae": 0.026367,
+        "case_mean_width": 0.17362,
+        "case_p90": 0.053695,
+        "donor_coverage": 0.845238,
+        "donor_mae": 0.071592,
+        "donor_mean_width": 0.271556
+      },
+      "passes": true,
+      "seed_offset": 251
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 0.964286,
+        "case_mae": 0.030374,
+        "case_mean_width": 0.17828,
+        "case_p90": 0.055292,
+        "donor_coverage": 0.839286,
+        "donor_mae": 0.077505,
+        "donor_mean_width": 0.271581
+      },
+      "passes": true,
+      "seed_offset": 251
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.032759,
+        "case_mean_width": 0.180697,
+        "case_p90": 0.062669,
+        "donor_coverage": 0.804348,
+        "donor_mae": 0.079419,
+        "donor_mean_width": 0.271794
+      },
+      "passes": true,
+      "seed_offset": 419
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.029312,
+        "case_mean_width": 0.176666,
+        "case_p90": 0.050362,
+        "donor_coverage": 0.833333,
+        "donor_mae": 0.073102,
+        "donor_mean_width": 0.271743
+      },
+      "passes": true,
+      "seed_offset": 419
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.023975,
+        "case_mean_width": 0.168947,
+        "case_p90": 0.050828,
+        "donor_coverage": 0.875,
+        "donor_mae": 0.067004,
+        "donor_mean_width": 0.272418
+      },
+      "passes": true,
+      "seed_offset": 419
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.027006,
+        "case_mean_width": 0.176409,
+        "case_p90": 0.046614,
+        "donor_coverage": 0.85119,
+        "donor_mae": 0.073131,
+        "donor_mean_width": 0.272466
+      },
+      "passes": true,
+      "seed_offset": 419
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.031624,
+        "case_mean_width": 0.166548,
+        "case_p90": 0.062956,
+        "donor_coverage": 0.826087,
+        "donor_mae": 0.071017,
+        "donor_mean_width": 0.271842
+      },
+      "passes": true,
+      "seed_offset": 731
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.956522,
+        "case_mae": 0.024489,
+        "case_mean_width": 0.158263,
+        "case_p90": 0.060955,
+        "donor_coverage": 0.898551,
+        "donor_mae": 0.060435,
+        "donor_mean_width": 0.271825
+      },
+      "passes": true,
+      "seed_offset": 731
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.022022,
+        "case_mean_width": 0.175327,
+        "case_p90": 0.043438,
+        "donor_coverage": 0.875,
+        "donor_mae": 0.072008,
+        "donor_mean_width": 0.272371
+      },
+      "passes": true,
+      "seed_offset": 731
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.01932,
+        "case_mean_width": 0.18081,
+        "case_p90": 0.040745,
+        "donor_coverage": 0.875,
+        "donor_mae": 0.077514,
+        "donor_mean_width": 0.272374
+      },
+      "passes": true,
+      "seed_offset": 731
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.027073,
+        "case_mean_width": 0.184013,
+        "case_p90": 0.046128,
+        "donor_coverage": 0.782609,
+        "donor_mae": 0.082758,
+        "donor_mean_width": 0.271941
+      },
+      "passes": true,
+      "seed_offset": 1107
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.028186,
+        "case_mean_width": 0.174259,
+        "case_p90": 0.050566,
+        "donor_coverage": 0.876812,
+        "donor_mae": 0.077301,
+        "donor_mean_width": 0.271912
+      },
+      "passes": true,
+      "seed_offset": 1107
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.020448,
+        "case_mean_width": 0.173815,
+        "case_p90": 0.041983,
+        "donor_coverage": 0.863095,
+        "donor_mae": 0.071209,
+        "donor_mean_width": 0.272008
+      },
+      "passes": true,
+      "seed_offset": 1107
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.022596,
+        "case_mean_width": 0.178334,
+        "case_p90": 0.040602,
+        "donor_coverage": 0.833333,
+        "donor_mae": 0.075059,
+        "donor_mean_width": 0.272032
+      },
+      "passes": true,
+      "seed_offset": 1107
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.037398,
+        "case_mean_width": 0.177464,
+        "case_p90": 0.061875,
+        "donor_coverage": 0.847826,
+        "donor_mae": 0.078626,
+        "donor_mean_width": 0.271474
+      },
+      "passes": true,
+      "seed_offset": 1763
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.032105,
+        "case_mean_width": 0.173483,
+        "case_p90": 0.064052,
+        "donor_coverage": 0.869565,
+        "donor_mae": 0.074783,
+        "donor_mean_width": 0.271414
+      },
+      "passes": true,
+      "seed_offset": 1763
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 0.964286,
+        "case_mae": 0.024679,
+        "case_mean_width": 0.186619,
+        "case_p90": 0.048872,
+        "donor_coverage": 0.827381,
+        "donor_mae": 0.083568,
+        "donor_mean_width": 0.271943
+      },
+      "passes": true,
+      "seed_offset": 1763
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 0.964286,
+        "case_mae": 0.023648,
+        "case_mean_width": 0.192302,
+        "case_p90": 0.03956,
+        "donor_coverage": 0.797619,
+        "donor_mae": 0.085692,
+        "donor_mean_width": 0.272002
+      },
+      "passes": true,
+      "seed_offset": 1763
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.032793,
+        "case_mean_width": 0.168749,
+        "case_p90": 0.056829,
+        "donor_coverage": 0.84058,
+        "donor_mae": 0.073557,
+        "donor_mean_width": 0.271547
+      },
+      "passes": true,
+      "seed_offset": 2579
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.956522,
+        "case_mae": 0.025101,
+        "case_mean_width": 0.1617,
+        "case_p90": 0.045872,
+        "donor_coverage": 0.884058,
+        "donor_mae": 0.06735,
+        "donor_mean_width": 0.271532
+      },
+      "passes": true,
+      "seed_offset": 2579
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 0.964286,
+        "case_mae": 0.031194,
+        "case_mean_width": 0.184739,
+        "case_p90": 0.0682,
+        "donor_coverage": 0.785714,
+        "donor_mae": 0.0817,
+        "donor_mean_width": 0.272393
+      },
+      "passes": true,
+      "seed_offset": 2579
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 0.928571,
+        "case_mae": 0.033472,
+        "case_mean_width": 0.188787,
+        "case_p90": 0.067806,
+        "donor_coverage": 0.785714,
+        "donor_mae": 0.085979,
+        "donor_mean_width": 0.272422
+      },
+      "passes": true,
+      "seed_offset": 2579
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.03496,
+        "case_mean_width": 0.17932,
+        "case_p90": 0.061098,
+        "donor_coverage": 0.84058,
+        "donor_mae": 0.081748,
+        "donor_mean_width": 0.271296
+      },
+      "passes": true,
+      "seed_offset": 4207
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.032392,
+        "case_mean_width": 0.173374,
+        "case_p90": 0.072423,
+        "donor_coverage": 0.855072,
+        "donor_mae": 0.07472,
+        "donor_mean_width": 0.271314
+      },
+      "passes": true,
+      "seed_offset": 4207
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.022974,
+        "case_mean_width": 0.172346,
+        "case_p90": 0.050301,
+        "donor_coverage": 0.863095,
+        "donor_mae": 0.072651,
+        "donor_mean_width": 0.271914
+      },
+      "passes": true,
+      "seed_offset": 4207
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.024714,
+        "case_mean_width": 0.176438,
+        "case_p90": 0.044404,
+        "donor_coverage": 0.85119,
+        "donor_mae": 0.078906,
+        "donor_mean_width": 0.271934
+      },
+      "passes": true,
+      "seed_offset": 4207
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.022173,
+        "case_mean_width": 0.184624,
+        "case_p90": 0.040354,
+        "donor_coverage": 0.84058,
+        "donor_mae": 0.07648,
+        "donor_mean_width": 0.271904
+      },
+      "passes": true,
+      "seed_offset": 6319
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.022406,
+        "case_mean_width": 0.177889,
+        "case_p90": 0.04289,
+        "donor_coverage": 0.855072,
+        "donor_mae": 0.069879,
+        "donor_mean_width": 0.271835
+      },
+      "passes": true,
+      "seed_offset": 6319
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.018788,
+        "case_mean_width": 0.168886,
+        "case_p90": 0.041589,
+        "donor_coverage": 0.886905,
+        "donor_mae": 0.070573,
+        "donor_mean_width": 0.272095
+      },
+      "passes": true,
+      "seed_offset": 6319
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.023221,
+        "case_mean_width": 0.177783,
+        "case_p90": 0.055241,
+        "donor_coverage": 0.839286,
+        "donor_mae": 0.075916,
+        "donor_mean_width": 0.272129
+      },
+      "passes": true,
+      "seed_offset": 6319
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.956522,
+        "case_mae": 0.039313,
+        "case_mean_width": 0.170932,
+        "case_p90": 0.057013,
+        "donor_coverage": 0.84058,
+        "donor_mae": 0.079303,
+        "donor_mean_width": 0.272004
+      },
+      "passes": true,
+      "seed_offset": 8191
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "sealed",
+      "metrics": {
+        "case_coverage": 0.913043,
+        "case_mae": 0.036509,
+        "case_mean_width": 0.16206,
+        "case_p90": 0.066366,
+        "donor_coverage": 0.891304,
+        "donor_mae": 0.068363,
+        "donor_mean_width": 0.272008
+      },
+      "passes": true,
+      "seed_offset": 8191
+    },
+    {
+      "estimator": "multinomial_EM",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.021388,
+        "case_mean_width": 0.180178,
+        "case_p90": 0.031472,
+        "donor_coverage": 0.833333,
+        "donor_mae": 0.075596,
+        "donor_mean_width": 0.272023
+      },
+      "passes": true,
+      "seed_offset": 8191
+    },
+    {
+      "estimator": "simplex_least_squares",
+      "fixture": "hidden",
+      "metrics": {
+        "case_coverage": 1,
+        "case_mae": 0.026761,
+        "case_mean_width": 0.186762,
+        "case_p90": 0.05189,
+        "donor_coverage": 0.791667,
+        "donor_mae": 0.082408,
+        "donor_mean_width": 0.272087
+      },
+      "passes": true,
+      "seed_offset": 8191
+    }
+  ],
+  "seed_offsets": [
+    0,
+    100,
+    251,
+    419,
+    731,
+    1107,
+    1763,
+    2579,
+    4207,
+    6319,
+    8191
+  ],
+  "solver_methods": {
+    "multinomial_EM": "Likelihood-based 9-read-class emission deconvolution and capture correction",
+    "simplex_least_squares": "Active-set constrained Euclidean least squares on 4-product simplex followed by batch capture correction"
+  },
+  "summary": {
+    "multinomial_EM": {
+      "datasets": 22,
+      "max_case_mae": 0.042229,
+      "max_case_mean_width": 0.187881,
+      "max_case_p90": 0.079023,
+      "max_donor_mae": 0.087355,
+      "max_donor_mean_width": 0.272418,
+      "min_case_coverage": 0.869565,
+      "min_donor_coverage": 0.782609,
+      "passed": 22
+    },
+    "simplex_least_squares": {
+      "datasets": 22,
+      "max_case_mae": 0.043211,
+      "max_case_mean_width": 0.192509,
+      "max_case_p90": 0.077172,
+      "max_donor_mae": 0.085979,
+      "max_donor_mean_width": 0.272466,
+      "min_case_coverage": 0.869565,
+      "min_donor_coverage": 0.785714,
+      "passed": 22
+    }
+  }
+}
